@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Teetime by ChristianWulf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Teetime</h1>
+      <h2 class="project-tagline">TeeTime is a modern Pipe-and-Filter Framework for Java.</h2>
+      <a href="https://github.com/ChristianWulf/teetime" class="btn">View on GitHub</a>
+      <a href="https://github.com/ChristianWulf/teetime/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/ChristianWulf/teetime/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>TeeTime is a Pipe-and-Filter framework for Java.</p>
+
+<p>Informations on how to use it can be found on <a href="http://teetime.sourceforge.net">http://teetime.sourceforge.net</a>.</p>
+
+<h2>
+<a id="build" class="anchor" href="#build" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build</h2>
+
+<p>To build TeeTime, you need and existing Maven installation and the JDK1.6.</p>
+
+<p>Simply execute "mvn install" and you are good to go!</p>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>In order to work with TeeTime, you simply need to add the framework to your own project.</p>
+
+<p>TeeTime is distributed through a variety of channels to serve most needs.</p>
+
+<h3>
+<a id="latest-stable" class="anchor" href="#latest-stable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Latest stable</h3>
+
+<p>There are two simple ways to add TeeTime to your own project.</p>
+
+<h4>
+<a id="as-dependency" class="anchor" href="#as-dependency" aria-hidden="true"><span class="octicon octicon-link"></span></a>As dependency</h4>
+
+<p>TeeTime is available through Maven's central repository.</p>
+
+<p>If you use Maven, simply add following lines to your <code>pom.xml</code>:</p>
+
+<div class="highlight highlight-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
+    &lt;<span class="pl-ent">groupId</span>&gt;net.sourceforge.teetime&lt;/<span class="pl-ent">groupId</span>&gt;
+    &lt;<span class="pl-ent">artifactId</span>&gt;teetime&lt;/<span class="pl-ent">artifactId</span>&gt;
+    &lt;<span class="pl-ent">version</span>&gt;1.1.2&lt;/<span class="pl-ent">version</span>&gt;
+&lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
+
+<h4>
+<a id="binaries-and-sources" class="anchor" href="#binaries-and-sources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binaries and sources</h4>
+
+<p>The latest TeeTime release can be downloaded directly from <a href="https://sourceforge.net/projects/teetime/files/latest/download">Sourceforge</a>. If you also want to download the source and/or JavaDoc, you can also get a summary of available files on <a href="https://sourceforge.net/projects/teetime/files/">Sourceforge</a> or <a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22net.sourceforge.teetime%22%20AND%20a%3A%22teetime%22">the Central Repository</a>.</p>
+
+<h3>
+<a id="snapshot" class="anchor" href="#snapshot" aria-hidden="true"><span class="octicon octicon-link"></span></a>Snapshot</h3>
+
+<p>TeeTime is built upon a daily basis. All these nightly builds are accessible to the public. A documentation is provided <a href="http://teetime.sourceforge.net/apidocs/index.html">here</a>.</p>
+
+<p>Please do not forget, that this releases are not intended for daily use. These builds may be unstable.</p>
+
+<h4>
+<a id="as-dependency-1" class="anchor" href="#as-dependency-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>As dependency</h4>
+
+<p>All snapshot builds will be deployed to Sonatype's snapshot repository.</p>
+
+<p>To download these builds, add following lines to your project's <code>pom.xml</code>: </p>
+
+<div class="highlight highlight-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
+    &lt;<span class="pl-ent">groupId</span>&gt;net.sourceforge.teetime&lt;/<span class="pl-ent">groupId</span>&gt;
+    &lt;<span class="pl-ent">artifactId</span>&gt;teetime&lt;/<span class="pl-ent">artifactId</span>&gt;
+    &lt;<span class="pl-ent">version</span>&gt;1.2-SNAPSHOT&lt;/<span class="pl-ent">version</span>&gt;
+&lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
+
+<p>If you did not add the Sonatype snapshot repository yet to your <code>pom.xml</code>, add also following lines to it, as otherwise Maven will not be able to find the needed artifacts:</p>
+
+<div class="highlight highlight-xml"><pre>&lt;<span class="pl-ent">repositories</span>&gt;
+    &lt;<span class="pl-ent">repository</span>&gt;
+        &lt;<span class="pl-ent">id</span>&gt;sonatype.oss.snapshots&lt;/<span class="pl-ent">id</span>&gt;
+        &lt;<span class="pl-ent">url</span>&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/<span class="pl-ent">url</span>&gt;
+    &lt;/<span class="pl-ent">repository</span>&gt;
+&lt;/<span class="pl-ent">repositories</span>&gt;</pre></div>
+
+<h4>
+<a id="binaries-and-sources-1" class="anchor" href="#binaries-and-sources-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binaries and sources</h4>
+
+<p>All nightly builds can be found on <a href="https://oss.sonatype.org/content/repositories/snapshots/net/sourceforge/teetime/teetime/">Sonatype's repository</a> or our <a href="https://build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/job/teetime-nighly-release/lastSuccessfulBuild/artifact/target/">CI Server</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ChristianWulf/teetime">Teetime</a> is maintained by <a href="https://github.com/ChristianWulf">ChristianWulf</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
