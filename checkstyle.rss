@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 149,
-             Errors: 5714,
+      <title>File: 143,
+             Errors: 5356,
              Warnings: 0,
              Infos: 0
       </title>
@@ -46,259 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListener.java">teetime/framework/exceptionHandling/AbstractExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  33
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ZipByteArray.java">teetime/stage/ZipByteArray.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  72
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.classpath.FileSearcher.java">teetime/util/classpath/FileSearcher.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.InputHolder.java">teetime/framework/test/InputHolder.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  40
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.CloneStrategy.java">teetime/stage/basic/distributor/CloneStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  84
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListenerFactory.java">teetime/framework/exceptionHandling/TerminatingExceptionListenerFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.package-info.java">teetime/framework/pipe/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.package-info.java">teetime/framework/signal/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.MappingException.java">teetime/stage/util/MappingException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Analysis.java">teetime/framework/Analysis.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  304
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractCompositeStage.java">teetime/framework/AbstractCompositeStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.StacklessException.java">teetime/util/StacklessException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.merger.IMergerStrategy.java">teetime/stage/basic/merger/IMergerStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.putstrategy.YieldPutStrategy.java">teetime/util/concurrent/queue/putstrategy/YieldPutStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.UnboundedSpScPipe.java">teetime/framework/pipe/UnboundedSpScPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  32
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.CopyByReferenceStrategy.java">teetime/stage/basic/distributor/CopyByReferenceStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.StageTester.java">teetime/framework/test/StageTester.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  85
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.OutputPort.java">teetime/framework/OutputPort.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  40
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.RoundRobinStrategy.java">teetime/stage/basic/distributor/RoundRobinStrategy.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ArrayPool.java">teetime/util/list/ArrayPool.java</a>
                 </td>
                 <td>
                   0
@@ -312,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Relay.java">teetime/stage/Relay.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.TimestampObject.java">teetime/util/TimestampObject.java</a>
                 </td>
                 <td>
                   0
@@ -321,12 +69,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  15
+                  30
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.ByteArrayFileWriter.java">teetime/stage/io/ByteArrayFileWriter.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.OutputPort.java">teetime/framework/OutputPort.java</a>
                 </td>
                 <td>
                   0
@@ -335,12 +83,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  33
+                  41
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SpScPipeFactory.java">teetime/framework/pipe/SpScPipeFactory.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ObjectPool.java">teetime/util/list/ObjectPool.java</a>
                 </td>
                 <td>
                   0
@@ -349,12 +97,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  25
+                  6
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InitialElementProducer.java">teetime/stage/InitialElementProducer.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ConstructorClosure.java">teetime/util/ConstructorClosure.java</a>
                 </td>
                 <td>
                   0
@@ -363,12 +111,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  40
+                  5
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractPort.java">teetime/framework/AbstractPort.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.RoundRobinStrategy2.java">teetime/stage/basic/distributor/RoundRobinStrategy2.java</a>
                 </td>
                 <td>
                   0
@@ -377,12 +125,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  43
+                  45
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ElementThroughputMeasuringStage.java">teetime/stage/ElementThroughputMeasuringStage.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SingleElementPipe.java">teetime/framework/pipe/SingleElementPipe.java</a>
                 </td>
                 <td>
                   0
@@ -391,7 +139,77 @@ under the License.
                   0
                 </td>
                 <td>
-                  72
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.ValidatingSignal.java">teetime/framework/signal/ValidatingSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IPipe.java">teetime/framework/pipe/IPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  65
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.TerminationStrategy.java">teetime/framework/TerminationStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.StageTester.java">teetime/framework/test/StageTester.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  84
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.AbstractTransformation.java">teetime/stage/basic/AbstractTransformation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
                 </td>
               </tr>
                           <tr>
@@ -410,7 +228,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.OutputHolder.java">teetime/framework/test/OutputHolder.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.NotEnoughInputException.java">teetime/framework/NotEnoughInputException.java</a>
                 </td>
                 <td>
                   0
@@ -419,12 +237,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  30
+                  9
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.Printer.java">teetime/stage/io/Printer.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Stage.java">teetime/framework/Stage.java</a>
                 </td>
                 <td>
                   0
@@ -433,12 +251,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  111
+                  131
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AnalysisConfiguration.java">teetime/framework/AnalysisConfiguration.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IMonitorablePipe.java">teetime/framework/pipe/IMonitorablePipe.java</a>
                 </td>
                 <td>
                   0
@@ -447,12 +265,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  206
+                  17
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.merger.RoundRobinStrategy.java">teetime/stage/basic/merger/RoundRobinStrategy.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ListUtil.java">teetime/util/ListUtil.java</a>
                 </td>
                 <td>
                   0
@@ -461,12 +279,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  28
+                  22
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2TextLinesFilter.java">teetime/stage/io/File2TextLinesFilter.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.ExecutionInstantiation.java">teetime/framework/ExecutionInstantiation.java</a>
                 </td>
                 <td>
                   0
@@ -475,12 +293,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  64
+                  89
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.PipeFactoryRegistry.java">teetime/framework/pipe/PipeFactoryRegistry.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2SeqOfWords.java">teetime/stage/io/File2SeqOfWords.java</a>
                 </td>
                 <td>
                   0
@@ -489,12 +307,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  98
+                  102
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.NoopFilter.java">teetime/stage/NoopFilter.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ListContainerPool.java">teetime/util/list/ListContainerPool.java</a>
                 </td>
                 <td>
                   0
@@ -503,63 +321,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.io.network.AbstractTcpReader.java">teetime/util/io/network/AbstractTcpReader.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  101
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InstanceCounter.java">teetime/stage/InstanceCounter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  29
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ObjectProducer.java">teetime/stage/ObjectProducer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  52
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.AbstractTcpReaderStage.java">teetime/stage/io/AbstractTcpReaderStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  83
+                  32
                 </td>
               </tr>
                           <tr>
@@ -578,35 +340,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ByteArray2String.java">teetime/stage/ByteArray2String.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.validation.AnalysisNotValidException.java">teetime/framework/validation/AnalysisNotValidException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  24
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.Distributor.java">teetime/stage/basic/distributor/Distributor.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Traversor.java">teetime/framework/Traversor.java</a>
                 </td>
                 <td>
                   0
@@ -620,7 +354,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.package-info.java">teetime/framework/package-info.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.package-info.java">teetime/framework/signal/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -634,7 +368,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.InstantiationPipe.java">teetime/framework/pipe/InstantiationPipe.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Clock.java">teetime/stage/Clock.java</a>
                 </td>
                 <td>
                   0
@@ -643,12 +377,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  92
+                  53
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Counter.java">teetime/stage/Counter.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListener.java">teetime/framework/exceptionHandling/TerminatingExceptionListener.java</a>
                 </td>
                 <td>
                   0
@@ -657,12 +391,40 @@ under the License.
                   0
                 </td>
                 <td>
-                  24
+                  9
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.Pair.java">teetime/util/Pair.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.StacklessException.java">teetime/util/StacklessException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.IDistributorStrategy.java">teetime/stage/basic/distributor/IDistributorStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ThreadThrowableContainer.java">teetime/util/ThreadThrowableContainer.java</a>
                 </td>
                 <td>
                   0
@@ -672,6 +434,314 @@ under the License.
                 </td>
                 <td>
                   27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractCompositeStage.java">teetime/framework/AbstractCompositeStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  66
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InitialElementProducer.java">teetime/stage/InitialElementProducer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.package-info.java">teetime/stage/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IPipeFactory.java">teetime/framework/pipe/IPipeFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CipherStage.java">teetime/stage/CipherStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  67
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.NoopFilter.java">teetime/stage/NoopFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ZipByteArray.java">teetime/stage/ZipByteArray.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  72
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.CircularList.java">teetime/util/list/CircularList.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.AbstractTcpReaderStage.java">teetime/stage/io/AbstractTcpReaderStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  82
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.InputHolder.java">teetime/framework/test/InputHolder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  39
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Cache.java">teetime/stage/Cache.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.io.network.AbstractTcpReader.java">teetime/util/io/network/AbstractTcpReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  101
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.takestrategy.YieldTakeStrategy.java">teetime/util/concurrent/queue/takestrategy/YieldTakeStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.ObservableSpScArrayQueue.java">teetime/util/concurrent/queue/ObservableSpScArrayQueue.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.InstantiationPipe.java">teetime/framework/pipe/InstantiationPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  89
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.FileExtensionSwitch.java">teetime/stage/FileExtensionSwitch.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.AbstractFilter.java">teetime/stage/basic/AbstractFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.MappingException.java">teetime/stage/util/MappingException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.StartTimestampFilter.java">teetime/stage/StartTimestampFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.MappingCounter.java">teetime/stage/MappingCounter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Execution.java">teetime/framework/Execution.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  305
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.merger.IMergerStrategy.java">teetime/stage/basic/merger/IMergerStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
                 </td>
               </tr>
                           <tr>
@@ -690,7 +760,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.DummyPipe.java">teetime/framework/pipe/DummyPipe.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.merger.RoundRobinStrategy.java">teetime/stage/basic/merger/RoundRobinStrategy.java</a>
                 </td>
                 <td>
                   0
@@ -699,12 +769,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  59
+                  29
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AnalysisException.java">teetime/framework/AnalysisException.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.validation.AnalysisNotValidException.java">teetime/framework/validation/AnalysisNotValidException.java</a>
                 </td>
                 <td>
                   0
@@ -713,12 +783,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  28
+                  24
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.RelayTestPipe.java">teetime/framework/pipe/RelayTestPipe.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.RunnableConsumerStage.java">teetime/framework/RunnableConsumerStage.java</a>
                 </td>
                 <td>
                   0
@@ -727,54 +797,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  40
+                  53
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.InitializingSignal.java">teetime/framework/signal/InitializingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.package-info.java">teetime/util/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.takestrategy.SCParkTakeStrategy.java">teetime/util/concurrent/queue/takestrategy/SCParkTakeStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  38
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ElementDelayMeasuringStage.java">teetime/stage/ElementDelayMeasuringStage.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractPort.java">teetime/framework/AbstractPort.java</a>
                 </td>
                 <td>
                   0
@@ -802,7 +830,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.Sink.java">teetime/stage/basic/Sink.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.putstrategy.PutStrategy.java">teetime/util/concurrent/queue/putstrategy/PutStrategy.java</a>
                 </td>
                 <td>
                   0
@@ -816,7 +844,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SingleElementPipeFactory.java">teetime/framework/pipe/SingleElementPipeFactory.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.ConfigurationContext.java">teetime/framework/ConfigurationContext.java</a>
                 </td>
                 <td>
                   0
@@ -825,301 +853,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  29
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListener.java">teetime/framework/exceptionHandling/IgnoringExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Stage.java">teetime/framework/Stage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  131
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.AbstractFilter.java">teetime/stage/basic/AbstractFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.classpath.CachedClassForNameResolver.java">teetime/util/classpath/CachedClassForNameResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  42
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListenerFactory.java">teetime/framework/exceptionHandling/IgnoringExceptionListenerFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.StageException.java">teetime/framework/exceptionHandling/StageException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  26
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.MappingCounter.java">teetime/stage/MappingCounter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.InputPort.java">teetime/framework/InputPort.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  25
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.StartingSignal.java">teetime/framework/signal/StartingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.EveryXthStage.java">teetime/stage/EveryXthStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  24
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.CyclicListIterator.java">teetime/util/CyclicListIterator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  41
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CollectorSink.java">teetime/stage/CollectorSink.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ListUtil.java">teetime/util/ListUtil.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IPipe.java">teetime/framework/pipe/IPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  69
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.CommittableQueue.java">teetime/util/list/CommittableQueue.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  25
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ListContainerPool.java">teetime/util/list/ListContainerPool.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  32
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.Delay.java">teetime/stage/basic/Delay.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2SeqOfWords.java">teetime/stage/io/File2SeqOfWords.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  102
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Traversor.java">teetime/framework/Traversor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  33
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.TerminationStrategy.java">teetime/framework/TerminationStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractProducerStage.java">teetime/framework/AbstractProducerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
+                  50
                 </td>
               </tr>
                           <tr>
@@ -1138,7 +872,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ArrayPool.java">teetime/util/list/ArrayPool.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.EveryXthPrinter.java">teetime/stage/io/EveryXthPrinter.java</a>
                 </td>
                 <td>
                   0
@@ -1147,525 +881,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.Directory2FilesFilter.java">teetime/stage/io/Directory2FilesFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  65
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.WordcharacterFilter.java">teetime/stage/string/WordcharacterFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IMonitorablePipe.java">teetime/framework/pipe/IMonitorablePipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.PipeFactoryLoader.java">teetime/framework/pipe/PipeFactoryLoader.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  74
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ConstructorClosure.java">teetime/util/ConstructorClosure.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.IPipeFactory.java">teetime/framework/pipe/IPipeFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.CountingMap.java">teetime/stage/util/CountingMap.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2Lines.java">teetime/stage/io/File2Lines.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.CircularList.java">teetime/util/list/CircularList.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  35
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.TextLine.java">teetime/stage/util/TextLine.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.IntraStageCollector.java">teetime/framework/IntraStageCollector.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.TimestampObject.java">teetime/util/TimestampObject.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractConsumerStage.java">teetime/framework/AbstractConsumerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ObjectPooledLinkedList.java">teetime/util/list/ObjectPooledLinkedList.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  49
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.TerminatingSignal.java">teetime/framework/signal/TerminatingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.CouldNotFindPipeImplException.java">teetime/framework/pipe/CouldNotFindPipeImplException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.AbstractTransformation.java">teetime/stage/basic/AbstractTransformation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Clock.java">teetime/stage/Clock.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  53
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.idle.SleepStrategy.java">teetime/framework/idle/SleepStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.RunnableConsumerStage.java">teetime/framework/RunnableConsumerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.package-info.java">teetime/stage/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AnalysisInstantiation.java">teetime/framework/AnalysisInstantiation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  89
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.AbstractSignal.java">teetime/framework/signal/AbstractSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ArrayWrapper.java">teetime/util/ArrayWrapper.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  23
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.Tokenizer.java">teetime/stage/string/Tokenizer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  23
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.classpath.ClassForNameResolver.java">teetime/util/classpath/ClassForNameResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.ValidatingSignal.java">teetime/framework/signal/ValidatingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.StopWatch.java">teetime/util/StopWatch.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractStage.java">teetime/framework/AbstractStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  227
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.MonitoringThread.java">teetime/framework/MonitoringThread.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  52
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.MultipleInstanceOfFilter.java">teetime/stage/MultipleInstanceOfFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  37
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SingleElementPipe.java">teetime/framework/pipe/SingleElementPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  42
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SpScPipe.java">teetime/framework/pipe/SpScPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  81
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListener.java">teetime/framework/exceptionHandling/LoggingExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.FileExtensionSwitch.java">teetime/stage/FileExtensionSwitch.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.takestrategy.YieldTakeStrategy.java">teetime/util/concurrent/queue/takestrategy/YieldTakeStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractIntraThreadPipe.java">teetime/framework/AbstractIntraThreadPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
+                  33
                 </td>
               </tr>
                           <tr>
@@ -1684,7 +900,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ObjectPool.java">teetime/util/list/ObjectPool.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ObjectPooledLinkedList.java">teetime/util/list/ObjectPooledLinkedList.java</a>
                 </td>
                 <td>
                   0
@@ -1693,334 +909,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  49
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.IDistributorStrategy.java">teetime/stage/basic/distributor/IDistributorStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.StopTimestampFilter.java">teetime/stage/StopTimestampFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.idle.IdleStrategy.java">teetime/framework/idle/IdleStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Cache.java">teetime/stage/Cache.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractRunnableStage.java">teetime/framework/AbstractRunnableStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  68
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InstanceOfFilter.java">teetime/stage/InstanceOfFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  58
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.validation.InvalidPortConnection.java">teetime/framework/validation/InvalidPortConnection.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  37
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.RoundRobinStrategy2.java">teetime/stage/basic/distributor/RoundRobinStrategy2.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  45
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.ISignal.java">teetime/framework/signal/ISignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.EveryXthPrinter.java">teetime/stage/io/EveryXthPrinter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.StartTimestampFilter.java">teetime/stage/StartTimestampFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.idle.YieldStrategy.java">teetime/framework/idle/YieldStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractInterThreadPipe.java">teetime/framework/AbstractInterThreadPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  62
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.ObservableSpScArrayQueue.java">teetime/util/concurrent/queue/ObservableSpScArrayQueue.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  31
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CipherStage.java">teetime/stage/CipherStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  67
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.WordCounter.java">teetime/stage/string/WordCounter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  34
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CountingMapMerger.java">teetime/stage/CountingMapMerger.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListenerFactory.java">teetime/framework/exceptionHandling/LoggingExceptionListenerFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ListContainer.java">teetime/util/list/ListContainer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.StageState.java">teetime/framework/StageState.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.ToLowerCase.java">teetime/stage/string/ToLowerCase.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.PCBlockingQueue.java">teetime/util/concurrent/queue/PCBlockingQueue.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  167
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.putstrategy.PutStrategy.java">teetime/util/concurrent/queue/putstrategy/PutStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListener.java">teetime/framework/exceptionHandling/TerminatingExceptionListener.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.CouldNotFindPipeImplException.java">teetime/framework/pipe/CouldNotFindPipeImplException.java</a>
                 </td>
                 <td>
                   0
@@ -2030,6 +924,20 @@ under the License.
                 </td>
                 <td>
                   9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.CyclicListIterator.java">teetime/util/CyclicListIterator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  41
                 </td>
               </tr>
                           <tr>
@@ -2048,7 +956,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.NotEnoughInputException.java">teetime/framework/NotEnoughInputException.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.StageState.java">teetime/framework/StageState.java</a>
                 </td>
                 <td>
                   0
@@ -2057,7 +965,287 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
+                  15
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ByteArray2String.java">teetime/stage/ByteArray2String.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.Printer.java">teetime/stage/io/Printer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  111
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListenerFactory.java">teetime/framework/exceptionHandling/LoggingExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.package-info.java">teetime/util/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListenerFactory.java">teetime/framework/exceptionHandling/TerminatingExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.ExecutionException.java">teetime/framework/ExecutionException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.ToLowerCase.java">teetime/stage/string/ToLowerCase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.WordCounter.java">teetime/stage/string/WordCounter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SingleElementPipeFactory.java">teetime/framework/pipe/SingleElementPipeFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CountingMapMerger.java">teetime/stage/CountingMapMerger.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.EveryXthStage.java">teetime/stage/EveryXthStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.PCBlockingQueue.java">teetime/util/concurrent/queue/PCBlockingQueue.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  168
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.ITransformation.java">teetime/stage/basic/ITransformation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.Distributor.java">teetime/stage/basic/distributor/Distributor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  38
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.WordcharacterFilter.java">teetime/stage/string/WordcharacterFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.takestrategy.SCParkTakeStrategy.java">teetime/util/concurrent/queue/takestrategy/SCParkTakeStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  38
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SpScPipeFactory.java">teetime/framework/pipe/SpScPipeFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractInterThreadPipe.java">teetime/framework/AbstractInterThreadPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  62
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractProducerStage.java">teetime/framework/AbstractProducerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.ByteArrayFileWriter.java">teetime/stage/io/ByteArrayFileWriter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  33
                 </td>
               </tr>
                           <tr>
@@ -2071,7 +1259,665 @@ under the License.
                   0
                 </td>
                 <td>
-                  34
+                  24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.UnboundedSpScPipe.java">teetime/framework/pipe/UnboundedSpScPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.package-info.java">teetime/framework/pipe/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Configuration.java">teetime/framework/Configuration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListenerFactory.java">teetime/framework/exceptionHandling/IgnoringExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListener.java">teetime/framework/exceptionHandling/IgnoringExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.CommittableQueue.java">teetime/util/list/CommittableQueue.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.MultipleInstanceOfFilter.java">teetime/stage/MultipleInstanceOfFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2TextLinesFilter.java">teetime/stage/io/File2TextLinesFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  64
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ElementDelayMeasuringStage.java">teetime/stage/ElementDelayMeasuringStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  56
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.OutputHolder.java">teetime/framework/test/OutputHolder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.StopTimestampFilter.java">teetime/stage/StopTimestampFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.DummyPipe.java">teetime/framework/pipe/DummyPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  50
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListener.java">teetime/framework/exceptionHandling/AbstractExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.CountingMap.java">teetime/stage/util/CountingMap.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  43
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.Tokenizer.java">teetime/stage/string/Tokenizer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.ArrayWrapper.java">teetime/util/ArrayWrapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ObjectProducer.java">teetime/stage/ObjectProducer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  52
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.InitializingSignal.java">teetime/framework/signal/InitializingSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractRunnableStage.java">teetime/framework/AbstractRunnableStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  68
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.list.ListContainer.java">teetime/util/list/ListContainer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.ISignal.java">teetime/framework/signal/ISignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.InputPort.java">teetime/framework/InputPort.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.Sink.java">teetime/stage/basic/Sink.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractStage.java">teetime/framework/AbstractStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  309
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.StopWatch.java">teetime/util/StopWatch.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Relay.java">teetime/stage/Relay.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  15
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.TextLine.java">teetime/stage/util/TextLine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.concurrent.queue.putstrategy.YieldPutStrategy.java">teetime/util/concurrent/queue/putstrategy/YieldPutStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.MonitoringThread.java">teetime/framework/MonitoringThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  52
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractIntraThreadPipe.java">teetime/framework/AbstractIntraThreadPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  44
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.StageException.java">teetime/framework/exceptionHandling/StageException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SpScPipe.java">teetime/framework/pipe/SpScPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  72
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ElementThroughputMeasuringStage.java">teetime/stage/ElementThroughputMeasuringStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  72
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.RoundRobinStrategy.java">teetime/stage/basic/distributor/RoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractConsumerStage.java">teetime/framework/AbstractConsumerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListener.java">teetime/framework/exceptionHandling/LoggingExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.Directory2FilesFilter.java">teetime/stage/io/Directory2FilesFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  65
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.Counter.java">teetime/stage/Counter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InstanceOfFilter.java">teetime/stage/InstanceOfFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  58
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.InstanceCounter.java">teetime/stage/InstanceCounter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.AbstractSignal.java">teetime/framework/signal/AbstractSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2ByteArray.java">teetime/stage/io/File2ByteArray.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.Delay.java">teetime/stage/basic/Delay.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.IntraStageCollector.java">teetime/framework/IntraStageCollector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.StartingSignal.java">teetime/framework/signal/StartingSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.CloneStrategy.java">teetime/stage/basic/distributor/CloneStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  83
                 </td>
               </tr>
                           <tr>
@@ -2085,7 +1931,77 @@ under the License.
                   0
                 </td>
                 <td>
-                  117
+                  118
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.RelayTestPipe.java">teetime/framework/pipe/RelayTestPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.package-info.java">teetime/framework/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.validation.InvalidPortConnection.java">teetime/framework/validation/InvalidPortConnection.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.CopyByReferenceStrategy.java">teetime/stage/basic/distributor/CopyByReferenceStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2Lines.java">teetime/stage/io/File2Lines.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  59
                 </td>
               </tr>
                           <tr>
@@ -2104,7 +2020,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CollectorSink.java">teetime/stage/CollectorSink.java</a>
                 </td>
                 <td>
                   0
@@ -2113,12 +2029,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  51
+                  21
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.io.File2ByteArray.java">teetime/stage/io/File2ByteArray.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.TerminatingSignal.java">teetime/framework/signal/TerminatingSignal.java</a>
                 </td>
                 <td>
                   0
@@ -2127,7 +2043,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  17
+                  18
                 </td>
               </tr>
                       </tbody>

@@ -1,6 +1,5 @@
 teetime.framework
 teetime.framework.exceptionHandling
-teetime.framework.idle
 teetime.framework.pipe
 teetime.framework.signal
 teetime.framework.test
@@ -13,7 +12,6 @@ teetime.stage.io
 teetime.stage.string
 teetime.stage.util
 teetime.util
-teetime.util.classpath
 teetime.util.concurrent.queue
 teetime.util.concurrent.queue.putstrategy
 teetime.util.concurrent.queue.takestrategy

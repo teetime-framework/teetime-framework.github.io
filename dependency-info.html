@@ -40,15 +40,15 @@
 <link sizes="76x76" rel="apple-touch-icon" href="/apple-touch-icon-76x76.png"/>
 <link sizes="152x152" rel="apple-touch-icon" href="/apple-touch-icon-152x152.png"/>
 <link sizes="180x180" rel="apple-touch-icon" href="/apple-touch-icon-180x180.png"/>
-<meta name="apple-mobile-web-app-title" content="TeeTime"/>
-<link sizes="192x192" rel="icon" href="/favicon-192x192.png" type="image/png"/>
-<link sizes="160x160" rel="icon" href="/favicon-160x160.png" type="image/png"/>
-<link sizes="96x96" rel="icon" href="/favicon-96x96.png" type="image/png"/>
-<link sizes="16x16" rel="icon" href="/favicon-16x16.png" type="image/png"/>
-<link sizes="32x32" rel="icon" href="/favicon-32x32.png" type="image/png"/>
-<meta name="msapplication-TileColor" content="#2b5797"/>
-<meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
-<meta name="application-name" content="TeeTime"/>
+<meta content="TeeTime" name="apple-mobile-web-app-title"/>
+<link sizes="192x192" rel="icon" type="image/png" href="/favicon-192x192.png"/>
+<link sizes="160x160" rel="icon" type="image/png" href="/favicon-160x160.png"/>
+<link sizes="96x96" rel="icon" type="image/png" href="/favicon-96x96.png"/>
+<link sizes="16x16" rel="icon" type="image/png" href="/favicon-16x16.png"/>
+<link sizes="32x32" rel="icon" type="image/png" href="/favicon-32x32.png"/>
+<meta content="#2b5797" name="msapplication-TileColor"/>
+<meta content="/mstile-144x144.png" name="msapplication-TileImage"/>
+<meta content="TeeTime" name="application-name"/>
 	</head>
 
 	<body class="page-dependency-info project-teetime" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
@@ -70,7 +70,7 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="stabledocs/index.html" title="JavaDoc">JavaDoc</a></li>
+									<li ><a href="http://teetime.sourceforge.net/stabledocs/index.html" title="JavaDoc" class="externalLink">JavaDoc</a></li>
 									<li ><a href="changes-report.html" title="Release Notes">Release Notes</a></li>
 									<li ><a href="dependencies.html" title="Project Dependencies">Project Dependencies</a></li>
 									<li ><a href="license.html" title="License">License</a></li>
@@ -101,7 +101,7 @@
 		<div class="row" id="banner">
 			<div class="span12">
 				<div class="pull-left">
-					<a href="./" id="bannerLeft"><h1><img src="http://teetime.sourceforge.net/images/teetime-path.svg" id="logo"></h1></a>
+					<a href="./" id="bannerLeft"><h1><img src="http://christianwulf.github.io/teetime/images/teetime-path.svg" id="logo"></h1></a>
 					<p class="lead"><span class="slogan">The next-generation Pipe-and-Filter Framework for Java</span></p>
 				</div>
 				<div class="pull-right">
@@ -117,26 +117,64 @@
 			<div class="body-content">
 <div class="section"> 
  <div class="page-header">
-  <h2 id="Download_TeeTime">Download TeeTime</h2>
+  <h2 id="Dependency_Information">Dependency Information</h2>
  </div> 
- <a name="Download_TeeTime"></a>There are several ways to get TeeTime. Choose the best one for you. 
+ <a name="Dependency_Information"></a> 
  <div class="section"> 
-  <h3 id="Latest_stable">Latest stable</h3> 
-  <a name="Latest_stable"></a>There are two simple ways to add TeeTime to your own project. 
-  <div class="alert alert-warning" role="alert">
-    Please note, that TeeTime’s first official release isn’t published yet. You can switch to the snapshot release or wait a couple of days. We are looking forward, to release 1.0 still this month. 
-  </div> 
-  <h3>As dependency</h3>TeeTime is available through Maven’s central repository.If you use Maven, simply add following lines to your pom.xml: 
-  <div class="section"> 
-   <h4 id="Apache_Maven">Apache Maven</h4> 
-   <a name="Apache_Maven"></a> 
-   <div class="source"> 
-    <pre>&lt;dependency&gt;
+  <h3 id="Apache_Maven">Apache Maven</h3> 
+  <a name="Apache_Maven"></a> 
+  <div class="source"> 
+   <pre>&lt;dependency&gt;
   &lt;groupId&gt;net.sourceforge.teetime&lt;/groupId&gt;
   &lt;artifactId&gt;teetime&lt;/artifactId&gt;
-  &lt;version&gt;1.2-SNAPSHOT&lt;/version&gt;
+  &lt;version&gt;2.0-SNAPSHOT&lt;/version&gt;
 &lt;/dependency&gt;</pre> 
-   </div> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Apache_Buildr">Apache Buildr</h3> 
+  <a name="Apache_Buildr"></a> 
+  <div class="source"> 
+   <pre>'net.sourceforge.teetime:teetime:jar:2.0-SNAPSHOT'</pre> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Apache_Ivy">Apache Ivy</h3> 
+  <a name="Apache_Ivy"></a> 
+  <div class="source"> 
+   <pre>&lt;dependency org=&quot;net.sourceforge.teetime&quot; name=&quot;teetime&quot; rev=&quot;2.0-SNAPSHOT&quot;&gt;
+  &lt;artifact name=&quot;teetime&quot; type=&quot;jar&quot; /&gt;
+&lt;/dependency&gt;</pre> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Groovy_Grape">Groovy Grape</h3> 
+  <a name="Groovy_Grape"></a> 
+  <div class="source"> 
+   <pre>@Grapes(
+@Grab(group='net.sourceforge.teetime', module='teetime', version='2.0-SNAPSHOT')
+)</pre> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Grails">Grails</h3> 
+  <a name="Grails"></a> 
+  <div class="source"> 
+   <pre>compile 'net.sourceforge.teetime:teetime:2.0-SNAPSHOT'</pre> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Leiningen">Leiningen</h3> 
+  <a name="Leiningen"></a> 
+  <div class="source"> 
+   <pre>[net.sourceforge.teetime/teetime &quot;2.0-SNAPSHOT&quot;]</pre> 
+  </div> 
+ </div> 
+ <div class="section"> 
+  <h3 id="SBT">SBT</h3> 
+  <a name="SBT"></a> 
+  <div class="source"> 
+   <pre>libraryDependencies += &quot;net.sourceforge.teetime&quot; % &quot;teetime&quot; % &quot;2.0-SNAPSHOT&quot;</pre> 
   </div> 
  </div> 
 </div>
@@ -173,7 +211,7 @@
 					<ul class="nav nav-list">
 						<li class="nav-header">Documentation</li>
 						<li >
-							<a href="stabledocs/index.html" title="JavaDoc">JavaDoc</a>
+							<a href="http://teetime.sourceforge.net/stabledocs/index.html" title="JavaDoc" class="externalLink">JavaDoc</a>
 						</li>
 						<li >
 							<a href="changes-report.html" title="Release Notes">Release Notes</a>
