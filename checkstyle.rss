@@ -26,7 +26,7 @@ under the License.
     <copyright>&#169;2015</copyright>
     <item>
       <title>File: 160,
-             Errors: 5928,
+             Errors: 6004,
              Warnings: 0,
              Infos: 0
       </title>
@@ -55,7 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  56
+                  55
                 </td>
               </tr>
                           <tr>
@@ -228,6 +228,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.framework.port.PortList.java">teetime/util/framework/port/PortList.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  62
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Stage.java">teetime/framework/Stage.java</a>
                 </td>
                 <td>
@@ -237,7 +251,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  140
+                  138
                 </td>
               </tr>
                           <tr>
@@ -307,7 +321,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  91
+                  90
                 </td>
               </tr>
                           <tr>
@@ -321,7 +335,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  33
+                  32
                 </td>
               </tr>
                           <tr>
@@ -405,7 +419,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  27
+                  29
                 </td>
               </tr>
                           <tr>
@@ -475,7 +489,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  26
+                  27
                 </td>
               </tr>
                           <tr>
@@ -685,7 +699,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  313
+                  340
                 </td>
               </tr>
                           <tr>
@@ -700,6 +714,20 @@ under the License.
                 </td>
                 <td>
                   32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.framework.port.PortRemovedListener.java">teetime/util/framework/port/PortRemovedListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
                 </td>
               </tr>
                           <tr>
@@ -741,7 +769,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  54
+                  55
                 </td>
               </tr>
                           <tr>
@@ -811,7 +839,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  76
+                  82
                 </td>
               </tr>
                           <tr>
@@ -895,7 +923,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  50
+                  49
                 </td>
               </tr>
                           <tr>
@@ -1035,7 +1063,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  86
+                  87
                 </td>
               </tr>
                           <tr>
@@ -1077,7 +1105,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  28
+                  27
                 </td>
               </tr>
                           <tr>
@@ -1189,7 +1217,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  45
+                  43
                 </td>
               </tr>
                           <tr>
@@ -1287,21 +1315,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.package-info.java">teetime/framework/pipe/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
+                  18
                 </td>
               </tr>
                           <tr>
@@ -1316,6 +1330,20 @@ under the License.
                 </td>
                 <td>
                   32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.package-info.java">teetime/framework/pipe/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
                 </td>
               </tr>
                           <tr>
@@ -1385,21 +1413,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  52
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.DynamicInputPort.java">teetime/framework/DynamicInputPort.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  19
+                  55
                 </td>
               </tr>
                           <tr>
@@ -1651,7 +1665,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  71
+                  62
                 </td>
               </tr>
                           <tr>
@@ -1665,7 +1679,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  34
+                  35
                 </td>
               </tr>
                           <tr>
@@ -1749,7 +1763,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  373
+                  323
                 </td>
               </tr>
                           <tr>
@@ -1810,6 +1824,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.ThreadService.java">teetime/framework/ThreadService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.util.TextLine.java">teetime/stage/util/TextLine.java</a>
                 </td>
                 <td>
@@ -1824,7 +1852,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.InputPortRemovedListener.java">teetime/framework/InputPortRemovedListener.java</a>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.framework.concurrent.SignalingCounter.java">teetime/util/framework/concurrent/SignalingCounter.java</a>
                 </td>
                 <td>
                   0
@@ -1833,7 +1861,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
+                  47
                 </td>
               </tr>
                           <tr>
@@ -1861,7 +1889,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  37
+                  38
                 </td>
               </tr>
                           <tr>
@@ -1889,7 +1917,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  27
+                  32
                 </td>
               </tr>
                           <tr>
@@ -2057,7 +2085,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
+                  6
                 </td>
               </tr>
                           <tr>
@@ -2114,20 +2142,6 @@ under the License.
                 </td>
                 <td>
                   18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.OutputPortRemovedListener.java">teetime/framework/OutputPortRemovedListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
                 </td>
               </tr>
                           <tr>
@@ -2231,20 +2245,6 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.CollectorSink.java">teetime/stage/CollectorSink.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.DynamicOutputPort.java">teetime/framework/DynamicOutputPort.java</a>
                 </td>
                 <td>
                   0
