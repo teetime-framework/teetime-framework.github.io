@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 160,
-             Errors: 1859,
+      <title>File: 168,
+             Errors: 2000,
              Warnings: 0,
              Infos: 0
       </title>
@@ -55,7 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  25
+                  24
                 </td>
               </tr>
                           <tr>
@@ -153,7 +153,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
+                  13
                 </td>
               </tr>
                           <tr>
@@ -168,6 +168,20 @@ under the License.
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A2InvalidThreadAssignmentCheck.java">teetime/framework/A2InvalidThreadAssignmentCheck.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
                 </td>
               </tr>
                           <tr>
@@ -209,7 +223,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
+                  6
                 </td>
               </tr>
                           <tr>
@@ -224,6 +238,20 @@ under the License.
                 </td>
                 <td>
                   4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A4StageAttributeSetter.java">teetime/framework/A4StageAttributeSetter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
                 </td>
               </tr>
                           <tr>
@@ -251,7 +279,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  51
+                  59
                 </td>
               </tr>
                           <tr>
@@ -293,7 +321,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  40
+                  46
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A3PipeInstantiation.java">teetime/framework/A3PipeInstantiation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
                 </td>
               </tr>
                           <tr>
@@ -322,20 +364,6 @@ under the License.
                 </td>
                 <td>
                   28
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Traversor.java">teetime/framework/Traversor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  13
                 </td>
               </tr>
                           <tr>
@@ -391,7 +419,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
+                  8
                 </td>
               </tr>
                           <tr>
@@ -405,7 +433,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  7
                 </td>
               </tr>
                           <tr>
@@ -433,7 +461,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  17
+                  21
                 </td>
               </tr>
                           <tr>
@@ -699,7 +727,35 @@ under the License.
                   0
                 </td>
                 <td>
-                  74
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A0UnconnectedPort.java">teetime/framework/A0UnconnectedPort.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.Traverser.java">teetime/framework/Traverser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  34
                 </td>
               </tr>
                           <tr>
@@ -774,20 +830,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.TerminateException.java">teetime/framework/TerminateException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.framework.list.ListContainerPool.java">teetime/util/framework/list/ListContainerPool.java</a>
                 </td>
                 <td>
@@ -839,7 +881,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  36
+                  16
                 </td>
               </tr>
                           <tr>
@@ -914,6 +956,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.RuntimeServiceFacade.java">teetime/framework/RuntimeServiceFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.dynamic.DynamicDistributor.java">teetime/stage/basic/distributor/dynamic/DynamicDistributor.java</a>
                 </td>
                 <td>
@@ -952,20 +1008,6 @@ under the License.
                 </td>
                 <td>
                   8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.IPipeVisitor.java">teetime/framework/IPipeVisitor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
                 </td>
               </tr>
                           <tr>
@@ -1110,6 +1152,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.TeeTimeThread.java">teetime/framework/TeeTimeThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  15
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.string.ToLowerCase.java">teetime/stage/string/ToLowerCase.java</a>
                 </td>
                 <td>
@@ -1208,6 +1264,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.test.package-info.java">teetime/framework/test/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.distributor.Distributor.java">teetime/stage/basic/distributor/Distributor.java</a>
                 </td>
                 <td>
@@ -1232,6 +1302,34 @@ under the License.
                 </td>
                 <td>
                   5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.ITraverserVisitor.java">teetime/framework/ITraverserVisitor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A1ThreadableStageCollector.java">teetime/framework/A1ThreadableStageCollector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
                 </td>
               </tr>
                           <tr>
@@ -1273,7 +1371,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  7
                 </td>
               </tr>
                           <tr>
@@ -1315,21 +1413,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.UnboundedSpScPipe.java">teetime/framework/pipe/UnboundedSpScPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1344,6 +1428,20 @@ under the License.
                 </td>
                 <td>
                   2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.UnboundedSpScPipe.java">teetime/framework/pipe/UnboundedSpScPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
                 </td>
               </tr>
                           <tr>
@@ -1386,20 +1484,6 @@ under the License.
                 </td>
                 <td>
                   4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.DynamicActuator.java">teetime/framework/DynamicActuator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
                 </td>
               </tr>
                           <tr>
@@ -1483,7 +1567,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  13
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractService.java">teetime/framework/AbstractService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
                 </td>
               </tr>
                           <tr>
@@ -1497,7 +1595,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  15
+                  17
                 </td>
               </tr>
                           <tr>
@@ -1525,7 +1623,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
+                  6
                 </td>
               </tr>
                           <tr>
@@ -1539,7 +1637,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
+                  13
                 </td>
               </tr>
                           <tr>
@@ -1614,6 +1712,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.package-info.java">teetime/framework/exceptionHandling/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.ObjectProducer.java">teetime/stage/ObjectProducer.java</a>
                 </td>
                 <td>
@@ -1665,7 +1777,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  22
+                  27
                 </td>
               </tr>
                           <tr>
@@ -1763,7 +1875,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  75
+                  70
                 </td>
               </tr>
                           <tr>
@@ -1810,6 +1922,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.TerminateException.java">teetime/framework/exceptionHandling/TerminateException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.util.framework.list.CircularList.java">teetime/util/framework/list/CircularList.java</a>
                 </td>
                 <td>
@@ -1833,7 +1959,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  42
                 </td>
               </tr>
                           <tr>
@@ -1861,7 +1987,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  16
+                  19
                 </td>
               </tr>
                           <tr>
@@ -1908,20 +2034,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.exceptionHandling.StageException.java">teetime/framework/exceptionHandling/StageException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.pipe.SpScPipe.java">teetime/framework/pipe/SpScPipe.java</a>
                 </td>
                 <td>
@@ -1931,7 +2043,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  10
+                  12
                 </td>
               </tr>
                           <tr>
@@ -1973,7 +2085,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
+                  7
                 </td>
               </tr>
                           <tr>
@@ -2127,7 +2239,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  10
                 </td>
               </tr>
                           <tr>
