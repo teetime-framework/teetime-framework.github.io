@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 168,
-             Errors: 2000,
+      <title>File: 165,
+             Errors: 1957,
              Warnings: 0,
              Infos: 0
       </title>
@@ -153,7 +153,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  13
+                  12
                 </td>
               </tr>
                           <tr>
@@ -251,7 +251,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  19
+                  18
                 </td>
               </tr>
                           <tr>
@@ -335,7 +335,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  26
+                  23
                 </td>
               </tr>
                           <tr>
@@ -643,7 +643,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  28
+                  27
                 </td>
               </tr>
                           <tr>
@@ -713,7 +713,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  6
                 </td>
               </tr>
                           <tr>
@@ -728,20 +728,6 @@ under the License.
                 </td>
                 <td>
                   25
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.A0UnconnectedPort.java">teetime/framework/A0UnconnectedPort.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
                 </td>
               </tr>
                           <tr>
@@ -1161,7 +1147,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  15
+                  12
                 </td>
               </tr>
                           <tr>
@@ -1329,7 +1315,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  8
                 </td>
               </tr>
                           <tr>
@@ -1357,7 +1343,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  18
+                  16
                 </td>
               </tr>
                           <tr>
@@ -1679,7 +1665,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  8
+                  10
                 </td>
               </tr>
                           <tr>
@@ -1754,20 +1740,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.InitializingSignal.java">teetime/framework/signal/InitializingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.AbstractRunnableStage.java">teetime/framework/AbstractRunnableStage.java</a>
                 </td>
                 <td>
@@ -1777,7 +1749,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  27
+                  28
                 </td>
               </tr>
                           <tr>
@@ -1819,7 +1791,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  9
                 </td>
               </tr>
                           <tr>
@@ -1931,7 +1903,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  8
+                  6
                 </td>
               </tr>
                           <tr>
@@ -1959,7 +1931,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  42
+                  40
                 </td>
               </tr>
                           <tr>
@@ -2001,7 +1973,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  18
+                  20
                 </td>
               </tr>
                           <tr>
@@ -2160,20 +2132,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.signal.AbstractSignal.java">teetime/framework/signal/AbstractSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.basic.merger.strategy.IMergerStrategy.java">teetime/stage/basic/merger/strategy/IMergerStrategy.java</a>
                 </td>
                 <td>
@@ -2253,7 +2211,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  4
                 </td>
               </tr>
                           <tr>
@@ -2337,7 +2295,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  12
                 </td>
               </tr>
                           <tr>
@@ -2351,7 +2309,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  4
                 </td>
               </tr>
                           <tr>
