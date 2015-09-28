@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 163,
-             Errors: 1995,
+      <title>File: 164,
+             Errors: 1997,
              Warnings: 0,
              Infos: 0
       </title>
@@ -1180,6 +1180,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.framework.SuperNotCalledException.java">teetime/framework/SuperNotCalledException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://christianwulf.github.io/teetime//checkstyle.html#teetime.stage.EveryXthStage.java">teetime/stage/EveryXthStage.java</a>
                 </td>
                 <td>
@@ -1819,7 +1833,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  143
+                  142
                 </td>
               </tr>
                           <tr>
