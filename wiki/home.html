@@ -115,41 +115,51 @@
 	<div class="row">
 		<div class="span8">
 			<div class="body-content">
-<div class="page-header">
- <h1 id="1_introduction">1. Introduction</h1>
+<div class="section"> 
+ <div class="page-header">
+  <h2 id="a1_Introduction">1. Introduction</h2>
+ </div> 
+ <p>TeeTime is a Pipe-and-Filter Framework for Java.</p> 
+ <p>It provides support for the <i>modeling</i> and the <i>execution</i> of P&amp;F architectures. In particular, it features…</p> 
+ <ul> 
+  <li> <p>many primitive and composite ready-to-use stages</p></li> 
+  <li> <p>a type-safety way to develop and connect stages</p></li> 
+  <li> <p>no(!) single-threaded overhead</p></li> 
+  <li> <p>only a minimal multi-threaded overhead</p></li> 
+  <li> <p>threads can be assigned to stages arbitrarily</p></li> 
+  <li> <p>and many more…</p></li> 
+ </ul> 
 </div> 
-<p>TeeTime is a Pipe-and-Filter Framework for Java.</p> 
-<p>It provides support for the <i>modeling</i> and the <i>execution</i> of P&amp;F architectures. In particular, it features…</p> 
-<ul> 
- <li> <p>many primitive and composite ready-to-use stages</p></li> 
- <li> <p>a type-safety way to develop and connect stages</p></li> 
- <li> <p>no(!) single-threaded overhead</p></li> 
- <li> <p>only a minimal multi-threaded overhead</p></li> 
- <li> <p>threads can be assigned to stages arbitrarily</p></li> 
- <li> <p>and many more…</p></li> 
-</ul> 
-<h1 id="2_build_from_source">2. Build from Source</h1> 
-<p>To build TeeTime, you need and existing Maven installation and the JDK1.6.</p> 
-<p>After <a class="externalLink" href="http://teetime-framework.github.io/download.html">downloading</a> TeeTime, simply execute <tt>mvn install -DskipTests</tt> and you are good to go! If you just want to build it, use <tt>mvn jar:jar</tt>.</p> 
-<h1 id="3_using_the_framework">3. Using the Framework</h1> 
-<p>The following articles explain how to use the framework. You will learn step by step how to write your own architectures and how to extend it.</p> 
-<ol style="list-style-type: decimal"> 
- <li><a href="Implementing-your-own-Analysis.html">Implementing your own P&amp;F architecture</a></li> 
- <li><a href="Ready-to-use-Stages.html">Ready-to-use Stages</a></li> 
- <li><a href="Writing-your-own-Stage.html">Writing your own Stage</a></li> 
- <li><a href="Exploit-Parallelism.html">Exploit Parallelism</a>*</li> 
- <li><a href="how-to-handle-exceptions.html">How to handle Exceptions</a>*</li> 
-</ol> 
-<p><sub>* Further features for later use</sub></p> 
-<h1 id="4_contributing_to_this_project">4. Contributing to this Project</h1> 
-<ul> 
- <li>Adhere to our <a href="quality-assurance.html">Quality Assurance</a></li> 
- <li>Adhere to our <a href="Commit-Workflow.html">Commit Workflow</a></li> 
-</ul> 
-<!-- # 5. Performance Evaluation
+<div class="section"> 
+ <h2 id="a2_Build_from_Source">2. Build from Source</h2> 
+ <p>To build TeeTime, you need and existing Maven installation and the JDK1.6.</p> 
+ <p>After <a class="externalLink" href="http://teetime-framework.github.io/download.html">downloading</a> TeeTime, simply execute <tt>mvn install -DskipTests</tt> and you are good to go! If you just want to build it, use <tt>mvn jar:jar</tt>.</p> 
+</div> 
+<div class="section"> 
+ <h2 id="a3_Using_the_Framework">3. Using the Framework</h2> 
+ <p>The following articles explain how to use the framework. You will learn step by step how to write your own architectures and how to extend it.</p> 
+ <ol style="list-style-type: decimal"> 
+  <li><a href="Implementing-your-own-Analysis.html">Implementing your own P&amp;F architecture</a></li> 
+  <li><a href="Ready-to-use-Stages.html">Ready-to-use Stages</a></li> 
+  <li><a href="Writing-your-own-Stage.html">Writing your own Stage</a></li> 
+  <li><a href="Exploit-Parallelism.html">Exploit Parallelism</a>*</li> 
+  <li><a href="how-to-handle-exceptions.html">How to handle Exceptions</a>*</li> 
+ </ol> 
+ <p><sub>* Further features for later use</sub></p> 
+</div> 
+<div class="section"> 
+ <h2 id="a4_Contributing_to_this_Project">4. Contributing to this Project</h2> 
+ <ul> 
+  <li>Adhere to our <a href="quality-assurance.html">Quality Assurance</a></li> 
+  <li>Adhere to our <a href="Commit-Workflow.html">Commit Workflow</a></li> 
+ </ul> 
+ <!-- ## 5. Performance Evaluation
 [Performance Evaluation](Performance-Evaluation) --> 
-<h1 id="5_license">5. License</h1> 
-<p><a class="externalLink" href="http://teetime-framework.github.io/license.html">Apache License, Version 2.0</a></p>
+</div> 
+<div class="section"> 
+ <h2 id="a5_License">5. License</h2> 
+ <p><a class="externalLink" href="http://teetime-framework.github.io/license.html">Apache License, Version 2.0</a></p> 
+</div>
 			</div>
 		</div>
 		<div class="span4">
@@ -157,11 +167,11 @@
 				<div class="well">
 					<ul class="nav nav-list">
 						<li class="nav-header">Table of Contents</li>
-		<li><a href="#1_introduction" title="1. Introduction">1. Introduction</a>
-		<li><a href="#2_build_from_source" title="2. Build from Source">2. Build from Source</a>
-		<li><a href="#3_using_the_framework" title="3. Using the Framework">3. Using the Framework</a>
-		<li><a href="#4_contributing_to_this_project" title="4. Contributing to this Project">4. Contributing to this Project</a>
-		<li><a href="#5_license" title="5. License">5. License</a>
+		<li><a href="#a1_Introduction" title="1. Introduction">1. Introduction</a>
+		<li><a href="#a2_Build_from_Source" title="2. Build from Source">2. Build from Source</a>
+		<li><a href="#a3_Using_the_Framework" title="3. Using the Framework">3. Using the Framework</a>
+		<li><a href="#a4_Contributing_to_this_Project" title="4. Contributing to this Project">4. Contributing to this Project</a>
+		<li><a href="#a5_License" title="5. License">5. License</a>
 					</ul>
 				</div>
 			</div>
