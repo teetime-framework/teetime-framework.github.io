@@ -129,7 +129,8 @@
  <li> <p>and many more…</p></li> 
 </ul> 
 <h1 id="2_build_from_source">2. Build from Source</h1> 
-<p><a href="Build-from-Source.html">Build from Source</a></p> 
+<p>To build TeeTime, you need and existing Maven installation and the JDK1.6.</p> 
+<p>After <a class="externalLink" href="http://teetime-framework.github.io/download.html">downloading</a> TeeTime, simply execute <tt>mvn install -DskipTests</tt> and you are good to go! If you just want to build it, use <tt>mvn jar:jar</tt>.</p> 
 <h1 id="3_using_the_framework">3. Using the Framework</h1> 
 <p>The following articles explain how to use the framework. You will learn step by step how to write your own architectures and how to extend it.</p> 
 <ol style="list-style-type: decimal"> 
@@ -145,9 +146,9 @@
  <li>Adhere to our <a href="quality-assurance.html">Quality Assurance</a></li> 
  <li>Adhere to our <a href="Commit-Workflow.html">Commit Workflow</a></li> 
 </ul> 
-<h1 id="5_performance_evaluation">5. Performance Evaluation</h1> 
-<p><a href="Performance-Evaluation.html">Performance Evaluation</a></p> 
-<h1 id="6_license">6. License</h1> 
+<!-- # 5. Performance Evaluation
+[Performance Evaluation](Performance-Evaluation) --> 
+<h1 id="5_license">5. License</h1> 
 <p><a class="externalLink" href="http://teetime-framework.github.io/license.html">Apache License, Version 2.0</a></p>
 			</div>
 		</div>
@@ -160,8 +161,7 @@
 		<li><a href="#2_build_from_source" title="2. Build from Source">2. Build from Source</a>
 		<li><a href="#3_using_the_framework" title="3. Using the Framework">3. Using the Framework</a>
 		<li><a href="#4_contributing_to_this_project" title="4. Contributing to this Project">4. Contributing to this Project</a>
-		<li><a href="#5_performance_evaluation" title="5. Performance Evaluation">5. Performance Evaluation</a>
-		<li><a href="#6_license" title="6. License">6. License</a>
+		<li><a href="#5_license" title="5. License">5. License</a>
 					</ul>
 				</div>
 			</div>
@@ -233,8 +233,6 @@
 				<a href="https://build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/job/teetime-nightly-release/"><img alt="Jenkins build status" src="https://img.shields.io/jenkins/s/https/build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/teetime-nightly-release.svg?style=flat-square"></a>
 				<br />
 				<a href="https://build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/job/teetime-nightly-release/lastCompletedBuild/testReport/"><img alt="Jenkins build status" src="https://img.shields.io/jenkins/t/https/build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/teetime-nightly-release.svg?style=flat-square"></a>
-				<br />
-				<a href="https://github.com/teetime-framework/teetime"><img src="https://img.shields.io/github/commits-since/teetime-framework/teetime/v1.1.2.svg?style=flat-square"></a>
 				<br /><br />Stable state:
 				<br />
 				<a href="https://github.com/teetime-framework/teetime/releases/latest" rel="nofollow"><img alt="Download TeeTime" src="https://img.shields.io/github/downloads/teetime-framework/teetime/latest/total.svg?style=flat-square"></a>
