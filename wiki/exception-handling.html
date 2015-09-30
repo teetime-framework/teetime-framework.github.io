@@ -124,7 +124,7 @@
 <p>TeeTime introduces a handling mechanism to examine exceptions within the execution of analysis. For this to work, a listener will be added to every single created thread. You can rely on the provided listeners or extend the framework by implementing your own. This page will introduce you to the mechanism and explain how to integrate your own approaches into TeeTime.</p> 
 <div class="section"> 
  <h2 id="Passing_of_exceptions">Passing of exceptions</h2> 
- <p>If you <a href="Writing-your-own-Stage.html">implement your own Stage</a> and need Exceptions, you can simply throw a RuntimeException (or its subclasses) from the execute() method. All thrown exceptions will be catched and passed on to a listener, which monitors all stages within the thread. You do not need to take care of anything else. </p> 
+ <p>If you <a href="Writing-your-own-Stage">implement your own Stage</a> and need Exceptions, you can simply throw a RuntimeException (or its subclasses) from the execute() method. All thrown exceptions will be catched and passed on to a listener, which monitors all stages within the thread. You do not need to take care of anything else. </p> 
 </div> 
 <div class="section"> 
  <h2 id="Selecting_a_listener">Selecting a listener</h2> 
