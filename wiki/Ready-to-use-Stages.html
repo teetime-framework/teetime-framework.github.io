@@ -128,20 +128,20 @@
  </thead> 
  <tbody> 
   <tr class="b"> 
-   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/distributor.png" alt="Distributor" /> </td> 
+   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/stages/distributor.png" alt="Distributor" /> </td> 
    <td>Distributor </td> 
    <td>1:n </td> 
    <td>1:1 </td> 
-   <td>teetime.stage.basic.distributor.Distributor </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/basic/distributor/Distributor.java">Code (teetime.stage.basic.distributor.Distributor)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/basic/distributor/Distributor.html">JavaDoc (teetime.stage.basic.distributor.Distributor)</a> </td> 
+   <td>Passes the incoming element of its input port to one or all of its output ports. It selects the output port depending on the chosen distribution strategy. </td> 
   </tr> 
   <tr class="a"> 
-   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/merger.png" alt="Merger" /></td> 
+   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/stages/merger.png" alt="Merger" /></td> 
    <td>Merger </td> 
    <td>n:1 </td> 
    <td>1:1 </td> 
-   <td>teetime.stage.basic.merger.Merger </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/basic/merger/Merger.java">Code (teetime.stage.basic.merger.Merger)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/basic/merger/Merger.html">JavaDoc (teetime.stage.basic.merger.Merger)</a> </td> 
+   <td>Passes the incoming element of one of its input ports to its output port. It selects the input port depending on the chosen merge strategy. </td> 
   </tr> 
   <tr class="b"> 
    <td align="center"> </td> 
@@ -155,24 +155,24 @@
    <td>InitialElementProducer </td> 
    <td>0:1 </td> 
    <td>0:1 </td> 
-   <td>teetime.stage.InitialElementProducer </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/InitialElementProducer.java">Code (teetime.stage.InitialElementProducer)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/InitialElementProducer.html">JavaDoc (teetime.stage.InitialElementProducer)</a> </td> 
+   <td>This stage successively outputs the elements of its list and terminates afterwards. </td> 
   </tr> 
   <tr class="b"> 
    <td align="center">TODO </td> 
    <td>ObjectProducer </td> 
    <td>0:1 </td> 
    <td>0:1 </td> 
-   <td>teetime.stage.ObjectProducer </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/ObjectProducer.java">Code (teetime.stage.ObjectProducer)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/ObjectProducer.html">JavaDoc (teetime.stage.ObjectProducer)</a> </td> 
+   <td>This stage creates an element of a given (primitive) type and sends it to the stage’s output port. This procedure is repeat for a given number of times. Afterwards, this stage terminates. </td> 
   </tr> 
   <tr class="a"> 
-   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/collectorsink.png" alt="Collector Sink" /> </td> 
+   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/stages/collectorsink.png" alt="Collector Sink" /> </td> 
    <td>CollectorSink </td> 
    <td>1:0 </td> 
    <td>1:0 </td> 
-   <td>teetime.stage.CollectorSink </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/CollectorSink.java">Code (teetime.stage.CollectorSink)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/CollectorSink.html">JavaDoc (teetime.stage.CollectorSink)</a> </td> 
+   <td>Collects the incoming elements in an internal list. </td> 
   </tr> 
   <tr class="b"> 
    <td align="center"> </td> 
@@ -182,20 +182,20 @@
    <td> </td> 
   </tr> 
   <tr class="a"> 
-   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/clock.png" alt="Clock" /> </td> 
+   <td align="center"><img src="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/raw/master/src/site/resources/images/stages/clock.png" alt="Clock" /> </td> 
    <td>Clock </td> 
    <td>0:1 </td> 
    <td>0:1 </td> 
    <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/Clock.java">Code (teetime.stage.Clock)</a> <br /> <a class="externalLink" href="https://teetime-framework.github.io/stabledocs/teetime/stage/Clock.html">JavaDoc (teetime.stage.Clock)</a> </td> 
-   <td>TODO </td> 
+   <td>Outputs the current timestamp in a user-defined regular time interval. </td> 
   </tr> 
   <tr class="b"> 
    <td align="center">TODO </td> 
    <td>Counter </td> 
    <td>1:1 </td> 
    <td>1:1 </td> 
-   <td>teetime.stage.Counter </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/Counter.java">Code (teetime.stage.Counter)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/Counter.html">JavaDoc (teetime.stage.Counter)</a> </td> 
+   <td>Counts the passed elements. </td> 
   </tr> 
   <tr class="a"> 
    <td align="center"> </td> 
@@ -209,16 +209,16 @@
    <td>Directory2FilesFilter </td> 
    <td>1:1 </td> 
    <td>1:n </td> 
-   <td>teetime.stage.io.Directory2FilesFilter </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/io/Directory2FilesFilter.java">Code (teetime.stage.io.Directory2FilesFilter)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/io/Directory2FilesFilter.html">JavaDoc (teetime.stage.io.Directory2FilesFilter)</a> </td> 
+   <td>Outputs the child files of the incoming directory. The recursivity and the output order can be configured. </td> 
   </tr> 
   <tr class="a"> 
    <td align="center">TODO </td> 
    <td>FileExtensionSwitch </td> 
    <td>1:n </td> 
    <td>1:1 </td> 
-   <td>teetime.stage.FileExtensionSwitch </td> 
-   <td>TODO </td> 
+   <td><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/blob/master/src/main/java/teetime/stage/FileExtensionSwitch.java">Code (teetime.stage.FileExtensionSwitch)</a> <br /> <a class="externalLink" href="http://teetime-framework.github.io/stabledocs/teetime/stage/FileExtensionSwitch.html">JavaDoc (teetime.stage.FileExtensionSwitch)</a> </td> 
+   <td>Passes the incoming file from the stage’s input port to the stage’s output port which represents the file#s file extension. </td> 
   </tr> 
  </tbody> 
 </table> 
