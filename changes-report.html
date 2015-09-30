@@ -131,9 +131,9 @@
    </thead> 
    <tbody> 
     <tr class="b"> 
-     <td><a href="#Snapshot">Snapshot</a></td> 
-     <td>Daily basis</td> 
-     <td>Unstable preview of oncoming versions - 2.0-SNAPSHOT</td> 
+     <td><a href="#a2.0">2.0</a></td> 
+     <td>30.09.2015</td> 
+     <td>Camellia Release</td> 
     </tr> 
     <tr class="a"> 
      <td><a href="#a1.1.2">1.1.2</a></td> 
@@ -159,7 +159,7 @@
   </table> 
  </div> 
  <div class="section"> 
-  <h3 id="Snapshot">Release Snapshot – Daily basis</h3> 
+  <h3 id="a2.0">Release 2.0 – 30.09.2015</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
     <tr class="a"> 
@@ -170,8 +170,58 @@
    </thead> 
    <tbody> 
     <tr class="b"> 
+     <td><i class="icon-refresh"></i></td> 
+     <td>Merged Stage into AbstractStage Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/224">224</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-refresh"></i></td> 
+     <td>Merger and Distributor strategies are moved to a seperate package Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/189">189</a>.</td> 
+     <td><a href="team-list.html#chw">chw</a></td> 
+    </tr> 
+    <tr class="b"> 
+     <td><i class="icon-remove"></i></td> 
+     <td>Removed InitializingSignal Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/217">217</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-refresh"></i></td> 
+     <td>TerminatingExceptionListener is now the default listener Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/185">185</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="b"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Added capacity to IPipe Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/207">207</a>.</td> 
+     <td><a href="team-list.html#chw">chw</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Added the ability to add ports to a merger at runtime Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/197">197</a>.</td> 
+     <td><a href="team-list.html#chw">chw</a></td> 
+    </tr> 
+    <tr class="b"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Added the ability to add ports to a distributor at runtime Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/172">172</a>.</td> 
+     <td><a href="team-list.html#chw">chw</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Threads can be added at runtime Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/183">183</a>.</td> 
+     <td><a href="team-list.html#chw">chw</a></td> 
+    </tr> 
+    <tr class="b"> 
      <td><i class="icon-plus"></i></td> 
      <td>TeeTime automatically chooses the correct type of pipe for all connections. Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/33">33</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Configurations can only be executed once Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/195">195</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="b"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Ports can be named for better debugging Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/165">165</a>.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
     <tr class="a"> 
@@ -180,33 +230,43 @@
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
     <tr class="b"> 
+     <td><i class="icon-refresh"></i></td> 
+     <td>Removed addThreadableStage and replaced it by AbstractStage.declareActive() Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/174">174</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="a"> 
      <td><i class="icon-wrench"></i></td> 
      <td>Introduced a new concept for composing stages. Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/93">93</a>.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><i class="icon-plus"></i></td> 
      <td>Configurations are now built within the Configuration class. This removes any constraints on CompositeStages and enables therefore multiple connections and multithreading in such stages. Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/171">171</a>.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><i class="icon-refresh"></i></td> 
      <td>Renamed Analysis to Execution</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><i class="icon-remove"></i></td> 
      <td>Removed pair class.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><i class="icon-plus"></i></td> 
      <td>All stages will be initialized before starting the analysis. Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/154">154</a>.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><i class="icon-plus"></i></td> 
      <td>Threads can be named for better debugging. Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/122">122</a>.</td> 
+     <td><a href="team-list.html#ntd">ntd</a></td> 
+    </tr> 
+    <tr class="a"> 
+     <td><i class="icon-plus"></i></td> 
+     <td>Exceptions within the initialization will now terminate the execution Fixes <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/chw/teetime/issues/170">170</a>.</td> 
      <td><a href="team-list.html#ntd">ntd</a></td> 
     </tr> 
     <tr class="b"> 
