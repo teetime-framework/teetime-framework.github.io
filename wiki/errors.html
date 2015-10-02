@@ -113,13 +113,13 @@
 
 	<div class="main-body">
 	<div class="row">
-		<div class="span12">
+		<div class="span8">
 			<div class="body-content">
 <div class="section"> 
  <div class="page-header">
   <h2 id="Error_codes">Error codes</h2>
  </div> 
- <p>The following tables give a short description to common errors. They give hints why they occurred and how to solve them. If you encounter an undocumented error, please <a class="externalLink" href="http://teetime-framework.github.io/team-list.html">contact us</a> or submit an issue with informations, such as the stack trace, configuration, or such.</p> 
+ <p>The following tables give a short description to common errors. They give hints why they occurred and how to solve them. If you encounter an undocumented error, please <a class="externalLink" href="http://teetime-framework.github.io/team-list.html">contact us</a> or submit an issue with informations, such as the stack trace, configuration, or anything related to the error which could help us to help you.</p> 
  <div class="section"> 
   <h3 id="a1000_-_Configuration_related_errors">1000 - Configuration related errors</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
@@ -145,6 +145,11 @@
      <td>1003</td> 
      <td>targetPort may not be null</td> 
      <td><tt>connectPorts()</tt> must receive valid arguments.</td> 
+    </tr> 
+    <tr class="a"> 
+     <td>1004</td> 
+     <td>No threadable stages in this configuration.</td> 
+     <td>This error occurs if the <tt>Configuration</tt> holds only one stage or it relies only on custom pipe implementations which were not registered through the <tt>registerCustomPipe()</tt> method.</td> 
     </tr> 
    </tbody> 
   </table> 
@@ -189,13 +194,82 @@
      <td>Any configuration instance may only be executed once.</td> 
      <td>Every <tt>Configuration</tt> instance may only be used once to preserve its internal state. Create a new instance for every execution.</td> 
     </tr> 
+    <tr class="b"> 
+     <td>3003</td> 
+     <td>{Number} error(s) occurred while execution. Check thrown exception(s).</td> 
+     <td>Errors occurred while executing the <tt>Configuration</tt>. You can check those errors by catching the <tt>ExecutionException</tt> and calling its <tt>getThrownExceptions()</tt> method.</td> 
+    </tr> 
    </tbody> 
   </table> 
  </div> 
  <div class="section"> 
   <h3 id="a4000_-_Stage_errors">4000 - Stage errors</h3> 
+  <table border="0" class="bodyTable table table-striped table-hover"> 
+   <thead> 
+    <tr class="a"> 
+     <th>Code</th> 
+     <th>Stage</th> 
+     <th>Message</th> 
+     <th>Description</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr class="b"> 
+     <td>4001</td> 
+     <td>ObjectProducer</td> 
+     <td>numInputObjects must be non-negative.</td> 
+     <td>The <tt>ObjectProducer</tt> should at least create one instance.</td> 
+    </tr> 
+    <tr class="a"> 
+     <td>4002</td> 
+     <td>InitialElementProducer</td> 
+     <td>The given iterable must not be null.</td> 
+     <td>The argument must be a valid instance.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </div> 
+ <div class="section"> 
+  <h3 id="Exception_classes">Exception classes</h3> 
+  <table border="0" class="bodyTable table table-striped table-hover"> 
+   <thead> 
+    <tr class="a"> 
+     <th>Name</th> 
+     <th>Description</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr class="b"> 
+     <td>NotEnoughInputException</td> 
+     <td>This exception is thrown, if a port is accessed where no elements are stored. This avoids a <tt>NullPointerException</tt>. If you access a port, please check for this exception.</td> 
+    </tr> 
+    <tr class="a"> 
+     <td>SuperNotCalledException</td> 
+     <td>The super methods <tt>onInitializing()</tt> and <tt>onTerminating()</tt> must be called by any overwriting method. Otherwise, this exception is thrown by the framework</td> 
+    </tr> 
+   </tbody> 
+  </table> 
  </div> 
 </div>
+			</div>
+		</div>
+		<div class="span4">
+			<div id="toc-sidebar">
+				<div class="well">
+					<ul class="nav nav-list">
+						<li class="nav-header">Table of Contents</li>
+		<li class="dropdown"><a href="#Error_codes" title="Error codes">Error codes <b class="caret"></b></a>
+			<ul class="nav nav-list">
+		<li><a href="#a1000_-_Configuration_related_errors" title="1000 - Configuration related errors">1000 - Configuration related errors</a>
+		<li><a href="#a2000_-_Initialization_errors" title="2000 - Initialization errors">2000 - Initialization errors</a>
+		<li><a href="#a3000_-_Execution_errors" title="3000 - Execution errors">3000 - Execution errors</a>
+		<li><a href="#a4000_-_Stage_errors" title="4000 - Stage errors">4000 - Stage errors</a>
+		<li><a href="#Exception_classes" title="Exception classes">Exception classes</a>
+				<li class="divider"></li>
+			</ul>
+		</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
