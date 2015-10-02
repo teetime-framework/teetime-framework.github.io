@@ -119,8 +119,9 @@
  <div class="page-header">
   <h2 id="Error_codes">Error codes</h2>
  </div> 
+ <p>The following tables give a short description to common errors. They give hints why they occurred and how to solve them. If you encounter an undocumented error, please <a class="externalLink" href="http://teetime-framework.github.io/team-list.html">contact us</a> or submit an issue with informations, such as the stack trace, configuration, or such.</p> 
  <div class="section"> 
-  <h3 id="a1000_Configuration_related_errors">1000 Configuration related errors</h3> 
+  <h3 id="a1000_-_Configuration_related_errors">1000 - Configuration related errors</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
     <tr class="a"> 
@@ -132,14 +133,24 @@
    <tbody> 
     <tr class="b"> 
      <td>1001</td> 
-     <td>b</td> 
-     <td>c</td> 
+     <td>Crossing threads in {Stage ID}</td> 
+     <td>Two different threads make use of the same stage (given by the error message). As this results in concurrency issues, the configuration must be reconsidered.</td> 
+    </tr> 
+    <tr class="a"> 
+     <td>1002</td> 
+     <td>sourcePort may not be null</td> 
+     <td><tt>connectPorts()</tt> must receive valid arguments.</td> 
+    </tr> 
+    <tr class="b"> 
+     <td>1003</td> 
+     <td>targetPort may not be null</td> 
+     <td><tt>connectPorts()</tt> must receive valid arguments.</td> 
     </tr> 
    </tbody> 
   </table> 
  </div> 
  <div class="section"> 
-  <h3 id="a2000_Initialization_errors">2000 Initialization errors</h3> 
+  <h3 id="a2000_-_Initialization_errors">2000 - Initialization errors</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
     <tr class="a"> 
@@ -151,14 +162,14 @@
    <tbody> 
     <tr class="b"> 
      <td>2001</td> 
-     <td>Crossing threads in {Stage ID}</td> 
-     <td>Two different threads make use of the same stage (given by the error message). As this results in concurrency issues, the configuration must be reconsidered. </td> 
+     <td>Expected StartingSignal, but was {Signal name} in {Stage ID}.</td> 
+     <td>The given stage receives a signal different than the StartingSignal, even before it is initialized.</td> 
     </tr> 
    </tbody> 
   </table> 
  </div> 
  <div class="section"> 
-  <h3 id="a3000_Execution_errors">3000 Execution errors</h3> 
+  <h3 id="a3000_-_Execution_errors">3000 - Execution errors</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
     <tr class="a"> 
@@ -180,6 +191,9 @@
     </tr> 
    </tbody> 
   </table> 
+ </div> 
+ <div class="section"> 
+  <h3 id="a4000_-_Stage_errors">4000 - Stage errors</h3> 
  </div> 
 </div>
 			</div>
