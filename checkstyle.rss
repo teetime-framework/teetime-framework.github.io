@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 163,
-             Errors: 1997,
+      <title>File: 159,
+             Errors: 1961,
              Warnings: 0,
              Infos: 0
       </title>
@@ -55,7 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  24
+                  22
                 </td>
               </tr>
                           <tr>
@@ -126,20 +126,6 @@ under the License.
                 </td>
                 <td>
                   7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.SingleElementPipe.java">teetime/framework/pipe/SingleElementPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
                 </td>
               </tr>
                           <tr>
@@ -293,7 +279,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  49
+                  39
                 </td>
               </tr>
                           <tr>
@@ -307,7 +293,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  29
+                  18
                 </td>
               </tr>
                           <tr>
@@ -466,20 +452,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.IPipeFactory.java">teetime/framework/pipe/IPipeFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.RoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/RoundRobinStrategy.java</a>
                 </td>
                 <td>
@@ -546,6 +518,20 @@ under the License.
                 </td>
                 <td>
                   19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractSynchedPipe.java">teetime/framework/AbstractSynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
                 </td>
               </tr>
                           <tr>
@@ -714,6 +700,20 @@ under the License.
                 </td>
                 <td>
                   12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnsynchedPipe.java">teetime/framework/pipe/UnsynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
                 </td>
               </tr>
                           <tr>
@@ -998,6 +998,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnboundedSynchedPipe.java">teetime/framework/pipe/UnboundedSynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.Printer.java">teetime/stage/io/Printer.java</a>
                 </td>
                 <td>
@@ -1134,20 +1148,6 @@ under the License.
                 </td>
                 <td>
                   9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.SingleElementPipeFactory.java">teetime/framework/pipe/SingleElementPipeFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
                 </td>
               </tr>
                           <tr>
@@ -1292,34 +1292,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.SpScPipeFactory.java">teetime/framework/pipe/SpScPipeFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractInterThreadPipe.java">teetime/framework/AbstractInterThreadPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  16
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractProducerStage.java">teetime/framework/AbstractProducerStage.java</a>
                 </td>
                 <td>
@@ -1348,20 +1320,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnboundedSpScPipeFactory.java">teetime/framework/pipe/UnboundedSpScPipeFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Configuration.java">teetime/framework/Configuration.java</a>
                 </td>
                 <td>
@@ -1372,20 +1330,6 @@ under the License.
                 </td>
                 <td>
                   33
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnboundedSpScPipe.java">teetime/framework/pipe/UnboundedSpScPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
                 </td>
               </tr>
                           <tr>
@@ -1665,7 +1609,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  9
                 </td>
               </tr>
                           <tr>
@@ -1894,6 +1838,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractUnsynchedPipe.java">teetime/framework/AbstractUnsynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ThreadService.java">teetime/framework/ThreadService.java</a>
                 </td>
                 <td>
@@ -1904,6 +1862,20 @@ under the License.
                 </td>
                 <td>
                   42
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.BoundedSynchedPipe.java">teetime/framework/pipe/BoundedSynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
                 </td>
               </tr>
                           <tr>
@@ -1960,34 +1932,6 @@ under the License.
                 </td>
                 <td>
                   6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractIntraThreadPipe.java">teetime/framework/AbstractIntraThreadPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.SpScPipe.java">teetime/framework/pipe/SpScPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  13
                 </td>
               </tr>
                           <tr>
