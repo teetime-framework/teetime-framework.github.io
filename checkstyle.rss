@@ -26,7 +26,7 @@ under the License.
     <copyright>&#169;2015</copyright>
     <item>
       <title>File: 159,
-             Errors: 1975,
+             Errors: 1979,
              Warnings: 0,
              Infos: 0
       </title>
@@ -448,20 +448,6 @@ under the License.
                 </td>
                 <td>
                   3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.RoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/RoundRobinStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
                 </td>
               </tr>
                           <tr>
@@ -928,6 +914,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.NonBlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/NonBlockingRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.dynamic.DynamicDistributor.java">teetime/stage/basic/distributor/dynamic/DynamicDistributor.java</a>
                 </td>
                 <td>
@@ -937,7 +937,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  19
+                  20
                 </td>
               </tr>
                           <tr>
@@ -1390,20 +1390,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.RoundRobinStrategy2.java">teetime/stage/basic/distributor/strategy/RoundRobinStrategy2.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.File2TextLinesFilter.java">teetime/stage/io/File2TextLinesFilter.java</a>
                 </td>
                 <td>
@@ -1497,7 +1483,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  17
+                  18
                 </td>
               </tr>
                           <tr>
@@ -1763,7 +1749,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  142
+                  143
                 </td>
               </tr>
                           <tr>
@@ -2156,6 +2142,20 @@ under the License.
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.BlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/BlockingRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
                 </td>
               </tr>
                           <tr>
