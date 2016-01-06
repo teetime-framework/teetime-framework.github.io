@@ -165,8 +165,9 @@
   <p>After all the hard work you may be way to excited to go to bed yet. To reap the fruits of your success you still need to execute the architecture.<br />As the caption of this section already spoils, we only need to instantiate the class <tt>teetime.framework.Execution</tt> and pass the desired <tt>Configuration</tt> to its constructor. Eventually call <tt>executeBlocking()</tt> and take a glance at your finished work. Following example is extracted from the sample solution of the section above:</p> 
   <div class="source"> 
    <div class="source"> 
-    <pre>public static void main(final String[] args) {
+    <pre>public static void main(final String... args) {
 	PrintResultConfig config = new PrintResultConfig(new File(&quot;.&quot;));
+
 	Execution&lt;PrintResultConfig&gt; execution = new Execution&lt;PrintResultConfig&gt;(config);
 	execution.executeBlocking();
 }
