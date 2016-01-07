@@ -143,6 +143,19 @@
  <p>So… you want to use the TeeTime framework to implement your own P&amp;F architectures, eh? If you are reading this, you may expect some kind of step-by-step tutorial or such… and yes, this is the right place to look for it!</p> 
  <p>As a simple introduction, we will implement an architecture which counts all files in a given directory. In order to work with TeeTime you need to make sure it is added to your project. Further assistance on doing so can be found in the download section.</p> 
  <div class="section"> 
+  <div class="section"> 
+   <div class="section"> 
+    <h5 id="Used_files_in_this_tutorial:">Used files in this tutorial:</h5> 
+    <ul> 
+     <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/DirReader.java">DirReader.java</a></li> 
+     <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/FileCounter.java">FileCounter.java</a></li> 
+     <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/ResultPrinter.java">ResultPrinter.java</a></li> 
+     <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/PrintResultConfig.java">PrintResultConfig.java</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="section"> 
   <h3 id="Segregate_dat_Logic">Segregate dat Logic</h3> 
   <p>The Pipe&amp;Filter architecture is well known for its property to divide work into disjoint steps. As - for example - a car manufacturer which divides the assembly of a new car into different steps to increase efficiency and throughput, we will also follow this guideline in our work with TeeTime. So the first step is to analyze our program and divide it into different steps.</p> 
   <p>The steps of our “File Counter” can be summarised to:</p> 
@@ -176,15 +189,6 @@
   </div> 
   <p>If everything is implemented correctly you should see the number of files in your console. If it shows up: Congrats!<br />Feel free to experiment with this configuration. For instance, you could save a file with the result in it instead of simply printing it. Introducing a stage which filters the files for a given name pattern would also be a nice exercise. There are endless of great things you can make with TeeTime… discover the explorer within you.</p> 
   <p><b>Note:</b> With 2.1 you will also be able to run configurations from command line. This feature is under development and is available in our snapshot release. To execute a configuration run the command <tt>java -cp ... teetime.framework.Execution your.own.Configuration</tt> where the classpath is set to the directory of the configuration and also the directory where TeeTime is located. In order to enable this feature you need to add all dependencies to the classpath or you can simply make use of the provided <tt>teetime-…-jar-with-dependencies.jar</tt> file. This feature only allows to execute configurations without any arguments in their constructor. You can also run multiple configurations by adding them to the end of the command.</p> 
-  <div class="section"> 
-   <h4 id="Used_files_in_this_tutorial:">Used files in this tutorial:</h4> 
-   <ul> 
-    <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/DirReader.java">DirReader.java</a></li> 
-    <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/FileCounter.java">FileCounter.java</a></li> 
-    <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/ResultPrinter.java">ResultPrinter.java</a></li> 
-    <li><a class="externalLink" href="https://build.se.informatik.uni-kiel.de/gitlab/teetime/teetime/blob/master/src/test/java/teetime/examples/filecounter/PrintResultConfig.java">PrintResultConfig.java</a></li> 
-   </ul> 
-  </div> 
  </div> 
 </div>
 			</div>
