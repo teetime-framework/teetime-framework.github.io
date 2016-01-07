@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title> | TeeTime</title>
+		<title>Write your own consumer with multiple input ports | TeeTime</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -136,11 +136,14 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-<p>For example, consider the <tt>InstanceOfFilter</tt> below. It relays the element from its default input port (got from its super class <tt>AbstractConsumerStage</tt>) to its self-declared output port if the element is an instance of the class represented by <tt>type</tt>. The logics is implemented in the <tt>execute()</tt> method.</p>
-
-<div class="source">
-<div class="source">
-<pre>public class InstanceOfFilter&lt;I, O&gt; extends AbstractConsumerStage&lt;I&gt; {
+<div class="section"> 
+ <div class="page-header">
+  <h2 id="Write_your_own_consumer_with_multiple_input_ports">Write your own consumer with multiple input ports</h2>
+ </div> 
+ <p>For example, consider the <tt>InstanceOfFilter</tt> below. It relays the element from its default input port (got from its super class <tt>AbstractConsumerStage</tt>) to its self-declared output port if the element is an instance of the class represented by <tt>type</tt>. The logics is implemented in the <tt>execute()</tt> method.</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>public class InstanceOfFilter&lt;I, O&gt; extends AbstractConsumerStage&lt;I&gt; {
 
 	private final OutputPort&lt;O&gt; matchingOutputPort = this.createOutputPort();
 	private final OutputPort&lt;I&gt; defaultOutputPort = this.createOutputPort();
@@ -173,10 +176,13 @@
 	}
 
 }
-</pre></div></div>
-<p>The method <tt>execute</tt> is used to differentiate between incoming elements. Two different output ports are used to forward matching and non-matching elements. To send elements to a specific port, the method <tt>send(element)</tt> of each output port can be used. </p>
-<p>The self-declared ports are represented as class fields. The method <tt>createNewOutputPort()</tt> creates new instances and registers them.</p>
-<p>Furthermore, ports need to be accessible by the outer environment, for port connection actions i.e.. Therefore, the fields containing the ports need to be declared public, or methods need to be implemented which allow access to those fields. Such a getter for the input port is already provided by the super class.</p>
+</pre> 
+  </div> 
+ </div> 
+ <p>The method <tt>execute</tt> is used to differentiate between incoming elements. Two different output ports are used to forward matching and non-matching elements. To send elements to a specific port, the method <tt>send(element)</tt> of each output port can be used. </p> 
+ <p>The self-declared ports are represented as class fields. The method <tt>createNewOutputPort()</tt> creates new instances and registers them.</p> 
+ <p>Furthermore, ports need to be accessible by the outer environment, for port connection actions i.e.. Therefore, the fields containing the ports need to be declared public, or methods need to be implemented which allow access to those fields. Such a getter for the input port is already provided by the super class.</p> 
+</div>
 			</div>
 		</div>
 	</div>

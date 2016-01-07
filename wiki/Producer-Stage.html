@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title> | TeeTime</title>
+		<title>Write you own producer | TeeTime</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -136,11 +136,14 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-<p>The following code shows a simple producer stage. It takes a list of elements are sends them to the ongoing stage.</p>
-
-<div class="source">
-<div class="source">
-<pre>public final class InitialElementProducer&lt;T&gt; extends AbstractProducerStage&lt;T&gt; {
+<div class="section"> 
+ <div class="page-header">
+  <h2 id="Write_you_own_producer">Write you own producer</h2>
+ </div> 
+ <p>The following code shows a simple producer stage. It takes a list of elements are sends them to the ongoing stage.</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>public final class InitialElementProducer&lt;T&gt; extends AbstractProducerStage&lt;T&gt; {
 
 	private Iterable&lt;T&gt; elements;
 
@@ -165,10 +168,13 @@
 	}
 
 }
-</pre></div></div>
-<p>First, we implement <tt>execute</tt>. It simply iterates over the given list and sends all elements by calling <tt>this.outputPort.send(element)</tt>.</p>
-<p>Furthermore, we want to check if the given iterable is not null. This can be achieved by running a check while starting the stage. For this, we override the method <tt>onStarting</tt> and add a null check to it. This method will be called once by the framework before it executes the stage for the first time. <b>Note:</b> You also need to make sure the super method is also called.</p>
-<p>Finally, we want to terminate the stage. Calling the method <tt>terminate</tt> will do so and additionally send a signal to all ongoing stages to terminate.</p>
+</pre> 
+  </div> 
+ </div> 
+ <p>First, we implement <tt>execute</tt>. It simply iterates over the given list and sends all elements by calling <tt>this.outputPort.send(element)</tt>.</p> 
+ <p>Furthermore, we want to check if the given iterable is not null. This can be achieved by running a check while starting the stage. For this, we override the method <tt>onStarting</tt> and add a null check to it. This method will be called once by the framework before it executes the stage for the first time. <b>Note:</b> You also need to make sure the super method is also called.</p> 
+ <p>Finally, we want to terminate the stage. Calling the method <tt>terminate</tt> will do so and additionally send a signal to all ongoing stages to terminate.</p> 
+</div>
 			</div>
 		</div>
 	</div>

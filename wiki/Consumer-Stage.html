@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title> | TeeTime</title>
+		<title>Write your own Consumer | TeeTime</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -136,11 +136,14 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-<p>This example shows a minimal consumer. It represents a sink which collects all incoming elements by saving them in a List.</p>
-
-<div class="source">
-<div class="source">
-<pre>public final class CollectorSink&lt;T&gt; extends AbstractConsumerStage&lt;T&gt; {
+<div class="section"> 
+ <div class="page-header">
+  <h2 id="Write_your_own_Consumer">Write your own Consumer</h2>
+ </div> 
+ <p>This example shows a minimal consumer. It represents a sink which collects all incoming elements by saving them in a List.</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>public final class CollectorSink&lt;T&gt; extends AbstractConsumerStage&lt;T&gt; {
 
 	private final List&lt;T&gt; elements = new ArrayList&lt;T&gt;();
 
@@ -154,9 +157,12 @@
 	}
 
 }
-</pre></div></div>
-<p>By extending the class <tt>AbstractConsumerStage</tt>, the framework will automatically observe the input port and invoke the <tt>execute(T element)</tt> method on every incoming element. As a result, we solely need to implement the logics.</p>
-<p>How to pass on elements will be shown <a href="Multiple-OutputPorts">here</a>.</p>
+</pre> 
+  </div> 
+ </div> 
+ <p>By extending the class <tt>AbstractConsumerStage</tt>, the framework will automatically observe the input port and invoke the <tt>execute(T element)</tt> method on every incoming element. As a result, we solely need to implement the logics.</p> 
+ <p>How to pass on elements will be shown <a href="Multiple-OutputPorts">here</a>.</p> 
+</div>
 			</div>
 		</div>
 	</div>
