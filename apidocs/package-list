@@ -14,7 +14,17 @@ teetime.stage.basic.merger.dynamic
 teetime.stage.basic.merger.strategy
 teetime.stage.io
 teetime.stage.string
+teetime.stage.taskfarm
+teetime.stage.taskfarm.adaptation
+teetime.stage.taskfarm.adaptation.analysis
+teetime.stage.taskfarm.adaptation.analysis.algorithm
+teetime.stage.taskfarm.adaptation.history
+teetime.stage.taskfarm.adaptation.reconfiguration
+teetime.stage.taskfarm.exception
+teetime.stage.taskfarm.monitoring
+teetime.stage.taskfarm.monitoring.extraction
 teetime.stage.util
+teetime.stage.xml
 teetime.util
 teetime.util.framework.concurrent
 teetime.util.framework.concurrent.queue
@@ -23,3 +33,6 @@ teetime.util.framework.concurrent.queue.takestrategy
 teetime.util.framework.list
 teetime.util.framework.port
 teetime.util.io.network
+teetime.util.stage
+teetime.util.stage.basic
+teetime.util.stage.io.network

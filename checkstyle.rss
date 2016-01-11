@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015 - 2016</copyright>
     <item>
-      <title>File: 159,
-             Errors: 1979,
+      <title>File: 203,
+             Errors: 2837,
              Warnings: 0,
              Infos: 0
       </title>
@@ -55,49 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.ZipByteArray.java">teetime/stage/ZipByteArray.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
                   19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListener.java">teetime/framework/exceptionHandling/AbstractExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  21
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.port.PortAction.java">teetime/util/framework/port/PortAction.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
                 </td>
               </tr>
                           <tr>
@@ -256,7 +214,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.StacklessException.java">teetime/util/StacklessException.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.StackedTimePushThroughput2D.java">teetime/stage/taskfarm/monitoring/extraction/StackedTimePushThroughput2D.java</a>
                 </td>
                 <td>
                   0
@@ -265,12 +223,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  13
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.test.StageTester.java">teetime/framework/test/StageTester.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.dynamic.CreatePortActionDistributor.java">teetime/stage/basic/distributor/dynamic/CreatePortActionDistributor.java</a>
                 </td>
                 <td>
                   0
@@ -279,7 +237,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  32
+                  26
                 </td>
               </tr>
                           <tr>
@@ -293,21 +251,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.takestrategy.YieldTakeStrategy.java">teetime/util/framework/concurrent/queue/takestrategy/YieldTakeStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
+                  8
                 </td>
               </tr>
                           <tr>
@@ -340,7 +284,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ExecutionException.java">teetime/framework/ExecutionException.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.exception.TaskFarmControllerException.java">teetime/stage/taskfarm/exception/TaskFarmControllerException.java</a>
                 </td>
                 <td>
                   0
@@ -349,21 +293,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  13
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InitialElementProducer.java">teetime/stage/InitialElementProducer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
+                  6
                 </td>
               </tr>
                           <tr>
@@ -382,20 +312,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.ITransformation.java">teetime/stage/basic/ITransformation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.ElementThroughputMeasuringStage.java">teetime/stage/ElementThroughputMeasuringStage.java</a>
                 </td>
                 <td>
@@ -410,7 +326,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.Printer.java">teetime/stage/io/Printer.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.TimeBoundaryStages3D.java">teetime/stage/taskfarm/monitoring/extraction/TimeBoundaryStages3D.java</a>
                 </td>
                 <td>
                   0
@@ -419,35 +335,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  29
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.test.OutputHolder.java">teetime/framework/test/OutputHolder.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.File2TextLinesFilter.java">teetime/stage/io/File2TextLinesFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
+                  11
                 </td>
               </tr>
                           <tr>
@@ -462,20 +350,6 @@ under the License.
                 </td>
                 <td>
                   5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.io.network.AbstractTcpReader.java">teetime/util/io/network/AbstractTcpReader.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
                 </td>
               </tr>
                           <tr>
@@ -522,6 +396,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.analysis.TaskFarmAnalysisService.java">teetime/stage/taskfarm/adaptation/analysis/TaskFarmAnalysisService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  38
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.AbstractTcpReaderStage.java">teetime/stage/io/AbstractTcpReaderStage.java</a>
                 </td>
                 <td>
@@ -532,20 +420,6 @@ under the License.
                 </td>
                 <td>
                   19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.Merger.java">teetime/stage/basic/merger/Merger.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
                 </td>
               </tr>
                           <tr>
@@ -606,6 +480,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.TimeBoundaryMSPullThroughput3D.java">teetime/stage/taskfarm/monitoring/extraction/TimeBoundaryMSPullThroughput3D.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.package-info.java">teetime/framework/package-info.java</a>
                 </td>
                 <td>
@@ -634,20 +522,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.InstantiationPipe.java">teetime/framework/pipe/InstantiationPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  27
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.CloneStrategy.java">teetime/stage/basic/distributor/strategy/CloneStrategy.java</a>
                 </td>
                 <td>
@@ -658,20 +532,6 @@ under the License.
                 </td>
                 <td>
                   17
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.DoNothingPortAction.java">teetime/stage/basic/merger/dynamic/DoNothingPortAction.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
                 </td>
               </tr>
                           <tr>
@@ -699,7 +559,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  27
+                  28
                 </td>
               </tr>
                           <tr>
@@ -760,20 +620,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.Sink.java">teetime/stage/basic/Sink.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.AbstractFilter.java">teetime/stage/basic/AbstractFilter.java</a>
                 </td>
                 <td>
@@ -783,21 +629,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListener.java">teetime/framework/exceptionHandling/IgnoringExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
+                  3
                 </td>
               </tr>
                           <tr>
@@ -816,35 +648,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnsynchedPipe.java">teetime/framework/pipe/UnsynchedPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.putstrategy.YieldPutStrategy.java">teetime/util/framework/concurrent/queue/putstrategy/YieldPutStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListenerFactory.java">teetime/framework/exceptionHandling/IgnoringExceptionListenerFactory.java</a>
                 </td>
                 <td>
                   0
@@ -872,34 +676,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.StartingSignal.java">teetime/framework/signal/StartingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.InputPort.java">teetime/framework/InputPort.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.EveryXthStage.java">teetime/stage/EveryXthStage.java</a>
                 </td>
                 <td>
@@ -910,20 +686,6 @@ under the License.
                 </td>
                 <td>
                   9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Configuration.java">teetime/framework/Configuration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  33
                 </td>
               </tr>
                           <tr>
@@ -956,34 +718,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.ListUtil.java">teetime/util/ListUtil.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.IPipe.java">teetime/framework/pipe/IPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractService.java">teetime/framework/AbstractService.java</a>
                 </td>
                 <td>
@@ -998,20 +732,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ThreadService.java">teetime/framework/ThreadService.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  43
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.BoundedSynchedPipe.java">teetime/framework/pipe/BoundedSynchedPipe.java</a>
                 </td>
                 <td>
@@ -1021,7 +741,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  26
+                  27
                 </td>
               </tr>
                           <tr>
@@ -1054,20 +774,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.NonBlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/NonBlockingRoundRobinStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  13
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Execution.java">teetime/framework/Execution.java</a>
                 </td>
                 <td>
@@ -1096,7 +802,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TerminationStrategy.java">teetime/framework/TerminationStrategy.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.exception.TaskFarmAnalysisException.java">teetime/stage/taskfarm/exception/TaskFarmAnalysisException.java</a>
                 </td>
                 <td>
                   0
@@ -1105,35 +811,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InputPortSizePrinter.java">teetime/stage/InputPortSizePrinter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractProducerStage.java">teetime/framework/AbstractProducerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
+                  5
                 </td>
               </tr>
                           <tr>
@@ -1180,6 +858,1336 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.RemovePortAction.java">teetime/stage/basic/merger/dynamic/RemovePortAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A4StageAttributeSetter.java">teetime/framework/A4StageAttributeSetter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractConsumerStage.java">teetime/framework/AbstractConsumerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.dynamic.RemovePortAction.java">teetime/stage/basic/distributor/dynamic/RemovePortAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.xml.ApplyXSLTToDocumentStage.java">teetime/stage/xml/ApplyXSLTToDocumentStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.AbstractTransformation.java">teetime/stage/basic/AbstractTransformation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.SuperNotCalledException.java">teetime/framework/SuperNotCalledException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.Clock.java">teetime/stage/Clock.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.package-info.java">teetime/stage/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.DynamicMerger.java">teetime/stage/basic/merger/dynamic/DynamicMerger.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.ArrayWrapper.java">teetime/util/ArrayWrapper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.PipeMonitoringData.java">teetime/stage/taskfarm/monitoring/PipeMonitoringData.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  34
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A3PipeInstantiation.java">teetime/framework/A3PipeInstantiation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.ValidatingSignal.java">teetime/framework/signal/ValidatingSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractUnsynchedPipe.java">teetime/framework/AbstractUnsynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.StopWatch.java">teetime/util/StopWatch.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.CreatePortAction.java">teetime/stage/basic/merger/dynamic/CreatePortAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.MonitoringThread.java">teetime/framework/MonitoringThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ConfigurationContext.java">teetime/framework/ConfigurationContext.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.IMonitoringData.java">teetime/stage/taskfarm/monitoring/IMonitoringData.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.StackedTimePullThroughput2D.java">teetime/stage/taskfarm/monitoring/extraction/StackedTimePullThroughput2D.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RuntimeServiceFacade.java">teetime/framework/RuntimeServiceFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.stage.basic.CyclicIndex.java">teetime/util/stage/basic/CyclicIndex.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.takestrategy.TakeStrategy.java">teetime/util/framework/concurrent/queue/takestrategy/TakeStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListenerFactory.java">teetime/framework/exceptionHandling/AbstractExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.BlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/BlockingRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.AbstractMonitoringDataExporter.java">teetime/stage/taskfarm/monitoring/extraction/AbstractMonitoringDataExporter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.AbstractGeneralCSVExporter.java">teetime/stage/taskfarm/monitoring/extraction/AbstractGeneralCSVExporter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.Cache.java">teetime/stage/Cache.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InstanceOfFilter.java">teetime/stage/InstanceOfFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.validation.InvalidPortConnection.java">teetime/framework/validation/InvalidPortConnection.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.history.ThroughputEntry.java">teetime/stage/taskfarm/adaptation/history/ThroughputEntry.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.TimeBoundaryMSPushThroughput3D.java">teetime/stage/taskfarm/monitoring/extraction/TimeBoundaryMSPushThroughput3D.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.IMonitoringService.java">teetime/stage/taskfarm/monitoring/IMonitoringService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.EveryXthPrinter.java">teetime/stage/io/EveryXthPrinter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.TaskFarmStage.java">teetime/stage/taskfarm/TaskFarmStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractSynchedPipe.java">teetime/framework/AbstractSynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.MD5Stage.java">teetime/stage/MD5Stage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.dynamic.RemovePortActionDistributor.java">teetime/stage/basic/distributor/dynamic/RemovePortActionDistributor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.IDistributorStrategy.java">teetime/stage/basic/distributor/strategy/IDistributorStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.ITaskFarmDuplicable.java">teetime/stage/taskfarm/ITaskFarmDuplicable.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Traverser.java">teetime/framework/Traverser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  39
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.CountingMapMerger.java">teetime/stage/CountingMapMerger.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListenerFactory.java">teetime/framework/exceptionHandling/LoggingExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.StageState.java">teetime/framework/StageState.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListener.java">teetime/framework/exceptionHandling/TerminatingExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RunnableProducerStage.java">teetime/framework/RunnableProducerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.PipeMonitoringService.java">teetime/stage/taskfarm/monitoring/PipeMonitoringService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  57
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.PCBlockingQueue.java">teetime/util/framework/concurrent/queue/PCBlockingQueue.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.CopyByReferenceStrategy.java">teetime/stage/basic/distributor/strategy/CopyByReferenceStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.ZipByteArray.java">teetime/stage/ZipByteArray.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListener.java">teetime/framework/exceptionHandling/AbstractExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.port.PortAction.java">teetime/util/framework/port/PortAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.reconfiguration.TaskFarmReconfigurationCommand.java">teetime/stage/taskfarm/adaptation/reconfiguration/TaskFarmReconfigurationCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.StacklessException.java">teetime/util/StacklessException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.test.StageTester.java">teetime/framework/test/StageTester.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.stage.io.network.AbstractTcpReader.java">teetime/util/stage/io/network/AbstractTcpReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.reconfiguration.TaskFarmReconfigurationService.java">teetime/stage/taskfarm/adaptation/reconfiguration/TaskFarmReconfigurationService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.takestrategy.YieldTakeStrategy.java">teetime/util/framework/concurrent/queue/takestrategy/YieldTakeStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ExecutionException.java">teetime/framework/ExecutionException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InitialElementProducer.java">teetime/stage/InitialElementProducer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.ITransformation.java">teetime/stage/basic/ITransformation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.Printer.java">teetime/stage/io/Printer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.test.OutputHolder.java">teetime/framework/test/OutputHolder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.File2TextLinesFilter.java">teetime/stage/io/File2TextLinesFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.io.network.AbstractTcpReader.java">teetime/util/io/network/AbstractTcpReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.TimeBoundary2D.java">teetime/stage/taskfarm/monitoring/extraction/TimeBoundary2D.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.StackedTimeSizeWithCapacity2D.java">teetime/stage/taskfarm/monitoring/extraction/StackedTimeSizeWithCapacity2D.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.Merger.java">teetime/stage/basic/merger/Merger.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.InstantiationPipe.java">teetime/framework/pipe/InstantiationPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.history.TaskFarmHistoryService.java">teetime/stage/taskfarm/adaptation/history/TaskFarmHistoryService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.DoNothingPortAction.java">teetime/stage/basic/merger/dynamic/DoNothingPortAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.analysis.algorithm.MeanAlgorithm.java">teetime/stage/taskfarm/adaptation/analysis/algorithm/MeanAlgorithm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.Sink.java">teetime/stage/basic/Sink.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListener.java">teetime/framework/exceptionHandling/IgnoringExceptionListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.analysis.algorithm.WeightedAlgorithm.java">teetime/stage/taskfarm/adaptation/analysis/algorithm/WeightedAlgorithm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.UnsynchedPipe.java">teetime/framework/pipe/UnsynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.SingleTaskFarmMonitoringService.java">teetime/stage/taskfarm/monitoring/SingleTaskFarmMonitoringService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  47
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.IgnoringExceptionListenerFactory.java">teetime/framework/exceptionHandling/IgnoringExceptionListenerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.StartingSignal.java">teetime/framework/signal/StartingSignal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.InputPort.java">teetime/framework/InputPort.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Configuration.java">teetime/framework/Configuration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  33
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.ListUtil.java">teetime/util/ListUtil.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.IPipe.java">teetime/framework/pipe/IPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.analysis.algorithm.RegressionAlgorithm.java">teetime/stage/taskfarm/adaptation/analysis/algorithm/RegressionAlgorithm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ThreadService.java">teetime/framework/ThreadService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  43
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.exception.TaskFarmInvalidPipeException.java">teetime/stage/taskfarm/exception/TaskFarmInvalidPipeException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.NonBlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/NonBlockingRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.AdaptationThread.java">teetime/stage/taskfarm/adaptation/AdaptationThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.reconfiguration.TaskFarmReconfigurationCommandService.java">teetime/stage/taskfarm/adaptation/reconfiguration/TaskFarmReconfigurationCommandService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  51
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TerminationStrategy.java">teetime/framework/TerminationStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InputPortSizePrinter.java">teetime/stage/InputPortSizePrinter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractProducerStage.java">teetime/framework/AbstractProducerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.stage.OneTimeCondition.java">teetime/util/stage/OneTimeCondition.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.ConstructorClosure.java">teetime/util/ConstructorClosure.java</a>
                 </td>
                 <td>
@@ -1209,20 +2217,6 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.File2Lines.java">teetime/stage/io/File2Lines.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.RemovePortAction.java">teetime/stage/basic/merger/dynamic/RemovePortAction.java</a>
                 </td>
                 <td>
                   0
@@ -1292,35 +2286,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A4StageAttributeSetter.java">teetime/framework/A4StageAttributeSetter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractConsumerStage.java">teetime/framework/AbstractConsumerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.dynamic.RemovePortAction.java">teetime/stage/basic/distributor/dynamic/RemovePortAction.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.analysis.AbstractThroughputAlgorithm.java">teetime/stage/taskfarm/adaptation/analysis/AbstractThroughputAlgorithm.java</a>
                 </td>
                 <td>
                   0
@@ -1357,63 +2323,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.AbstractTransformation.java">teetime/stage/basic/AbstractTransformation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.SuperNotCalledException.java">teetime/framework/SuperNotCalledException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.Clock.java">teetime/stage/Clock.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.package-info.java">teetime/stage/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
+                  5
                 </td>
               </tr>
                           <tr>
@@ -1460,6 +2370,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.AbstractStackedCSVExporter.java">teetime/stage/taskfarm/monitoring/extraction/AbstractStackedCSVExporter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.list.CircularList.java">teetime/util/framework/list/CircularList.java</a>
                 </td>
                 <td>
@@ -1470,34 +2394,6 @@ under the License.
                 </td>
                 <td>
                   14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.DynamicMerger.java">teetime/stage/basic/merger/dynamic/DynamicMerger.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  16
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.ArrayWrapper.java">teetime/util/ArrayWrapper.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
                 </td>
               </tr>
                           <tr>
@@ -1516,7 +2412,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A3PipeInstantiation.java">teetime/framework/A3PipeInstantiation.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.reconfiguration.TaskFarmController.java">teetime/stage/taskfarm/adaptation/reconfiguration/TaskFarmController.java</a>
                 </td>
                 <td>
                   0
@@ -1525,35 +2421,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.ValidatingSignal.java">teetime/framework/signal/ValidatingSignal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractUnsynchedPipe.java">teetime/framework/AbstractUnsynchedPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
+                  52
                 </td>
               </tr>
                           <tr>
@@ -1572,34 +2440,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.StopWatch.java">teetime/util/StopWatch.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.CreatePortAction.java">teetime/stage/basic/merger/dynamic/CreatePortAction.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractStage.java">teetime/framework/AbstractStage.java</a>
                 </td>
                 <td>
@@ -1609,21 +2449,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  143
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.MonitoringThread.java">teetime/framework/MonitoringThread.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
+                  142
                 </td>
               </tr>
                           <tr>
@@ -1670,7 +2496,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ConfigurationContext.java">teetime/framework/ConfigurationContext.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.dynamic.CreatePortActionMerger.java">teetime/stage/basic/merger/dynamic/CreatePortActionMerger.java</a>
                 </td>
                 <td>
                   0
@@ -1679,7 +2505,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  16
+                  15
                 </td>
               </tr>
                           <tr>
@@ -1694,20 +2520,6 @@ under the License.
                 </td>
                 <td>
                   6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RuntimeServiceFacade.java">teetime/framework/RuntimeServiceFacade.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
                 </td>
               </tr>
                           <tr>
@@ -1782,20 +2594,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.takestrategy.TakeStrategy.java">teetime/util/framework/concurrent/queue/takestrategy/TakeStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.strategy.IMergerStrategy.java">teetime/stage/basic/merger/strategy/IMergerStrategy.java</a>
                 </td>
                 <td>
@@ -1806,34 +2604,6 @@ under the License.
                 </td>
                 <td>
                   4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.AbstractExceptionListenerFactory.java">teetime/framework/exceptionHandling/AbstractExceptionListenerFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.BlockingRoundRobinStrategy.java">teetime/stage/basic/distributor/strategy/BlockingRoundRobinStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
                 </td>
               </tr>
                           <tr>
@@ -1852,7 +2622,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.Cache.java">teetime/stage/Cache.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.TaskFarmMonitoringData.java">teetime/stage/taskfarm/monitoring/TaskFarmMonitoringData.java</a>
                 </td>
                 <td>
                   0
@@ -1861,12 +2631,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  8
+                  38
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.InstanceOfFilter.java">teetime/stage/InstanceOfFilter.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.xml.LoadXMLToDocumentStage.java">teetime/stage/xml/LoadXMLToDocumentStage.java</a>
                 </td>
                 <td>
                   0
@@ -1875,7 +2645,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  19
+                  7
                 </td>
               </tr>
                           <tr>
@@ -1894,20 +2664,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.validation.InvalidPortConnection.java">teetime/framework/validation/InvalidPortConnection.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  19
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.ISignal.java">teetime/framework/signal/ISignal.java</a>
                 </td>
                 <td>
@@ -1918,6 +2674,20 @@ under the License.
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.adaptation.history.ThroughputHistory.java">teetime/stage/taskfarm/adaptation/history/ThroughputHistory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
                 </td>
               </tr>
                           <tr>
@@ -1936,6 +2706,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.TaskFarmConfiguration.java">teetime/stage/taskfarm/TaskFarmConfiguration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  74
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A2InvalidThreadAssignmentCheck.java">teetime/framework/A2InvalidThreadAssignmentCheck.java</a>
                 </td>
                 <td>
@@ -1950,49 +2734,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.io.EveryXthPrinter.java">teetime/stage/io/EveryXthPrinter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractSynchedPipe.java">teetime/framework/AbstractSynchedPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  16
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.StartTimestampFilter.java">teetime/stage/StartTimestampFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.IDistributorStrategy.java">teetime/stage/basic/distributor/strategy/IDistributorStrategy.java</a>
                 </td>
                 <td>
                   0
@@ -2029,49 +2771,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.Traverser.java">teetime/framework/Traverser.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  39
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.CountingMapMerger.java">teetime/stage/CountingMapMerger.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.LoggingExceptionListenerFactory.java">teetime/framework/exceptionHandling/LoggingExceptionListenerFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  4
+                  8
                 </td>
               </tr>
                           <tr>
@@ -2099,7 +2799,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
+                  10
                 </td>
               </tr>
                           <tr>
@@ -2118,34 +2818,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.StageState.java">teetime/framework/StageState.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.exceptionHandling.TerminatingExceptionListener.java">teetime/framework/exceptionHandling/TerminatingExceptionListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.NotEnoughInputException.java">teetime/framework/NotEnoughInputException.java</a>
                 </td>
                 <td>
@@ -2156,20 +2828,6 @@ under the License.
                 </td>
                 <td>
                   4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RunnableProducerStage.java">teetime/framework/RunnableProducerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
                 </td>
               </tr>
                           <tr>
@@ -2188,20 +2846,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.strategy.RoundRobinStrategy.java">teetime/stage/basic/merger/strategy/RoundRobinStrategy.java</a>
                 </td>
                 <td>
@@ -2212,34 +2856,6 @@ under the License.
                 </td>
                 <td>
                   9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.util.framework.concurrent.queue.PCBlockingQueue.java">teetime/util/framework/concurrent/queue/PCBlockingQueue.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.CopyByReferenceStrategy.java">teetime/stage/basic/distributor/strategy/CopyByReferenceStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
                 </td>
               </tr>
                           <tr>
