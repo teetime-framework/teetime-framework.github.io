@@ -1,4 +1,6 @@
 teetime.framework
+teetime.framework.divideandconquer
+teetime.framework.divideandconquer.stages
 teetime.framework.exceptionHandling
 teetime.framework.pipe
 teetime.framework.signal
@@ -13,6 +15,7 @@ teetime.stage.basic.merger
 teetime.stage.basic.merger.dynamic
 teetime.stage.basic.merger.strategy
 teetime.stage.io
+teetime.stage.quicksort
 teetime.stage.string
 teetime.stage.taskfarm
 teetime.stage.taskfarm.adaptation
