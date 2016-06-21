@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015 - 2016</copyright>
     <item>
-      <title>File: 221,
-             Errors: 3105,
+      <title>File: 223,
+             Errors: 3134,
              Warnings: 0,
              Infos: 0
       </title>
@@ -840,6 +840,20 @@ under the License.
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.StatelessCounter.java">teetime/stage/StatelessCounter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
                 </td>
               </tr>
                           <tr>
@@ -1679,7 +1693,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  18
+                  17
                 </td>
               </tr>
                           <tr>
@@ -1960,6 +1974,20 @@ under the License.
                 </td>
                 <td>
                   11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.ReflexivePipe.java">teetime/framework/pipe/ReflexivePipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
                 </td>
               </tr>
                           <tr>
@@ -2253,7 +2281,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
+                  11
                 </td>
               </tr>
                           <tr>
