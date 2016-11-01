@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>TokenizerConfiguration xref</title>
+<link type="text/css" rel="stylesheet" href="../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../testapidocs/teetime/examples/tokenizer/TokenizerConfiguration.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   <em class="jxr_javadoccomment"> * Copyright (C) 2015 Christian Wulf, Nelson Tavares de Sousa (<a href="http://teetime-framework.github.io" target="alexandria_uri">http://teetime-framework.github.io</a>)</em>
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <em class="jxr_javadoccomment"> * Licensed under the Apache License, Version 2.0 (the "License");</em>
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <em class="jxr_javadoccomment"> * you may not use this file except in compliance with the License.</em>
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment"> * You may obtain a copy of the License at</em>
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> *         <a href="http://www.apache.org/licenses/LICENSE-2." target="alexandria_uri">http://www.apache.org/licenses/LICENSE-2.</a>0</em>
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  <em class="jxr_javadoccomment"> * Unless required by applicable law or agreed to in writing, software</em>
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>  <em class="jxr_javadoccomment"> * distributed under the License is distributed on an "AS IS" BASIS,</em>
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>  <em class="jxr_javadoccomment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</em>
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_javadoccomment"> * See the License for the specific language governing permissions and</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_javadoccomment"> * limitations under the License.</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <strong class="jxr_keyword">package</strong> teetime.examples.tokenizer;
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> java.io.File;
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>  
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Configuration;
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.stage.ByteArray2String;
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CipherStage;
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CipherStage.CipherMode;
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  <strong class="jxr_keyword">import</strong> teetime.stage.Counter;
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  <strong class="jxr_keyword">import</strong> teetime.stage.InitialElementProducer;
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  <strong class="jxr_keyword">import</strong> teetime.stage.ZipByteArray;
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  <strong class="jxr_keyword">import</strong> teetime.stage.ZipByteArray.ZipMode;
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.stage.io.File2ByteArray;
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.stage.string.Tokenizer;
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>  
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../teetime/examples/tokenizer/TokenizerConfiguration.html">TokenizerConfiguration</a> <strong class="jxr_keyword">extends</strong> Configuration {
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>  
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Counter&lt;String&gt; counter;
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../teetime/examples/tokenizer/TokenizerConfiguration.html">TokenizerConfiguration</a>(<strong class="jxr_keyword">final</strong> String inputFile, <strong class="jxr_keyword">final</strong> String password) {
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  		<strong class="jxr_keyword">final</strong> File input = <strong class="jxr_keyword">new</strong> File(inputFile);
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>  		<strong class="jxr_keyword">final</strong> InitialElementProducer&lt;File&gt; init = <strong class="jxr_keyword">new</strong> InitialElementProducer&lt;File&gt;(input);
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>  		<strong class="jxr_keyword">final</strong> File2ByteArray f2b = <strong class="jxr_keyword">new</strong> File2ByteArray();
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  		<strong class="jxr_keyword">final</strong> ZipByteArray decomp = <strong class="jxr_keyword">new</strong> ZipByteArray(ZipMode.DECOMP);
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">final</strong> CipherStage decrypt = <strong class="jxr_keyword">new</strong> CipherStage(password, CipherMode.DECRYPT);
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		<strong class="jxr_keyword">final</strong> ByteArray2String b2s = <strong class="jxr_keyword">new</strong> ByteArray2String();
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  		<strong class="jxr_keyword">final</strong> Tokenizer tokenizer = <strong class="jxr_keyword">new</strong> Tokenizer(<span class="jxr_string">" "</span>);
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		<strong class="jxr_keyword">this</strong>.counter = <strong class="jxr_keyword">new</strong> Counter&lt;String&gt;();
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		connectPorts(init.getOutputPort(), f2b.getInputPort());
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  		connectPorts(f2b.getOutputPort(), decomp.getInputPort());
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		connectPorts(decomp.getOutputPort(), decrypt.getInputPort());
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		connectPorts(decrypt.getOutputPort(), b2s.getInputPort());
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>  		connectPorts(b2s.getOutputPort(), tokenizer.getInputPort());
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		connectPorts(tokenizer.getOutputPort(), <strong class="jxr_keyword">this</strong>.counter.getInputPort());
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>  	}
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">int</strong> getTokenCount() {
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.counter.getNumElementsPassed();
+<a class="jxr_linenumber" name="L57" href="#L57">57</a>  	}
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>  
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>  }
+</pre>
+<hr/>
+<div id="footer">Copyright &#169; 2015&#x2013;2016. All rights reserved.</div>
+</body>
+</html>
