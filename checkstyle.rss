@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015 - 2016</copyright>
     <item>
-      <title>File: 232,
-             Errors: 3332,
+      <title>File: 231,
+             Errors: 3330,
              Warnings: 0,
              Infos: 0
       </title>
@@ -671,7 +671,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  24
+                  37
                 </td>
               </tr>
                           <tr>
@@ -853,7 +853,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  34
+                  33
                 </td>
               </tr>
                           <tr>
@@ -1232,20 +1232,6 @@ under the License.
                 </td>
                 <td>
                   9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.DivideAndConquerStageFactory.java">teetime/framework/DivideAndConquerStageFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  24
                 </td>
               </tr>
                           <tr>
@@ -1945,7 +1931,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  53
+                  67
                 </td>
               </tr>
                           <tr>
@@ -1973,7 +1959,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  10
+                  11
                 </td>
               </tr>
                           <tr>
@@ -2799,7 +2785,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  173
+                  169
                 </td>
               </tr>
                           <tr>
@@ -3037,7 +3023,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  30
+                  29
                 </td>
               </tr>
                           <tr>
