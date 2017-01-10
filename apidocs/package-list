@@ -3,6 +3,7 @@ teetime.framework.divideandconquer
 teetime.framework.divideandconquer.stages
 teetime.framework.exceptionHandling
 teetime.framework.performancelogging
+teetime.framework.performancelogging.formatstrategy
 teetime.framework.pipe
 teetime.framework.signal
 teetime.framework.test
