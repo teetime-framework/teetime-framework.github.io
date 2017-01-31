@@ -46,11 +46,11 @@
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  			stage.declareActive();
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  		}
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">if</strong> (stage.isActive() &amp;&amp; !threadableStages.contains(stage) &amp;&amp; stage.getCurrentState() == StageState.CREATED) {
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">if</strong> (stage.isActive() &amp;&amp; !threadableStages.contains(stage)) {
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>  			threadableStages.add(stage);
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>  		}
-<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		<em class="jxr_comment">// visitor termination condition: stop if the stage already runs or has been terminated</em>
-<a class="jxr_linenumber" name="L45" href="#L45">45</a>  		<strong class="jxr_keyword">return</strong> stage.getCurrentState() == StageState.CREATED ? VisitorBehavior.CONTINUE : VisitorBehavior.STOP;
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  		<strong class="jxr_keyword">return</strong> VisitorBehavior.CONTINUE;
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  	}
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>  	@Override

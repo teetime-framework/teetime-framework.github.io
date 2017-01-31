@@ -27,8 +27,8 @@
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  <strong class="jxr_keyword">import</strong> teetime.framework.OutputPort;
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.pipe.IMonitorablePipe;
 <a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.framework.pipe.IPipe;
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.ITaskFarmDuplicable;
-<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.TaskFarmStage;
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.DynamicTaskFarmStage;
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.ITaskFarmDuplicable;
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.monitoring.PipeMonitoringService;
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.monitoring.SingleTaskFarmMonitoringService;
 <a class="jxr_linenumber" name="L26" href="#L26">26</a>  
@@ -94,7 +94,7 @@
 <a class="jxr_linenumber" name="L86" href="#L86">86</a>  
 <a class="jxr_linenumber" name="L87" href="#L87">87</a>  	<strong class="jxr_keyword">static</strong> SingleTaskFarmMonitoringService generateSingleTaskFarmMonitoringServiceWithBehavior() {
 <a class="jxr_linenumber" name="L88" href="#L88">88</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L89" href="#L89">89</a>  		TaskFarmStage&lt;Integer, Integer, ?&gt; taskFarmStage = (TaskFarmStage&lt;Integer, Integer, ?&gt;) createDummyTaskFarm();
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>  		DynamicTaskFarmStage&lt;Integer, Integer, ?&gt; taskFarmStage = (DynamicTaskFarmStage&lt;Integer, Integer, ?&gt;) createDummyTaskFarm();
 <a class="jxr_linenumber" name="L90" href="#L90">90</a>  		SingleTaskFarmMonitoringService service = <strong class="jxr_keyword">new</strong> SingleTaskFarmMonitoringService(taskFarmStage, <strong class="jxr_keyword">null</strong>);
 <a class="jxr_linenumber" name="L91" href="#L91">91</a>  
 <a class="jxr_linenumber" name="L92" href="#L92">92</a>  		<em class="jxr_comment">// Plan (boundary=0.4):</em>
@@ -109,7 +109,7 @@
 <a class="jxr_linenumber" name="L101" href="#L101">101</a> 		service.doMeasurement();
 <a class="jxr_linenumber" name="L102" href="#L102">102</a> 		wait50Millis();
 <a class="jxr_linenumber" name="L103" href="#L103">103</a> 
-<a class="jxr_linenumber" name="L104" href="#L104">104</a> 		taskFarmStage.getEnclosedStageInstances().add(createDummyEnclosedStage());
+<a class="jxr_linenumber" name="L104" href="#L104">104</a> 		taskFarmStage.getWorkerStages().add(createDummyEnclosedStage());
 <a class="jxr_linenumber" name="L105" href="#L105">105</a> 		service.doMeasurement();
 <a class="jxr_linenumber" name="L106" href="#L106">106</a> 		wait50Millis();
 <a class="jxr_linenumber" name="L107" href="#L107">107</a> 		service.doMeasurement();
@@ -117,7 +117,7 @@
 <a class="jxr_linenumber" name="L109" href="#L109">109</a> 		service.doMeasurement();
 <a class="jxr_linenumber" name="L110" href="#L110">110</a> 		wait50Millis();
 <a class="jxr_linenumber" name="L111" href="#L111">111</a> 
-<a class="jxr_linenumber" name="L112" href="#L112">112</a> 		taskFarmStage.getEnclosedStageInstances().add(createDummyEnclosedStage());
+<a class="jxr_linenumber" name="L112" href="#L112">112</a> 		taskFarmStage.getWorkerStages().add(createDummyEnclosedStage());
 <a class="jxr_linenumber" name="L113" href="#L113">113</a> 		service.doMeasurement();
 <a class="jxr_linenumber" name="L114" href="#L114">114</a> 		wait50Millis();
 <a class="jxr_linenumber" name="L115" href="#L115">115</a> 		service.doMeasurement();
@@ -128,50 +128,49 @@
 <a class="jxr_linenumber" name="L120" href="#L120">120</a> 	}
 <a class="jxr_linenumber" name="L121" href="#L121">121</a> 
 <a class="jxr_linenumber" name="L122" href="#L122">122</a> 	<strong class="jxr_keyword">static</strong> SingleTaskFarmMonitoringService generateEmptySingleTaskFarmMonitoringService() {
-<a class="jxr_linenumber" name="L123" href="#L123">123</a> 		TaskFarmStage&lt;?, ?, ?&gt; taskFarmStage = createDummyTaskFarm();
+<a class="jxr_linenumber" name="L123" href="#L123">123</a> 		DynamicTaskFarmStage&lt;?, ?, ?&gt; taskFarmStage = createDummyTaskFarm();
 <a class="jxr_linenumber" name="L124" href="#L124">124</a> 		SingleTaskFarmMonitoringService service = <strong class="jxr_keyword">new</strong> SingleTaskFarmMonitoringService(taskFarmStage, <strong class="jxr_keyword">null</strong>);
 <a class="jxr_linenumber" name="L125" href="#L125">125</a> 
 <a class="jxr_linenumber" name="L126" href="#L126">126</a> 		<strong class="jxr_keyword">return</strong> service;
 <a class="jxr_linenumber" name="L127" href="#L127">127</a> 	}
 <a class="jxr_linenumber" name="L128" href="#L128">128</a> 
-<a class="jxr_linenumber" name="L129" href="#L129">129</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> TaskFarmStage&lt;?, ?, ?&gt; createDummyTaskFarm() {
-<a class="jxr_linenumber" name="L130" href="#L130">130</a> 		TaskFarmStage&lt;Integer, Integer, ITaskFarmDuplicable&lt;Integer, Integer&gt;&gt; taskFarmStage = <strong class="jxr_keyword">new</strong> TaskFarmStage&lt;Integer, Integer, ITaskFarmDuplicable&lt;Integer, Integer&gt;&gt;(
-<a class="jxr_linenumber" name="L131" href="#L131">131</a> 				createDummyEnclosedStage());
-<a class="jxr_linenumber" name="L132" href="#L132">132</a> 
-<a class="jxr_linenumber" name="L133" href="#L133">133</a> 		<strong class="jxr_keyword">return</strong> taskFarmStage;
-<a class="jxr_linenumber" name="L134" href="#L134">134</a> 	}
-<a class="jxr_linenumber" name="L135" href="#L135">135</a> 
-<a class="jxr_linenumber" name="L136" href="#L136">136</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt; createDummyEnclosedStage() {
-<a class="jxr_linenumber" name="L137" href="#L137">137</a> 		ITaskFarmDuplicable&lt;Integer, Integer&gt; stage = <strong class="jxr_keyword">new</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt;() {
-<a class="jxr_linenumber" name="L138" href="#L138">138</a> 			IMonitorablePipe inputPipe = <strong class="jxr_keyword">new</strong> ExtractionTestPipe&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L139" href="#L139">139</a> 
-<a class="jxr_linenumber" name="L140" href="#L140">140</a> 			@Override
-<a class="jxr_linenumber" name="L141" href="#L141">141</a> 			<strong class="jxr_keyword">public</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt; duplicate() {
-<a class="jxr_linenumber" name="L142" href="#L142">142</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">null</strong>;
-<a class="jxr_linenumber" name="L143" href="#L143">143</a> 			}
-<a class="jxr_linenumber" name="L144" href="#L144">144</a> 
-<a class="jxr_linenumber" name="L145" href="#L145">145</a> 			@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L146" href="#L146">146</a> 			@Override
-<a class="jxr_linenumber" name="L147" href="#L147">147</a> 			<strong class="jxr_keyword">public</strong> InputPort&lt;Integer&gt; getInputPort() {
-<a class="jxr_linenumber" name="L148" href="#L148">148</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ExtractionTestInputPort&lt;Integer&gt;((IPipe&lt;Integer&gt;) inputPipe);
-<a class="jxr_linenumber" name="L149" href="#L149">149</a> 			}
-<a class="jxr_linenumber" name="L150" href="#L150">150</a> 
-<a class="jxr_linenumber" name="L151" href="#L151">151</a> 			@Override
-<a class="jxr_linenumber" name="L152" href="#L152">152</a> 			<strong class="jxr_keyword">public</strong> OutputPort&lt;Integer&gt; getOutputPort() {
-<a class="jxr_linenumber" name="L153" href="#L153">153</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ExtractionTestOutputPort&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L154" href="#L154">154</a> 			}
-<a class="jxr_linenumber" name="L155" href="#L155">155</a> 		};
-<a class="jxr_linenumber" name="L156" href="#L156">156</a> 		<strong class="jxr_keyword">return</strong> stage;
-<a class="jxr_linenumber" name="L157" href="#L157">157</a> 	}
-<a class="jxr_linenumber" name="L158" href="#L158">158</a> 
-<a class="jxr_linenumber" name="L159" href="#L159">159</a> 	<strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> wait50Millis() {
-<a class="jxr_linenumber" name="L160" href="#L160">160</a> 		<strong class="jxr_keyword">try</strong> {
-<a class="jxr_linenumber" name="L161" href="#L161">161</a> 			Thread.sleep(50);
-<a class="jxr_linenumber" name="L162" href="#L162">162</a> 		} <strong class="jxr_keyword">catch</strong> (InterruptedException e) {
-<a class="jxr_linenumber" name="L163" href="#L163">163</a> 			<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalStateException(e);
-<a class="jxr_linenumber" name="L164" href="#L164">164</a> 		}
-<a class="jxr_linenumber" name="L165" href="#L165">165</a> 	}
-<a class="jxr_linenumber" name="L166" href="#L166">166</a> }
+<a class="jxr_linenumber" name="L129" href="#L129">129</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> DynamicTaskFarmStage&lt;?, ?, ?&gt; createDummyTaskFarm() {
+<a class="jxr_linenumber" name="L130" href="#L130">130</a> 		DynamicTaskFarmStage&lt;Integer, Integer, ITaskFarmDuplicable&lt;Integer, Integer&gt;&gt; taskFarmStage;
+<a class="jxr_linenumber" name="L131" href="#L131">131</a> 		taskFarmStage = <strong class="jxr_keyword">new</strong> DynamicTaskFarmStage&lt;Integer, Integer, ITaskFarmDuplicable&lt;Integer, Integer&gt;&gt;(createDummyEnclosedStage(), 1);
+<a class="jxr_linenumber" name="L132" href="#L132">132</a> 		<strong class="jxr_keyword">return</strong> taskFarmStage;
+<a class="jxr_linenumber" name="L133" href="#L133">133</a> 	}
+<a class="jxr_linenumber" name="L134" href="#L134">134</a> 
+<a class="jxr_linenumber" name="L135" href="#L135">135</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt; createDummyEnclosedStage() {
+<a class="jxr_linenumber" name="L136" href="#L136">136</a> 		ITaskFarmDuplicable&lt;Integer, Integer&gt; stage = <strong class="jxr_keyword">new</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt;() {
+<a class="jxr_linenumber" name="L137" href="#L137">137</a> 			IMonitorablePipe inputPipe = <strong class="jxr_keyword">new</strong> ExtractionTestPipe&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L138" href="#L138">138</a> 
+<a class="jxr_linenumber" name="L139" href="#L139">139</a> 			@Override
+<a class="jxr_linenumber" name="L140" href="#L140">140</a> 			<strong class="jxr_keyword">public</strong> ITaskFarmDuplicable&lt;Integer, Integer&gt; duplicate() {
+<a class="jxr_linenumber" name="L141" href="#L141">141</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">null</strong>;
+<a class="jxr_linenumber" name="L142" href="#L142">142</a> 			}
+<a class="jxr_linenumber" name="L143" href="#L143">143</a> 
+<a class="jxr_linenumber" name="L144" href="#L144">144</a> 			@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
+<a class="jxr_linenumber" name="L145" href="#L145">145</a> 			@Override
+<a class="jxr_linenumber" name="L146" href="#L146">146</a> 			<strong class="jxr_keyword">public</strong> InputPort&lt;Integer&gt; getInputPort() {
+<a class="jxr_linenumber" name="L147" href="#L147">147</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ExtractionTestInputPort&lt;Integer&gt;((IPipe&lt;Integer&gt;) inputPipe);
+<a class="jxr_linenumber" name="L148" href="#L148">148</a> 			}
+<a class="jxr_linenumber" name="L149" href="#L149">149</a> 
+<a class="jxr_linenumber" name="L150" href="#L150">150</a> 			@Override
+<a class="jxr_linenumber" name="L151" href="#L151">151</a> 			<strong class="jxr_keyword">public</strong> OutputPort&lt;Integer&gt; getOutputPort() {
+<a class="jxr_linenumber" name="L152" href="#L152">152</a> 				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ExtractionTestOutputPort&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L153" href="#L153">153</a> 			}
+<a class="jxr_linenumber" name="L154" href="#L154">154</a> 		};
+<a class="jxr_linenumber" name="L155" href="#L155">155</a> 		<strong class="jxr_keyword">return</strong> stage;
+<a class="jxr_linenumber" name="L156" href="#L156">156</a> 	}
+<a class="jxr_linenumber" name="L157" href="#L157">157</a> 
+<a class="jxr_linenumber" name="L158" href="#L158">158</a> 	<strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> wait50Millis() {
+<a class="jxr_linenumber" name="L159" href="#L159">159</a> 		<strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="L160" href="#L160">160</a> 			Thread.sleep(50);
+<a class="jxr_linenumber" name="L161" href="#L161">161</a> 		} <strong class="jxr_keyword">catch</strong> (InterruptedException e) {
+<a class="jxr_linenumber" name="L162" href="#L162">162</a> 			<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalStateException(e);
+<a class="jxr_linenumber" name="L163" href="#L163">163</a> 		}
+<a class="jxr_linenumber" name="L164" href="#L164">164</a> 	}
+<a class="jxr_linenumber" name="L165" href="#L165">165</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>

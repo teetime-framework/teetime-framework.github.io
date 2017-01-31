@@ -40,7 +40,7 @@
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  	}
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  	<em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <em class="jxr_javadoccomment">	 * Connects two ports with a pipe with a default capacity of currently {@value #DEFAULT_CAPACITY}.</em>
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <em class="jxr_javadoccomment">	 * Connects two ports with a pipe with a default capacity of currently {@value #DEFAULT_PIPE_CAPACITY}.</em>
 <a class="jxr_linenumber" name="L36" href="#L36">36</a>  <em class="jxr_javadoccomment">	 *</em>
 <a class="jxr_linenumber" name="L37" href="#L37">37</a>  <em class="jxr_javadoccomment">	 * @param sourcePort</em>
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  <em class="jxr_javadoccomment">	 *            {@link OutputPort} of the sending stage</em>
@@ -54,7 +54,7 @@
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  			LOGGER.warn(<span class="jxr_string">"Overwriting existing pipe while connecting stages "</span> +
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  					sourcePort.getOwningStage().getId() + <span class="jxr_string">" and "</span> + targetPort.getOwningStage().getId() + <span class="jxr_string">"."</span>);
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>  		}
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		<em class="jxr_comment">// TODO: Unsynched?</em>
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		<em class="jxr_comment">// TODO: unbounded?</em>
 <a class="jxr_linenumber" name="L50" href="#L50">50</a>  		<strong class="jxr_keyword">new</strong> UnboundedSynchedPipe&lt;T&gt;(sourcePort, targetPort);
 <a class="jxr_linenumber" name="L51" href="#L51">51</a>  	}
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>  
