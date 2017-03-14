@@ -23,140 +23,135 @@
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="L16" href="#L16">16</a>  <strong class="jxr_keyword">package</strong> teetime.stage.basic.distributor.dynamic;
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>  
-<a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.hamcrest.Matchers.contains;
-<a class="jxr_linenumber" name="L19" href="#L19">19</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.hamcrest.Matchers.is;
-<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertThat;
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>  
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> java.util.Arrays;
-<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> java.util.Collections;
-<a class="jxr_linenumber" name="L24" href="#L24">24</a>  <strong class="jxr_keyword">import</strong> java.util.List;
-<a class="jxr_linenumber" name="L25" href="#L25">25</a>  
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>  <strong class="jxr_keyword">import</strong> org.junit.Test;
-<a class="jxr_linenumber" name="L27" href="#L27">27</a>  
-<a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Configuration;
-<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Execution;
-<a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.OutputPort;
-<a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.framework.AbstractStage;
-<a class="jxr_linenumber" name="L32" href="#L32">32</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CollectorSink;
-<a class="jxr_linenumber" name="L33" href="#L33">33</a>  <strong class="jxr_keyword">import</strong> teetime.stage.InitialElementProducer;
-<a class="jxr_linenumber" name="L34" href="#L34">34</a>  <strong class="jxr_keyword">import</strong> teetime.util.framework.port.PortAction;
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.hamcrest.Matchers.*;
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.*;
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> java.util.*;
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  <strong class="jxr_keyword">import</strong> teetime.framework.*;
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CollectorSink;
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  <strong class="jxr_keyword">import</strong> teetime.stage.InitialElementProducer;
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.util.framework.port.PortAction;
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../teetime/stage/basic/distributor/dynamic/DynamicDistributorTest.html">DynamicDistributorTest</a> {
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>  	@Test
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithoutActionTriggers() {
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; createAction = <strong class="jxr_keyword">new</strong> DoNothingPortAction&lt;Integer&gt;();
 <a class="jxr_linenumber" name="L35" href="#L35">35</a>  
-<a class="jxr_linenumber" name="L36" href="#L36">36</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../teetime/stage/basic/distributor/dynamic/DynamicDistributorTest.html">DynamicDistributorTest</a> {
-<a class="jxr_linenumber" name="L37" href="#L37">37</a>  
-<a class="jxr_linenumber" name="L38" href="#L38">38</a>  	@Test
-<a class="jxr_linenumber" name="L39" href="#L39">39</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithoutActionTriggers() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="L40" href="#L40">40</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; createAction = <strong class="jxr_keyword">new</strong> DoNothingPortAction&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4);
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		List&lt;PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;&gt; inputActions = Arrays.asList(createAction, createAction, createAction, createAction, createAction);
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>  
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, inputActions);
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>  
-<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4);
-<a class="jxr_linenumber" name="L43" href="#L43">43</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		List&lt;PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;&gt; inputActions = Arrays.asList(createAction, createAction, createAction, createAction, createAction);
-<a class="jxr_linenumber" name="L45" href="#L45">45</a>  
-<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, inputActions);
-<a class="jxr_linenumber" name="L47" href="#L47">47</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
-<a class="jxr_linenumber" name="L48" href="#L48">48</a>  
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		analysis.executeBlocking();
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		analysis.executeBlocking();
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		assertThat(config.getOutputElements(), contains(0, 1, 2, 3, 4));
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  	}
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  	@Test
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithCreateActionTriggers() {
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4);
 <a class="jxr_linenumber" name="L50" href="#L50">50</a>  
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		assertThat(config.getOutputElements(), contains(0, 1, 2, 3, 4));
-<a class="jxr_linenumber" name="L52" href="#L52">52</a>  	}
-<a class="jxr_linenumber" name="L53" href="#L53">53</a>  
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>  	@Test
-<a class="jxr_linenumber" name="L55" href="#L55">55</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithCreateActionTriggers() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4);
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;[] inputActions = <strong class="jxr_keyword">new</strong> PortAction[inputNumbers.size()];
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>  		<strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i = 0; i &lt; inputActions.length; i++) {
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  			PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; createAction = createPortCreateAction(<strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;());
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  			inputActions[i] = createAction;
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		}
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>  
-<a class="jxr_linenumber" name="L58" href="#L58">58</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L59" href="#L59">59</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;[] inputActions = <strong class="jxr_keyword">new</strong> PortAction[5];
-<a class="jxr_linenumber" name="L60" href="#L60">60</a>  		<strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i = 0; i &lt; inputActions.length; i++) {
-<a class="jxr_linenumber" name="L61" href="#L61">61</a>  			PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; createAction = createPortCreateAction(<strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;());
-<a class="jxr_linenumber" name="L62" href="#L62">62</a>  			inputActions[i] = createAction;
-<a class="jxr_linenumber" name="L63" href="#L63">63</a>  		}
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>  
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, Arrays.asList(inputActions));
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>  
-<a class="jxr_linenumber" name="L68" href="#L68">68</a>  		analysis.executeBlocking();
-<a class="jxr_linenumber" name="L69" href="#L69">69</a>  
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		assertThat(config.getOutputElements(), contains(0));
-<a class="jxr_linenumber" name="L71" href="#L71">71</a>  		assertValuesForIndex(inputActions[0], Arrays.asList(1));
-<a class="jxr_linenumber" name="L72" href="#L72">72</a>  		assertValuesForIndex(inputActions[1], Arrays.asList(2));
-<a class="jxr_linenumber" name="L73" href="#L73">73</a>  		assertValuesForIndex(inputActions[2], Arrays.asList(3));
-<a class="jxr_linenumber" name="L74" href="#L74">74</a>  		assertValuesForIndex(inputActions[3], Arrays.asList(4));
-<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		assertValuesForIndex(inputActions[4], Collections.&lt;Integer&gt; emptyList());
-<a class="jxr_linenumber" name="L76" href="#L76">76</a>  	}
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, Arrays.asList(inputActions));
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
+<a class="jxr_linenumber" name="L60" href="#L60">60</a>  
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>  		analysis.executeBlocking();
+<a class="jxr_linenumber" name="L62" href="#L62">62</a>  
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>  		assertThat(config.getOutputElements(), contains(0));
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>  		assertValuesForIndex(inputActions[0], Arrays.asList(1));
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>  		assertValuesForIndex(inputActions[1], Arrays.asList(2));
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>  		assertValuesForIndex(inputActions[2], Arrays.asList(3));
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>  		assertValuesForIndex(inputActions[3], Arrays.asList(4));
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>  		assertValuesForIndex(inputActions[4], Collections.&lt;Integer&gt; emptyList());
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>  	}
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  
+<a class="jxr_linenumber" name="L71" href="#L71">71</a>  	@Test
+<a class="jxr_linenumber" name="L72" href="#L72">72</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithRemoveActionTriggers() {
+<a class="jxr_linenumber" name="L73" href="#L73">73</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4, 5);
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>  
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
+<a class="jxr_linenumber" name="L76" href="#L76">76</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;[] inputActions = <strong class="jxr_keyword">new</strong> PortAction[6];
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>  
-<a class="jxr_linenumber" name="L78" href="#L78">78</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldWorkWithRemoveActionTriggers() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="L79" href="#L79">79</a>  		List&lt;Integer&gt; inputNumbers = Arrays.asList(0, 1, 2, 3, 4, 5);
-<a class="jxr_linenumber" name="L80" href="#L80">80</a>  
-<a class="jxr_linenumber" name="L81" href="#L81">81</a>  		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L82" href="#L82">82</a>  		PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt;[] inputActions = <strong class="jxr_keyword">new</strong> PortAction[6];
-<a class="jxr_linenumber" name="L83" href="#L83">83</a>  
-<a class="jxr_linenumber" name="L84" href="#L84">84</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer0 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L85" href="#L85">85</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer1 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L86" href="#L86">86</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer2 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L87" href="#L87">87</a>  
-<a class="jxr_linenumber" name="L88" href="#L88">88</a>  		inputActions[0] = createPortCreateAction(portContainer0);
-<a class="jxr_linenumber" name="L89" href="#L89">89</a>  		inputActions[1] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer0);
-<a class="jxr_linenumber" name="L90" href="#L90">90</a>  		inputActions[2] = createPortCreateAction(portContainer1);
-<a class="jxr_linenumber" name="L91" href="#L91">91</a>  		inputActions[3] = createPortCreateAction(portContainer2);
-<a class="jxr_linenumber" name="L92" href="#L92">92</a>  		inputActions[4] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer1);
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>  		inputActions[5] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer2);
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>  
-<a class="jxr_linenumber" name="L95" href="#L95">95</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, Arrays.asList(inputActions));
-<a class="jxr_linenumber" name="L96" href="#L96">96</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
-<a class="jxr_linenumber" name="L97" href="#L97">97</a>  
-<a class="jxr_linenumber" name="L98" href="#L98">98</a>  		analysis.executeBlocking();
+<a class="jxr_linenumber" name="L78" href="#L78">78</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer0 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer1 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L80" href="#L80">80</a>  		<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer2 = <strong class="jxr_keyword">new</strong> PortContainer&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L81" href="#L81">81</a>  
+<a class="jxr_linenumber" name="L82" href="#L82">82</a>  		inputActions[0] = createPortCreateAction(portContainer0);
+<a class="jxr_linenumber" name="L83" href="#L83">83</a>  		inputActions[1] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer0);
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>  		inputActions[2] = createPortCreateAction(portContainer1);
+<a class="jxr_linenumber" name="L85" href="#L85">85</a>  		inputActions[3] = createPortCreateAction(portContainer2);
+<a class="jxr_linenumber" name="L86" href="#L86">86</a>  		inputActions[4] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer1);
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>  		inputActions[5] = <strong class="jxr_keyword">new</strong> RemovePortActionDelegation&lt;Integer&gt;(portContainer2);
+<a class="jxr_linenumber" name="L88" href="#L88">88</a>  
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>  		DynamicDistributorTestConfig&lt;Integer&gt; config = <strong class="jxr_keyword">new</strong> DynamicDistributorTestConfig&lt;Integer&gt;(inputNumbers, Arrays.asList(inputActions));
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>  		Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt; analysis = <strong class="jxr_keyword">new</strong> Execution&lt;DynamicDistributorTestConfig&lt;Integer&gt;&gt;(config);
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>  
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>  		analysis.executeBlocking();
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>  
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>  		assertThat(config.getOutputElements(), contains(0, 1, 2, 4, 5));
+<a class="jxr_linenumber" name="L95" href="#L95">95</a>  		assertValuesForIndex(inputActions[0], Collections.&lt;Integer&gt; emptyList());
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>  		assertValuesForIndex(inputActions[2], Arrays.asList(3));
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>  		assertValuesForIndex(inputActions[3], Collections.&lt;Integer&gt; emptyList());
+<a class="jxr_linenumber" name="L98" href="#L98">98</a>  	}
 <a class="jxr_linenumber" name="L99" href="#L99">99</a>  
-<a class="jxr_linenumber" name="L100" href="#L100">100</a> 		assertThat(config.getOutputElements(), contains(0, 1, 2, 4, 5));
-<a class="jxr_linenumber" name="L101" href="#L101">101</a> 		assertValuesForIndex(inputActions[0], Collections.&lt;Integer&gt; emptyList());
-<a class="jxr_linenumber" name="L102" href="#L102">102</a> 		assertValuesForIndex(inputActions[2], Arrays.asList(3));
-<a class="jxr_linenumber" name="L103" href="#L103">103</a> 		assertValuesForIndex(inputActions[3], Collections.&lt;Integer&gt; emptyList());
-<a class="jxr_linenumber" name="L104" href="#L104">104</a> 	}
-<a class="jxr_linenumber" name="L105" href="#L105">105</a> 
-<a class="jxr_linenumber" name="L106" href="#L106">106</a> 	<strong class="jxr_keyword">private</strong> CreatePortAction&lt;Integer&gt; createPortCreateAction(<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer) {
-<a class="jxr_linenumber" name="L107" href="#L107">107</a> 		CollectorSink&lt;Integer&gt; newStage = <strong class="jxr_keyword">new</strong> CollectorSink&lt;Integer&gt;();
-<a class="jxr_linenumber" name="L108" href="#L108">108</a> 		CreatePortAction&lt;Integer&gt; portAction = <strong class="jxr_keyword">new</strong> CreatePortAction&lt;Integer&gt;(newStage.getInputPort());
-<a class="jxr_linenumber" name="L109" href="#L109">109</a> 		portAction.addPortActionListener(<strong class="jxr_keyword">new</strong> PortActionListener&lt;Integer&gt;() {
-<a class="jxr_linenumber" name="L110" href="#L110">110</a> 			@Override
-<a class="jxr_linenumber" name="L111" href="#L111">111</a> 			<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> onOutputPortCreated(<strong class="jxr_keyword">final</strong> DynamicDistributor&lt;Integer&gt; distributor, <strong class="jxr_keyword">final</strong> OutputPort&lt;Integer&gt; port) {
-<a class="jxr_linenumber" name="L112" href="#L112">112</a> 				portContainer.setPort(port);
-<a class="jxr_linenumber" name="L113" href="#L113">113</a> 			}
-<a class="jxr_linenumber" name="L114" href="#L114">114</a> 		});
-<a class="jxr_linenumber" name="L115" href="#L115">115</a> 		<strong class="jxr_keyword">return</strong> portAction;
-<a class="jxr_linenumber" name="L116" href="#L116">116</a> 	}
-<a class="jxr_linenumber" name="L117" href="#L117">117</a> 
-<a class="jxr_linenumber" name="L118" href="#L118">118</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> assertValuesForIndex(<strong class="jxr_keyword">final</strong> PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; ia, <strong class="jxr_keyword">final</strong> List&lt;Integer&gt; values) {
-<a class="jxr_linenumber" name="L119" href="#L119">119</a> 		AbstractStage stage = ((CreatePortAction&lt;Integer&gt;) ia).getInputPort().getOwningStage();
-<a class="jxr_linenumber" name="L120" href="#L120">120</a> 
-<a class="jxr_linenumber" name="L121" href="#L121">121</a> 		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="L122" href="#L122">122</a> 		CollectorSink&lt;Integer&gt; collectorSink = (CollectorSink&lt;Integer&gt;) stage;
+<a class="jxr_linenumber" name="L100" href="#L100">100</a> 	<strong class="jxr_keyword">private</strong> CreatePortActionDistributor&lt;Integer&gt; createPortCreateAction(<strong class="jxr_keyword">final</strong> PortContainer&lt;Integer&gt; portContainer) {
+<a class="jxr_linenumber" name="L101" href="#L101">101</a> 		CollectorSink&lt;Integer&gt; newStage = <strong class="jxr_keyword">new</strong> CollectorSink&lt;Integer&gt;();
+<a class="jxr_linenumber" name="L102" href="#L102">102</a> 		CreatePortActionDistributor&lt;Integer&gt; portAction = <strong class="jxr_keyword">new</strong> CreatePortActionDistributor&lt;Integer&gt;(newStage.getInputPort(), 512);
+<a class="jxr_linenumber" name="L103" href="#L103">103</a> 		portAction.addPortActionListener(<strong class="jxr_keyword">new</strong> PortActionListener&lt;Integer&gt;() {
+<a class="jxr_linenumber" name="L104" href="#L104">104</a> 			@Override
+<a class="jxr_linenumber" name="L105" href="#L105">105</a> 			<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> onOutputPortCreated(<strong class="jxr_keyword">final</strong> DynamicDistributor&lt;Integer&gt; distributor, <strong class="jxr_keyword">final</strong> OutputPort&lt;Integer&gt; port) {
+<a class="jxr_linenumber" name="L106" href="#L106">106</a> 				portContainer.setPort(port);
+<a class="jxr_linenumber" name="L107" href="#L107">107</a> 				RuntimeServiceFacade.INSTANCE.startWithinNewThread(distributor, newStage);
+<a class="jxr_linenumber" name="L108" href="#L108">108</a> 			}
+<a class="jxr_linenumber" name="L109" href="#L109">109</a> 		});
+<a class="jxr_linenumber" name="L110" href="#L110">110</a> 		<strong class="jxr_keyword">return</strong> portAction;
+<a class="jxr_linenumber" name="L111" href="#L111">111</a> 	}
+<a class="jxr_linenumber" name="L112" href="#L112">112</a> 
+<a class="jxr_linenumber" name="L113" href="#L113">113</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> assertValuesForIndex(<strong class="jxr_keyword">final</strong> PortAction&lt;DynamicDistributor&lt;Integer&gt;&gt; ia, <strong class="jxr_keyword">final</strong> List&lt;Integer&gt; values) {
+<a class="jxr_linenumber" name="L114" href="#L114">114</a> 		AbstractStage stage = ((CreatePortActionDistributor&lt;Integer&gt;) ia).getInputPort().getOwningStage();
+<a class="jxr_linenumber" name="L115" href="#L115">115</a> 
+<a class="jxr_linenumber" name="L116" href="#L116">116</a> 		@SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
+<a class="jxr_linenumber" name="L117" href="#L117">117</a> 		CollectorSink&lt;Integer&gt; collectorSink = (CollectorSink&lt;Integer&gt;) stage;
+<a class="jxr_linenumber" name="L118" href="#L118">118</a> 
+<a class="jxr_linenumber" name="L119" href="#L119">119</a> 		assertThat(collectorSink.getElements(), is(values));
+<a class="jxr_linenumber" name="L120" href="#L120">120</a> 	}
+<a class="jxr_linenumber" name="L121" href="#L121">121</a> 
+<a class="jxr_linenumber" name="L122" href="#L122">122</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> DynamicDistributorTestConfig&lt;T&gt; <strong class="jxr_keyword">extends</strong> Configuration {
 <a class="jxr_linenumber" name="L123" href="#L123">123</a> 
-<a class="jxr_linenumber" name="L124" href="#L124">124</a> 		assertThat(collectorSink.getElements(), is(values));
-<a class="jxr_linenumber" name="L125" href="#L125">125</a> 	}
-<a class="jxr_linenumber" name="L126" href="#L126">126</a> 
-<a class="jxr_linenumber" name="L127" href="#L127">127</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> DynamicDistributorTestConfig&lt;T&gt; <strong class="jxr_keyword">extends</strong> Configuration {
-<a class="jxr_linenumber" name="L128" href="#L128">128</a> 
-<a class="jxr_linenumber" name="L129" href="#L129">129</a> 		<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> CollectorSink&lt;T&gt; collectorSink;
+<a class="jxr_linenumber" name="L124" href="#L124">124</a> 		<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> CollectorSink&lt;T&gt; collectorSink;
+<a class="jxr_linenumber" name="L125" href="#L125">125</a> 
+<a class="jxr_linenumber" name="L126" href="#L126">126</a> 		<strong class="jxr_keyword">public</strong> <a href="../../../../../teetime/stage/basic/distributor/dynamic/DynamicDistributorTest.html">DynamicDistributorTestConfig</a>(<strong class="jxr_keyword">final</strong> List&lt;T&gt; elements, <strong class="jxr_keyword">final</strong> List&lt;PortAction&lt;DynamicDistributor&lt;T&gt;&gt;&gt; inputActions) {
+<a class="jxr_linenumber" name="L127" href="#L127">127</a> 			InitialElementProducer&lt;T&gt; initialElementProducer = <strong class="jxr_keyword">new</strong> InitialElementProducer&lt;T&gt;(elements);
+<a class="jxr_linenumber" name="L128" href="#L128">128</a> 			DynamicDistributor&lt;T&gt; distributor = <strong class="jxr_keyword">new</strong> DynamicDistributor&lt;T&gt;();
+<a class="jxr_linenumber" name="L129" href="#L129">129</a> 			collectorSink = <strong class="jxr_keyword">new</strong> CollectorSink&lt;T&gt;();
 <a class="jxr_linenumber" name="L130" href="#L130">130</a> 
-<a class="jxr_linenumber" name="L131" href="#L131">131</a> 		<strong class="jxr_keyword">public</strong> <a href="../../../../../teetime/stage/basic/distributor/dynamic/DynamicDistributorTest.html">DynamicDistributorTestConfig</a>(<strong class="jxr_keyword">final</strong> List&lt;T&gt; elements, <strong class="jxr_keyword">final</strong> List&lt;PortAction&lt;DynamicDistributor&lt;T&gt;&gt;&gt; inputActions) {
-<a class="jxr_linenumber" name="L132" href="#L132">132</a> 			InitialElementProducer&lt;T&gt; initialElementProducer = <strong class="jxr_keyword">new</strong> InitialElementProducer&lt;T&gt;(elements);
-<a class="jxr_linenumber" name="L133" href="#L133">133</a> 			DynamicDistributor&lt;T&gt; distributor = <strong class="jxr_keyword">new</strong> DynamicDistributor&lt;T&gt;();
-<a class="jxr_linenumber" name="L134" href="#L134">134</a> 			collectorSink = <strong class="jxr_keyword">new</strong> CollectorSink&lt;T&gt;();
-<a class="jxr_linenumber" name="L135" href="#L135">135</a> 
-<a class="jxr_linenumber" name="L136" href="#L136">136</a> 			connectPorts(initialElementProducer.getOutputPort(), distributor.getInputPort());
-<a class="jxr_linenumber" name="L137" href="#L137">137</a> 			connectPorts(distributor.getNewOutputPort(), collectorSink.getInputPort());
-<a class="jxr_linenumber" name="L138" href="#L138">138</a> 
-<a class="jxr_linenumber" name="L139" href="#L139">139</a> 			distributor.declareActive();
-<a class="jxr_linenumber" name="L140" href="#L140">140</a> 			collectorSink.declareActive();
+<a class="jxr_linenumber" name="L131" href="#L131">131</a> 			connectPorts(initialElementProducer.getOutputPort(), distributor.getInputPort());
+<a class="jxr_linenumber" name="L132" href="#L132">132</a> 			connectPorts(distributor.getNewOutputPort(), collectorSink.getInputPort());
+<a class="jxr_linenumber" name="L133" href="#L133">133</a> 
+<a class="jxr_linenumber" name="L134" href="#L134">134</a> 			distributor.declareActive();
+<a class="jxr_linenumber" name="L135" href="#L135">135</a> 			collectorSink.declareActive();
+<a class="jxr_linenumber" name="L136" href="#L136">136</a> 
+<a class="jxr_linenumber" name="L137" href="#L137">137</a> 			<strong class="jxr_keyword">for</strong> (PortAction&lt;DynamicDistributor&lt;T&gt;&gt; a : inputActions) {
+<a class="jxr_linenumber" name="L138" href="#L138">138</a> 				distributor.addPortActionRequest(a);
+<a class="jxr_linenumber" name="L139" href="#L139">139</a> 			}
+<a class="jxr_linenumber" name="L140" href="#L140">140</a> 		}
 <a class="jxr_linenumber" name="L141" href="#L141">141</a> 
-<a class="jxr_linenumber" name="L142" href="#L142">142</a> 			<strong class="jxr_keyword">for</strong> (PortAction&lt;DynamicDistributor&lt;T&gt;&gt; a : inputActions) {
-<a class="jxr_linenumber" name="L143" href="#L143">143</a> 				distributor.addPortActionRequest(a);
-<a class="jxr_linenumber" name="L144" href="#L144">144</a> 			}
-<a class="jxr_linenumber" name="L145" href="#L145">145</a> 		}
-<a class="jxr_linenumber" name="L146" href="#L146">146</a> 
-<a class="jxr_linenumber" name="L147" href="#L147">147</a> 		<strong class="jxr_keyword">public</strong> List&lt;T&gt; getOutputElements() {
-<a class="jxr_linenumber" name="L148" href="#L148">148</a> 			<strong class="jxr_keyword">return</strong> collectorSink.getElements();
-<a class="jxr_linenumber" name="L149" href="#L149">149</a> 		}
-<a class="jxr_linenumber" name="L150" href="#L150">150</a> 	}
-<a class="jxr_linenumber" name="L151" href="#L151">151</a> }
+<a class="jxr_linenumber" name="L142" href="#L142">142</a> 		<strong class="jxr_keyword">public</strong> List&lt;T&gt; getOutputElements() {
+<a class="jxr_linenumber" name="L143" href="#L143">143</a> 			<strong class="jxr_keyword">return</strong> collectorSink.getElements();
+<a class="jxr_linenumber" name="L144" href="#L144">144</a> 		}
+<a class="jxr_linenumber" name="L145" href="#L145">145</a> 	}
+<a class="jxr_linenumber" name="L146" href="#L146">146</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>

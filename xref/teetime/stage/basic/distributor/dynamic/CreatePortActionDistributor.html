@@ -53,31 +53,30 @@
 <a class="jxr_linenumber" name="L45" href="#L45">45</a>  
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  		<strong class="jxr_keyword">new</strong> BoundedSynchedPipe&lt;T&gt;(newOutputPort, inputPort, capacity);
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  
-<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		<em class="jxr_comment">// newOutputPort.sendSignal(new InitializingSignal());</em>
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		newOutputPort.sendSignal(<strong class="jxr_keyword">new</strong> <a href="../../../../../teetime/framework/signal/StartingSignal.html">StartingSignal</a>());
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>  
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		onOutputPortCreated(dynamicDistributor, newOutputPort);
-<a class="jxr_linenumber" name="L52" href="#L52">52</a>  		condition.signalAll();
-<a class="jxr_linenumber" name="L53" href="#L53">53</a>  	}
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>  
-<a class="jxr_linenumber" name="L55" href="#L55">55</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> onOutputPortCreated(<strong class="jxr_keyword">final</strong> DynamicDistributor&lt;T&gt; dynamicDistributor, <strong class="jxr_keyword">final</strong> OutputPort&lt;T&gt; newOutputPort) {
-<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		<strong class="jxr_keyword">for</strong> (PortActionListener&lt;T&gt; listener : listeners) {
-<a class="jxr_linenumber" name="L57" href="#L57">57</a>  			listener.onOutputPortCreated(dynamicDistributor, newOutputPort);
-<a class="jxr_linenumber" name="L58" href="#L58">58</a>  		}
-<a class="jxr_linenumber" name="L59" href="#L59">59</a>  	}
-<a class="jxr_linenumber" name="L60" href="#L60">60</a>  
-<a class="jxr_linenumber" name="L61" href="#L61">61</a>  	InputPort&lt;T&gt; getInputPort() { <em class="jxr_comment">// for testing purposes only</em>
-<a class="jxr_linenumber" name="L62" href="#L62">62</a>  		<strong class="jxr_keyword">return</strong> inputPort;
-<a class="jxr_linenumber" name="L63" href="#L63">63</a>  	}
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>  
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> addPortActionListener(<strong class="jxr_keyword">final</strong> PortActionListener&lt;T&gt; listener) {
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>  		listeners.add(listener);
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>  	}
-<a class="jxr_linenumber" name="L68" href="#L68">68</a>  
-<a class="jxr_linenumber" name="L69" href="#L69">69</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> waitForCompletion() <strong class="jxr_keyword">throws</strong> InterruptedException {
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		condition.await();
-<a class="jxr_linenumber" name="L71" href="#L71">71</a>  	}
-<a class="jxr_linenumber" name="L72" href="#L72">72</a>  }
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		newOutputPort.sendSignal(<strong class="jxr_keyword">new</strong> <a href="../../../../../teetime/framework/signal/StartingSignal.html">StartingSignal</a>());
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>  		onOutputPortCreated(dynamicDistributor, newOutputPort);
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		condition.signalAll();
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  	}
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>  
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> onOutputPortCreated(<strong class="jxr_keyword">final</strong> DynamicDistributor&lt;T&gt; dynamicDistributor, <strong class="jxr_keyword">final</strong> OutputPort&lt;T&gt; newOutputPort) {
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  		<strong class="jxr_keyword">for</strong> (PortActionListener&lt;T&gt; listener : listeners) {
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  			listener.onOutputPortCreated(dynamicDistributor, newOutputPort);
+<a class="jxr_linenumber" name="L57" href="#L57">57</a>  		}
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>  	}
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>  
+<a class="jxr_linenumber" name="L60" href="#L60">60</a>  	<em class="jxr_comment">/* default */</em> InputPort&lt;T&gt; getInputPort() { <em class="jxr_comment">// for testing purposes only</em>
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>  		<strong class="jxr_keyword">return</strong> inputPort;
+<a class="jxr_linenumber" name="L62" href="#L62">62</a>  	}
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>  
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> addPortActionListener(<strong class="jxr_keyword">final</strong> PortActionListener&lt;T&gt; listener) {
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>  		listeners.add(listener);
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>  	}
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>  
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> waitForCompletion() <strong class="jxr_keyword">throws</strong> InterruptedException {
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>  		condition.await();
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  	}
+<a class="jxr_linenumber" name="L71" href="#L71">71</a>  }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>

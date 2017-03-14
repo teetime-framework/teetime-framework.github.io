@@ -35,7 +35,7 @@
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">interface</strong> <a href="../../../../../teetime/stage/basic/distributor/strategy/IDistributorStrategy.html">IDistributorStrategy</a> <strong class="jxr_keyword">extends</strong> PortRemovedListener&lt;OutputPort&lt;?&gt;&gt; {
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  
-<a class="jxr_linenumber" name="L30" href="#L30">30</a>  	<strong class="jxr_keyword">public</strong> &lt;T&gt; <strong class="jxr_keyword">boolean</strong> distribute(<strong class="jxr_keyword">final</strong> List&lt;OutputPort&lt;?&gt;&gt; outputPorts, <strong class="jxr_keyword">final</strong> T element);
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>  	<strong class="jxr_keyword">public</strong> &lt;T&gt; OutputPort&lt;?&gt; distribute(<strong class="jxr_keyword">final</strong> List&lt;OutputPort&lt;?&gt;&gt; outputPorts, <strong class="jxr_keyword">final</strong> T element);
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  }
 </pre>

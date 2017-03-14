@@ -101,8 +101,8 @@
 <a class="jxr_linenumber" name="L93" href="#L93">93</a>  					pushThroughput = <strong class="jxr_keyword">this</strong>.history.getLastPushThroughputOfPipe(pipe);
 <a class="jxr_linenumber" name="L94" href="#L94">94</a>  				}
 <a class="jxr_linenumber" name="L95" href="#L95">95</a>  
-<a class="jxr_linenumber" name="L96" href="#L96">96</a>  				PipeMonitoringData monitoringData = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/stage/taskfarm/monitoring/PipeMonitoringData.html">PipeMonitoringData</a>(pipe.getNumPushes(),
-<a class="jxr_linenumber" name="L97" href="#L97">97</a>  						pipe.getNumPulls(),
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>  				PipeMonitoringData monitoringData = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/stage/taskfarm/monitoring/PipeMonitoringData.html">PipeMonitoringData</a>(pipe.getNumPushesSinceAppStart(),
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>  						pipe.getNumPullsSinceAppStart(),
 <a class="jxr_linenumber" name="L98" href="#L98">98</a>  						pipe.size(),
 <a class="jxr_linenumber" name="L99" href="#L99">99</a>  						pipe.capacity(),
 <a class="jxr_linenumber" name="L100" href="#L100">100</a> 						pushThroughput,
