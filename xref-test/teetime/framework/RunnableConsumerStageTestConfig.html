@@ -25,7 +25,7 @@
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>  
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> java.util.List;
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  
-<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.pipe.BoundedSynchedPipe;
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.pipe.BoundedSynchedPipeFactory;
 <a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CollectorSink;
 <a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.stage.InitialElementProducer;
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  
@@ -39,24 +39,25 @@
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  		CollectorSink&lt;Integer&gt; collectorSink = <strong class="jxr_keyword">new</strong> CollectorSink&lt;Integer&gt;();
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  		collectorSink.declareActive();
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  
-<a class="jxr_linenumber" name="L34" href="#L34">34</a>  		AbstractPipe&lt;Integer&gt; pipe = <strong class="jxr_keyword">new</strong> BoundedSynchedPipe&lt;Integer&gt;(producer.getOutputPort(), collectorSink.getInputPort(), 512);
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>  		registerCustomPipe(pipe);
-<a class="jxr_linenumber" name="L36" href="#L36">36</a>  
-<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		<strong class="jxr_keyword">this</strong>.collectorSink = collectorSink;
-<a class="jxr_linenumber" name="L38" href="#L38">38</a>  	}
-<a class="jxr_linenumber" name="L39" href="#L39">39</a>  
-<a class="jxr_linenumber" name="L40" href="#L40">40</a>  	<strong class="jxr_keyword">public</strong> CollectorSink&lt;Integer&gt; getCollectorSink() {
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">return</strong> collectorSink;
-<a class="jxr_linenumber" name="L42" href="#L42">42</a>  	}
-<a class="jxr_linenumber" name="L43" href="#L43">43</a>  
-<a class="jxr_linenumber" name="L44" href="#L44">44</a>  	<strong class="jxr_keyword">public</strong> List&lt;Integer&gt; getCollectedElements() {
-<a class="jxr_linenumber" name="L45" href="#L45">45</a>  		<strong class="jxr_keyword">return</strong> collectorSink.getElements();
-<a class="jxr_linenumber" name="L46" href="#L46">46</a>  	}
-<a class="jxr_linenumber" name="L47" href="#L47">47</a>  
-<a class="jxr_linenumber" name="L48" href="#L48">48</a>  	<strong class="jxr_keyword">public</strong> Thread getConsumerThread() {
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		<strong class="jxr_keyword">return</strong> collectorSink.getOwningThread();
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>  	}
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>  }
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  		<em class="jxr_comment">// AbstractPipe&lt;Integer&gt; pipe = new BoundedSynchedPipe&lt;Integer&gt;(producer.getOutputPort(), collectorSink.getInputPort(), 512);</em>
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  		<em class="jxr_comment">// registerCustomPipe(pipe);</em>
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  		connectPorts(producer.getOutputPort(), collectorSink.getInputPort(), 512, BoundedSynchedPipeFactory.INSTANCE);
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>  		<strong class="jxr_keyword">this</strong>.collectorSink = collectorSink;
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>  	}
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  	<strong class="jxr_keyword">public</strong> CollectorSink&lt;Integer&gt; getCollectorSink() {
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		<strong class="jxr_keyword">return</strong> collectorSink;
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  	}
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  	<strong class="jxr_keyword">public</strong> List&lt;Integer&gt; getCollectedElements() {
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		<strong class="jxr_keyword">return</strong> collectorSink.getElements();
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  	}
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  	<strong class="jxr_keyword">public</strong> Thread getConsumerThread() {
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>  		<strong class="jxr_keyword">return</strong> collectorSink.getOwningThread();
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  	}
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
