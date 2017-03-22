@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015 - 2017</copyright>
     <item>
-      <title>File: 229,
-             Errors: 3366,
+      <title>File: 242,
+             Errors: 3680,
              Warnings: 0,
              Infos: 0
       </title>
@@ -167,7 +167,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.ITaskQueueInformation.java">teetime/framework/scheduling/globaltaskqueue/ITaskQueueInformation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
                 </td>
               </tr>
                           <tr>
@@ -284,6 +298,34 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.RunnableConsumerStage.java">teetime/framework/scheduling/pushpullmodel/RunnableConsumerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.A4StageAttributeSetter.java">teetime/framework/scheduling/pushpullmodel/A4StageAttributeSetter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.ElementThroughputMeasuringStage.java">teetime/stage/ElementThroughputMeasuringStage.java</a>
                 </td>
                 <td>
@@ -308,6 +350,20 @@ under the License.
                 </td>
                 <td>
                   11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.StageBuffer.java">teetime/framework/scheduling/globaltaskqueue/StageBuffer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
                 </td>
               </tr>
                           <tr>
@@ -364,20 +420,6 @@ under the License.
                 </td>
                 <td>
                   8
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TeeTimeThread.java">teetime/framework/TeeTimeThread.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  16
                 </td>
               </tr>
                           <tr>
@@ -536,20 +578,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.DynamicConfigurationContext.java">teetime/framework/DynamicConfigurationContext.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.distributor.strategy.CloneStrategy.java">teetime/stage/basic/distributor/strategy/CloneStrategy.java</a>
                 </td>
                 <td>
@@ -573,7 +601,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.PushPullScheduling.java">teetime/framework/scheduling/pushpullmodel/PushPullScheduling.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  64
                 </td>
               </tr>
                           <tr>
@@ -658,6 +700,34 @@ under the License.
                 </td>
                 <td>
                   13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.AbstractPipe.java">teetime/framework/pipe/AbstractPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.A3PipeInstantiation.java">teetime/framework/scheduling/pushpullmodel/A3PipeInstantiation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
                 </td>
               </tr>
                           <tr>
@@ -802,20 +872,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractService.java">teetime/framework/AbstractService.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.BoundedSynchedPipe.java">teetime/framework/pipe/BoundedSynchedPipe.java</a>
                 </td>
                 <td>
@@ -825,7 +881,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  21
+                  20
                 </td>
               </tr>
                           <tr>
@@ -867,7 +923,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  33
+                  29
                 </td>
               </tr>
                           <tr>
@@ -998,6 +1054,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.PipeScheduler.java">teetime/framework/scheduling/PipeScheduler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ConfigurationBuilder.java">teetime/framework/ConfigurationBuilder.java</a>
                 </td>
                 <td>
@@ -1012,20 +1082,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A4StageAttributeSetter.java">teetime/framework/A4StageAttributeSetter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractConsumerStage.java">teetime/framework/AbstractConsumerStage.java</a>
                 </td>
                 <td>
@@ -1035,7 +1091,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  14
                 </td>
               </tr>
                           <tr>
@@ -1068,6 +1124,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.ITaskQueueDuplicable.java">teetime/framework/scheduling/globaltaskqueue/ITaskQueueDuplicable.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.AbstractTransformation.java">teetime/stage/basic/AbstractTransformation.java</a>
                 </td>
                 <td>
@@ -1091,7 +1161,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
+                  5
                 </td>
               </tr>
                           <tr>
@@ -1166,20 +1236,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A3PipeInstantiation.java">teetime/framework/A3PipeInstantiation.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.ValidatingSignal.java">teetime/framework/signal/ValidatingSignal.java</a>
                 </td>
                 <td>
@@ -1190,20 +1246,6 @@ under the License.
                 </td>
                 <td>
                   7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractUnsynchedPipe.java">teetime/framework/AbstractUnsynchedPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
                 </td>
               </tr>
                           <tr>
@@ -1259,7 +1301,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  13
+                  10
                 </td>
               </tr>
                           <tr>
@@ -1292,6 +1334,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.A2InvalidThreadAssignmentCheck.java">teetime/framework/scheduling/pushpullmodel/A2InvalidThreadAssignmentCheck.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.extraction.StackedTimePullThroughput2D.java">teetime/stage/taskfarm/monitoring/extraction/StackedTimePullThroughput2D.java</a>
                 </td>
                 <td>
@@ -1315,7 +1371,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  9
+                  23
                 </td>
               </tr>
                           <tr>
@@ -1344,6 +1400,20 @@ under the License.
                 </td>
                 <td>
                   9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.TaskQueueA1StageCollector.java">teetime/framework/scheduling/globaltaskqueue/TaskQueueA1StageCollector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
                 </td>
               </tr>
                           <tr>
@@ -1460,6 +1530,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.ITaskQueueStage.java">teetime/framework/scheduling/globaltaskqueue/ITaskQueueStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.validation.InvalidPortConnection.java">teetime/framework/validation/InvalidPortConnection.java</a>
                 </td>
                 <td>
@@ -1484,6 +1568,20 @@ under the License.
                 </td>
                 <td>
                   8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.A1ThreadableStageCollector.java">teetime/framework/scheduling/pushpullmodel/A1ThreadableStageCollector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
                 </td>
               </tr>
                           <tr>
@@ -1544,7 +1642,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractSynchedPipe.java">teetime/framework/AbstractSynchedPipe.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.TaskQueueA2PipeInstantiation.java">teetime/framework/scheduling/globaltaskqueue/TaskQueueA2PipeInstantiation.java</a>
                 </td>
                 <td>
                   0
@@ -1553,7 +1651,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  18
+                  12
                 </td>
               </tr>
                           <tr>
@@ -1698,34 +1796,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RunnableProducerStage.java">teetime/framework/RunnableProducerStage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  13
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  14
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.monitoring.PipeMonitoringService.java">teetime/stage/taskfarm/monitoring/PipeMonitoringService.java</a>
                 </td>
                 <td>
@@ -1852,6 +1922,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.AbstractRunnableStage.java">teetime/framework/scheduling/pushpullmodel/AbstractRunnableStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.test.StageTester.java">teetime/framework/test/StageTester.java</a>
                 </td>
                 <td>
@@ -1903,7 +1987,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  65
+                  66
                 </td>
               </tr>
                           <tr>
@@ -2015,7 +2099,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  15
+                  14
                 </td>
               </tr>
                           <tr>
@@ -2062,6 +2146,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.GlobalTaskQueueScheduling.java">teetime/framework/scheduling/globaltaskqueue/GlobalTaskQueueScheduling.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  76
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.Merger.java">teetime/stage/basic/merger/Merger.java</a>
                 </td>
                 <td>
@@ -2072,6 +2170,20 @@ under the License.
                 </td>
                 <td>
                   21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.RunnableProducerStage.java">teetime/framework/scheduling/pushpullmodel/RunnableProducerStage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
                 </td>
               </tr>
                           <tr>
@@ -2099,7 +2211,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  28
+                  29
                 </td>
               </tr>
                           <tr>
@@ -2225,7 +2337,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
+                  11
                 </td>
               </tr>
                           <tr>
@@ -2365,7 +2477,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  12
+                  13
                 </td>
               </tr>
                           <tr>
@@ -2380,20 +2492,6 @@ under the License.
                 </td>
                 <td>
                   4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ThreadService.java">teetime/framework/ThreadService.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
                 </td>
               </tr>
                           <tr>
@@ -2580,7 +2678,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.IntraStageCollector.java">teetime/framework/IntraStageCollector.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.AbstractUnsynchedPipe.java">teetime/framework/pipe/AbstractUnsynchedPipe.java</a>
                 </td>
                 <td>
                   0
@@ -2589,7 +2687,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  11
+                  10
                 </td>
               </tr>
                           <tr>
@@ -2636,7 +2734,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.TerminatingSignal.java">teetime/framework/signal/TerminatingSignal.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.pipe.AbstractSynchedPipe.java">teetime/framework/pipe/AbstractSynchedPipe.java</a>
                 </td>
                 <td>
                   0
@@ -2645,12 +2743,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  5
+                  18
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.RunnableConsumerStage.java">teetime/framework/RunnableConsumerStage.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.signal.TerminatingSignal.java">teetime/framework/signal/TerminatingSignal.java</a>
                 </td>
                 <td>
                   0
@@ -2720,6 +2818,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.TeeTimeTaskQueueThread.java">teetime/framework/scheduling/globaltaskqueue/TeeTimeTaskQueueThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  75
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.string.Tokenizer.java">teetime/stage/string/Tokenizer.java</a>
                 </td>
                 <td>
@@ -2730,6 +2842,20 @@ under the License.
                 </td>
                 <td>
                   7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.ConfigurationFacade.java">teetime/framework/ConfigurationFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
                 </td>
               </tr>
                           <tr>
@@ -2771,7 +2897,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  190
+                  194
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.TaskQueueBufferPipe.java">teetime/framework/scheduling/globaltaskqueue/TaskQueueBufferPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
                 </td>
               </tr>
                           <tr>
@@ -2814,6 +2954,20 @@ under the License.
                 </td>
                 <td>
                   15
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.TeeTimeThread.java">teetime/framework/scheduling/pushpullmodel/TeeTimeThread.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
                 </td>
               </tr>
                           <tr>
@@ -2902,6 +3056,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.IntraStageCollector.java">teetime/framework/scheduling/pushpullmodel/IntraStageCollector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.taskfarm.DynamicTaskFarmStage.java">teetime/stage/taskfarm/DynamicTaskFarmStage.java</a>
                 </td>
                 <td>
@@ -2912,20 +3080,6 @@ under the License.
                 </td>
                 <td>
                   64
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A1ThreadableStageCollector.java">teetime/framework/A1ThreadableStageCollector.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
                 </td>
               </tr>
                           <tr>
@@ -3014,7 +3168,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractRunnableStage.java">teetime/framework/AbstractRunnableStage.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.pushpullmodel.ThreadListener.java">teetime/framework/scheduling/pushpullmodel/ThreadListener.java</a>
                 </td>
                 <td>
                   0
@@ -3023,7 +3177,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  26
+                  5
                 </td>
               </tr>
                           <tr>
@@ -3038,6 +3192,20 @@ under the License.
                 </td>
                 <td>
                   6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.StageFacade.java">teetime/framework/StageFacade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
                 </td>
               </tr>
                           <tr>
@@ -3098,7 +3266,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.A2InvalidThreadAssignmentCheck.java">teetime/framework/A2InvalidThreadAssignmentCheck.java</a>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TeeTimeService.java">teetime/framework/TeeTimeService.java</a>
                 </td>
                 <td>
                   0
@@ -3107,7 +3275,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  30
+                  12
                 </td>
               </tr>
                           <tr>
@@ -3136,6 +3304,20 @@ under the License.
                 </td>
                 <td>
                   17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.UnboundedMpMcSynchedPipe.java">teetime/framework/scheduling/globaltaskqueue/UnboundedMpMcSynchedPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                           <tr>

@@ -5,6 +5,9 @@ teetime.framework.performancelogging
 teetime.framework.performancelogging.formatstrategy
 teetime.framework.pipe
 teetime.framework.pipe.strategy
+teetime.framework.scheduling
+teetime.framework.scheduling.globaltaskqueue
+teetime.framework.scheduling.pushpullmodel
 teetime.framework.signal
 teetime.framework.test
 teetime.framework.validation
