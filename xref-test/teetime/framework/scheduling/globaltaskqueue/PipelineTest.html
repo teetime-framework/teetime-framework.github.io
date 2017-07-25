@@ -75,9 +75,18 @@
 <a class="jxr_linenumber" name="L67" href="#L67">67</a>  
 <a class="jxr_linenumber" name="L68" href="#L68">68</a>  		List&lt;String&gt; processedElements = config.getSink().getElements();
 <a class="jxr_linenumber" name="L69" href="#L69">69</a>  		List&lt;String&gt; expectedElements = Arrays.asList(<span class="jxr_string">"a"</span>, <span class="jxr_string">"b"</span>, <span class="jxr_string">"c"</span>);
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		assertThat(processedElements, is(equalTo(expectedElements)));
-<a class="jxr_linenumber" name="L71" href="#L71">71</a>  	}
-<a class="jxr_linenumber" name="L72" href="#L72">72</a>  }
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		<em class="jxr_comment">// assertThat(processedElements.get(0), is(nullValue()));</em>
+<a class="jxr_linenumber" name="L71" href="#L71">71</a>  		<em class="jxr_comment">// assertThat(processedElements.get(0), is("null"));</em>
+<a class="jxr_linenumber" name="L72" href="#L72">72</a>  		<em class="jxr_comment">// assertThat(processedElements.get(0), is(equalTo("a")));</em>
+<a class="jxr_linenumber" name="L73" href="#L73">73</a>  		assertThat(processedElements, is(equalTo(expectedElements)));
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>  
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		<em class="jxr_comment">// FIXME processedElements can still return [null (not "null"), a, c] or [b, c, a] in:</em>
+<a class="jxr_linenumber" name="L76" href="#L76">76</a>  		<em class="jxr_comment">// commit dc4b2180d809e9ee48b50dfa5e6e013d2ef88bb9</em>
+<a class="jxr_linenumber" name="L77" href="#L77">77</a>  		<em class="jxr_comment">// Committer: Christian Wulf &lt;chw@informatik.uni-kiel.de&gt; 2017-07-17 10:56:21</em>
+<a class="jxr_linenumber" name="L78" href="#L78">78</a>  		<em class="jxr_comment">// =&gt; problem found so far: CollectorSink is executed by more than one thread simultaneously</em>
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>  		<em class="jxr_comment">// hypothesis: stage is added to the task queue multiple times</em>
+<a class="jxr_linenumber" name="L80" href="#L80">80</a>  	}
+<a class="jxr_linenumber" name="L81" href="#L81">81</a>  }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
