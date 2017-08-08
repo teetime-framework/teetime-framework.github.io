@@ -9,6 +9,7 @@ teetime.framework.scheduling
 teetime.framework.scheduling.globaltaskqueue
 teetime.framework.scheduling.pushpullmodel
 teetime.framework.signal
+teetime.framework.termination
 teetime.framework.test
 teetime.framework.validation
 teetime.stage

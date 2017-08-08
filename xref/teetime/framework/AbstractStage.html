@@ -34,7 +34,7 @@
 <a class="jxr_linenumber" name="L26" href="#L26">26</a>  <strong class="jxr_keyword">import</strong> teetime.framework.exceptionHandling.AbstractExceptionListener.FurtherExecution;
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  <strong class="jxr_keyword">import</strong> teetime.framework.exceptionHandling.TerminateException;
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.StateChange;
-<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.StateChange.ExecutionState;
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.StateChange.StageActivationState;
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.signal.ISignal;
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.framework.signal.StartingSignal;
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  <strong class="jxr_keyword">import</strong> teetime.framework.signal.TerminatingSignal;
@@ -92,7 +92,7 @@
 <a class="jxr_linenumber" name="L84" href="#L84">84</a>  <em class="jxr_javadoccomment">	 */</em>
 <a class="jxr_linenumber" name="L85" href="#L85">85</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> List&lt;StateChange&gt; states = <strong class="jxr_keyword">new</strong> ArrayList&lt;StateChange&gt;();
 <a class="jxr_linenumber" name="L86" href="#L86">86</a>  
-<a class="jxr_linenumber" name="L87" href="#L87">87</a>  	<strong class="jxr_keyword">private</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StateChange</a> lastState = <strong class="jxr_keyword">new</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StateChange</a>(ExecutionState.INITIALIZED, System.nanoTime());
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>  	<strong class="jxr_keyword">private</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StateChange</a> lastState = <strong class="jxr_keyword">new</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StateChange</a>(StageActivationState.INITIALIZED, System.nanoTime());
 <a class="jxr_linenumber" name="L88" href="#L88">88</a>  
 <a class="jxr_linenumber" name="L89" href="#L89">89</a>  	<em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L90" href="#L90">90</a>  <em class="jxr_javadoccomment">	 * Deactivated if performance logging does not reduce the performance. must be measured first. (28.10.2016)</em>
@@ -157,7 +157,7 @@
 <a class="jxr_linenumber" name="L149" href="#L149">149</a> 		<strong class="jxr_keyword">if</strong> (performanceLoggingEnabled) {
 <a class="jxr_linenumber" name="L150" href="#L150">150</a> 			beforeExecuteTime = System.nanoTime();
 <a class="jxr_linenumber" name="L151" href="#L151">151</a> 			executeWithCatchedExceptions();
-<a class="jxr_linenumber" name="L152" href="#L152">152</a> 			<strong class="jxr_keyword">if</strong> (lastState.getExecutionState() == ExecutionState.ACTIVE) {
+<a class="jxr_linenumber" name="L152" href="#L152">152</a> 			<strong class="jxr_keyword">if</strong> (lastState.getStageActivationState() == StageActivationState.ACTIVE) {
 <a class="jxr_linenumber" name="L153" href="#L153">153</a> 				<strong class="jxr_keyword">this</strong>.addActiveWaitingTime(beforeExecuteTime - lastTimeAfterExecute);
 <a class="jxr_linenumber" name="L154" href="#L154">154</a> 			}
 <a class="jxr_linenumber" name="L155" href="#L155">155</a> 			lastTimeAfterExecute = System.nanoTime();
@@ -411,8 +411,8 @@
 <a class="jxr_linenumber" name="L403" href="#L403">403</a> 
 <a class="jxr_linenumber" name="L404" href="#L404">404</a> 	@SuppressWarnings(<span class="jxr_string">"PMD.SignatureDeclareThrowsException"</span>)
 <a class="jxr_linenumber" name="L405" href="#L405">405</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> onTerminating() <strong class="jxr_keyword">throws</strong> Exception {
-<a class="jxr_linenumber" name="L406" href="#L406">406</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(ExecutionState.TERMINATED)) {
-<a class="jxr_linenumber" name="L407" href="#L407">407</a> 			<strong class="jxr_keyword">this</strong>.addState(ExecutionState.TERMINATED, System.nanoTime());
+<a class="jxr_linenumber" name="L406" href="#L406">406</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(StageActivationState.TERMINATED)) {
+<a class="jxr_linenumber" name="L407" href="#L407">407</a> 			<strong class="jxr_keyword">this</strong>.addState(StageActivationState.TERMINATED, System.nanoTime());
 <a class="jxr_linenumber" name="L408" href="#L408">408</a> 		}
 <a class="jxr_linenumber" name="L409" href="#L409">409</a> 		changeState(StageState.TERMINATED);
 <a class="jxr_linenumber" name="L410" href="#L410">410</a> 		calledOnTerminating = <strong class="jxr_keyword">true</strong>;
@@ -639,28 +639,28 @@
 <a class="jxr_linenumber" name="L631" href="#L631">631</a> 		<strong class="jxr_keyword">return</strong> states;
 <a class="jxr_linenumber" name="L632" href="#L632">632</a> 	}
 <a class="jxr_linenumber" name="L633" href="#L633">633</a> 
-<a class="jxr_linenumber" name="L634" href="#L634">634</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">boolean</strong> newStateRequired(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">ExecutionState</a> state) {
+<a class="jxr_linenumber" name="L634" href="#L634">634</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">boolean</strong> newStateRequired(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StageActivationState</a> state) {
 <a class="jxr_linenumber" name="L635" href="#L635">635</a> 		<strong class="jxr_keyword">if</strong> (!performanceLoggingEnabled) {
 <a class="jxr_linenumber" name="L636" href="#L636">636</a> 			<strong class="jxr_keyword">return</strong> false;
 <a class="jxr_linenumber" name="L637" href="#L637">637</a> 		}
-<a class="jxr_linenumber" name="L638" href="#L638">638</a> 		<strong class="jxr_keyword">return</strong> (<strong class="jxr_keyword">this</strong>.lastState.getExecutionState() != state);
+<a class="jxr_linenumber" name="L638" href="#L638">638</a> 		<strong class="jxr_keyword">return</strong> (<strong class="jxr_keyword">this</strong>.lastState.getStageActivationState() != state);
 <a class="jxr_linenumber" name="L639" href="#L639">639</a> 	}
 <a class="jxr_linenumber" name="L640" href="#L640">640</a> 
-<a class="jxr_linenumber" name="L641" href="#L641">641</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> addState(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">ExecutionState</a> stateCode, <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> timestamp) {
+<a class="jxr_linenumber" name="L641" href="#L641">641</a> 	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> addState(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StageActivationState</a> stateCode, <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> timestamp) {
 <a class="jxr_linenumber" name="L642" href="#L642">642</a> 		StateChange state = <strong class="jxr_keyword">new</strong> <a href="../../teetime/framework/performancelogging/StateChange.html">StateChange</a>(stateCode, timestamp);
 <a class="jxr_linenumber" name="L643" href="#L643">643</a> 		<strong class="jxr_keyword">this</strong>.states.add(state);
 <a class="jxr_linenumber" name="L644" href="#L644">644</a> 		<strong class="jxr_keyword">this</strong>.lastState = state;
 <a class="jxr_linenumber" name="L645" href="#L645">645</a> 	}
 <a class="jxr_linenumber" name="L646" href="#L646">646</a> 
 <a class="jxr_linenumber" name="L647" href="#L647">647</a> 	<strong class="jxr_keyword">void</strong> sendingFailed() {
-<a class="jxr_linenumber" name="L648" href="#L648">648</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(ExecutionState.BLOCKED)) {
-<a class="jxr_linenumber" name="L649" href="#L649">649</a> 			<strong class="jxr_keyword">this</strong>.addState(ExecutionState.BLOCKED, System.nanoTime());
+<a class="jxr_linenumber" name="L648" href="#L648">648</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(StageActivationState.BLOCKED)) {
+<a class="jxr_linenumber" name="L649" href="#L649">649</a> 			<strong class="jxr_keyword">this</strong>.addState(StageActivationState.BLOCKED, System.nanoTime());
 <a class="jxr_linenumber" name="L650" href="#L650">650</a> 		}
 <a class="jxr_linenumber" name="L651" href="#L651">651</a> 	}
 <a class="jxr_linenumber" name="L652" href="#L652">652</a> 
 <a class="jxr_linenumber" name="L653" href="#L653">653</a> 	<strong class="jxr_keyword">void</strong> sendingSucceeded() {
-<a class="jxr_linenumber" name="L654" href="#L654">654</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(ExecutionState.ACTIVE)) {
-<a class="jxr_linenumber" name="L655" href="#L655">655</a> 			<strong class="jxr_keyword">this</strong>.addState(ExecutionState.ACTIVE, System.nanoTime());
+<a class="jxr_linenumber" name="L654" href="#L654">654</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(StageActivationState.ACTIVE)) {
+<a class="jxr_linenumber" name="L655" href="#L655">655</a> 			<strong class="jxr_keyword">this</strong>.addState(StageActivationState.ACTIVE, System.nanoTime());
 <a class="jxr_linenumber" name="L656" href="#L656">656</a> 		}
 <a class="jxr_linenumber" name="L657" href="#L657">657</a> 	}
 <a class="jxr_linenumber" name="L658" href="#L658">658</a> 

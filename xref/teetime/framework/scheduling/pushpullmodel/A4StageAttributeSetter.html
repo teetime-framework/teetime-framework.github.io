@@ -48,38 +48,34 @@
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setAttributes() {
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>  		<strong class="jxr_keyword">for</strong> (AbstractStage threadableStage : threadableStages) {
-<a class="jxr_linenumber" name="L43" href="#L43">43</a>  			setAttributes(threadableStage);
-<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		}
-<a class="jxr_linenumber" name="L45" href="#L45">45</a>  	}
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  			IntraStageCollector collector = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/IntraStageCollector.html">IntraStageCollector</a>(threadableStage);
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  			Traverser traverser = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/Traverser.html">Traverser</a>(collector);
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  			traverser.traverse(threadableStage);
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  
-<a class="jxr_linenumber" name="L47" href="#L47">47</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> setAttributes(<strong class="jxr_keyword">final</strong> <a href="../../../../teetime/framework/AbstractStage.html">AbstractStage</a> threadableStage) {
-<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		IntraStageCollector visitor = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/IntraStageCollector.html">IntraStageCollector</a>(threadableStage);
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  		Traverser traverser = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/Traverser.html">Traverser</a>(visitor);
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>  		traverser.traverse(threadableStage);
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>  
-<a class="jxr_linenumber" name="L52" href="#L52">52</a>  		setAttributes(threadableStage, traverser.getVisitedStages());
-<a class="jxr_linenumber" name="L53" href="#L53">53</a>  	}
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>  
-<a class="jxr_linenumber" name="L55" href="#L55">55</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> setAttributes(<strong class="jxr_keyword">final</strong> <a href="../../../../teetime/framework/AbstractStage.html">AbstractStage</a> threadableStage, <strong class="jxr_keyword">final</strong> Set&lt;AbstractStage&gt; intraStages) {
-<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		AbstractRunnableStage runnable;
-<a class="jxr_linenumber" name="L57" href="#L57">57</a>  		<strong class="jxr_keyword">if</strong> (threadableStage.isProducer()) {
-<a class="jxr_linenumber" name="L58" href="#L58">58</a>  			runnable = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/RunnableProducerStage.html">RunnableProducerStage</a>(threadableStage);
-<a class="jxr_linenumber" name="L59" href="#L59">59</a>  		} <strong class="jxr_keyword">else</strong> {
-<a class="jxr_linenumber" name="L60" href="#L60">60</a>  			runnable = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/RunnableConsumerStage.html">RunnableConsumerStage</a>(threadableStage);
-<a class="jxr_linenumber" name="L61" href="#L61">61</a>  		}
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  			setAttributes(threadableStage, collector.getIntraStages());
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		}
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  	}
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>  
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">void</strong> setAttributes(<strong class="jxr_keyword">final</strong> <a href="../../../../teetime/framework/AbstractStage.html">AbstractStage</a> threadableStage, <strong class="jxr_keyword">final</strong> Set&lt;AbstractStage&gt; intraStages) {
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  		AbstractRunnableStage runnable;
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>  		<strong class="jxr_keyword">if</strong> (threadableStage.isProducer()) {
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  			runnable = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/RunnableProducerStage.html">RunnableProducerStage</a>(threadableStage);
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  		} <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  			runnable = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/RunnableConsumerStage.html">RunnableConsumerStage</a>(threadableStage);
+<a class="jxr_linenumber" name="L57" href="#L57">57</a>  		}
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>  
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>  		Thread newThread = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/TeeTimeThread.html">TeeTimeThread</a>(runnable, <span class="jxr_string">"Thread for "</span> + threadableStage.getId());
+<a class="jxr_linenumber" name="L60" href="#L60">60</a>  		AbstractExceptionListener exceptionhandler = CONFIG_FACADE.getFactory(configuration).createInstance(newThread);
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>  		ConfigurationContext context = CONFIG_FACADE.getContext(configuration);
 <a class="jxr_linenumber" name="L62" href="#L62">62</a>  
-<a class="jxr_linenumber" name="L63" href="#L63">63</a>  		Thread newThread = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/pushpullmodel/TeeTimeThread.html">TeeTimeThread</a>(runnable, <span class="jxr_string">"Thread for "</span> + threadableStage.getId());
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>  		AbstractExceptionListener exceptionhandler = CONFIG_FACADE.getFactory(configuration).createInstance(newThread);
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>  		ConfigurationContext context = CONFIG_FACADE.getContext(configuration);
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>  
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>  		intraStages.add(threadableStage);
-<a class="jxr_linenumber" name="L68" href="#L68">68</a>  		<strong class="jxr_keyword">for</strong> (AbstractStage stage : intraStages) {
-<a class="jxr_linenumber" name="L69" href="#L69">69</a>  			STAGE_FACADE.setOwningThread(stage, newThread);
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  			STAGE_FACADE.setExceptionHandler(stage, exceptionhandler);
-<a class="jxr_linenumber" name="L71" href="#L71">71</a>  			STAGE_FACADE.setOwningContext(stage, context);
-<a class="jxr_linenumber" name="L72" href="#L72">72</a>  		}
-<a class="jxr_linenumber" name="L73" href="#L73">73</a>  	}
-<a class="jxr_linenumber" name="L74" href="#L74">74</a>  }
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>  		intraStages.add(threadableStage);
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>  		<strong class="jxr_keyword">for</strong> (AbstractStage stage : intraStages) {
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>  			STAGE_FACADE.setOwningThread(stage, newThread);
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>  			STAGE_FACADE.setExceptionHandler(stage, exceptionhandler);
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>  			STAGE_FACADE.setOwningContext(stage, context);
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>  		}
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>  	}
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>

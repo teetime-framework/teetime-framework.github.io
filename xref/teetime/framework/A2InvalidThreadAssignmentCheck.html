@@ -78,35 +78,34 @@
 <a class="jxr_linenumber" name="L70" href="#L70">70</a>  
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>  		@Override
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>  		<strong class="jxr_keyword">public</strong> <a href="../../teetime/framework/Traverser.html">VisitorBehavior</a> visit(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/AbstractStage.html">AbstractStage</a> stage) {
-<a class="jxr_linenumber" name="L73" href="#L73">73</a>  			<strong class="jxr_keyword">return</strong> VisitorBehavior.CONTINUE;
+<a class="jxr_linenumber" name="L73" href="#L73">73</a>  			<strong class="jxr_keyword">return</strong> VisitorBehavior.CONTINUE_FORWARD;
 <a class="jxr_linenumber" name="L74" href="#L74">74</a>  		}
 <a class="jxr_linenumber" name="L75" href="#L75">75</a>  
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>  		@Override
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>  		<strong class="jxr_keyword">public</strong> <a href="../../teetime/framework/Traverser.html">VisitorBehavior</a> visit(<strong class="jxr_keyword">final</strong> AbstractPort&lt;?&gt; port) {
 <a class="jxr_linenumber" name="L78" href="#L78">78</a>  			IPipe&lt;?&gt; pipe = port.getPipe();
-<a class="jxr_linenumber" name="L79" href="#L79">79</a>  			<em class="jxr_comment">// FIXME line below requires FORWARD. should be independent of the used direction</em>
-<a class="jxr_linenumber" name="L80" href="#L80">80</a>  			AbstractStage targetStage = pipe.getTargetPort().getOwningStage();
-<a class="jxr_linenumber" name="L81" href="#L81">81</a>  
-<a class="jxr_linenumber" name="L82" href="#L82">82</a>  			<strong class="jxr_keyword">int</strong> targetColor = colors.containsKey(targetStage) ? colors.get(targetStage) : DEFAULT_COLOR;
-<a class="jxr_linenumber" name="L83" href="#L83">83</a>  
-<a class="jxr_linenumber" name="L84" href="#L84">84</a>  			<strong class="jxr_keyword">if</strong> (!threadableStages.contains(targetStage) || targetColor == color) {
-<a class="jxr_linenumber" name="L85" href="#L85">85</a>  				<strong class="jxr_keyword">if</strong> (colors.containsKey(targetStage) &amp;&amp; colors.get(targetStage) != color) {
-<a class="jxr_linenumber" name="L86" href="#L86">86</a>  					<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalStateException(<span class="jxr_string">"1001 - Crossing threads in "</span> + targetStage.getId()); <em class="jxr_comment">// One stage is connected to a stage of another thread</em>
-<a class="jxr_linenumber" name="L87" href="#L87">87</a>  																											<em class="jxr_comment">// (but not its "headstage")</em>
-<a class="jxr_linenumber" name="L88" href="#L88">88</a>  				}
-<a class="jxr_linenumber" name="L89" href="#L89">89</a>  				colors.put(targetStage, color);
-<a class="jxr_linenumber" name="L90" href="#L90">90</a>  				<strong class="jxr_keyword">return</strong> VisitorBehavior.CONTINUE; <em class="jxr_comment">// NOPMD makes it clearer</em>
-<a class="jxr_linenumber" name="L91" href="#L91">91</a>  			}
-<a class="jxr_linenumber" name="L92" href="#L92">92</a>  			<strong class="jxr_keyword">return</strong> VisitorBehavior.STOP;
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>  		}
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>  
-<a class="jxr_linenumber" name="L95" href="#L95">95</a>  		@Override
-<a class="jxr_linenumber" name="L96" href="#L96">96</a>  		<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> visit(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/pipe/DummyPipe.html">DummyPipe</a> pipe, <strong class="jxr_keyword">final</strong> AbstractPort&lt;?&gt; port) {
-<a class="jxr_linenumber" name="L97" href="#L97">97</a>  			<em class="jxr_comment">// do nothing</em>
-<a class="jxr_linenumber" name="L98" href="#L98">98</a>  		}
-<a class="jxr_linenumber" name="L99" href="#L99">99</a>  
-<a class="jxr_linenumber" name="L100" href="#L100">100</a> 	}
-<a class="jxr_linenumber" name="L101" href="#L101">101</a> }
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>  			AbstractStage targetStage = pipe.getTargetPort().getOwningStage();
+<a class="jxr_linenumber" name="L80" href="#L80">80</a>  
+<a class="jxr_linenumber" name="L81" href="#L81">81</a>  			<strong class="jxr_keyword">int</strong> targetColor = colors.containsKey(targetStage) ? colors.get(targetStage) : DEFAULT_COLOR;
+<a class="jxr_linenumber" name="L82" href="#L82">82</a>  
+<a class="jxr_linenumber" name="L83" href="#L83">83</a>  			<strong class="jxr_keyword">if</strong> (!threadableStages.contains(targetStage) || targetColor == color) {
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>  				<strong class="jxr_keyword">if</strong> (colors.containsKey(targetStage) &amp;&amp; colors.get(targetStage) != color) {
+<a class="jxr_linenumber" name="L85" href="#L85">85</a>  					<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalStateException(<span class="jxr_string">"1001 - Crossing threads in "</span> + targetStage.getId()); <em class="jxr_comment">// One stage is connected to a stage of another thread</em>
+<a class="jxr_linenumber" name="L86" href="#L86">86</a>  																											<em class="jxr_comment">// (but not its "headstage")</em>
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>  				}
+<a class="jxr_linenumber" name="L88" href="#L88">88</a>  				colors.put(targetStage, color);
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>  				<strong class="jxr_keyword">return</strong> VisitorBehavior.CONTINUE_FORWARD; <em class="jxr_comment">// NOPMD makes it clearer</em>
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>  			}
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>  			<strong class="jxr_keyword">return</strong> VisitorBehavior.STOP;
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>  		}
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>  
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>  		@Override
+<a class="jxr_linenumber" name="L95" href="#L95">95</a>  		<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> visit(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/pipe/DummyPipe.html">DummyPipe</a> pipe, <strong class="jxr_keyword">final</strong> AbstractPort&lt;?&gt; port) {
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>  			<em class="jxr_comment">// do nothing</em>
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>  		}
+<a class="jxr_linenumber" name="L98" href="#L98">98</a>  
+<a class="jxr_linenumber" name="L99" href="#L99">99</a>  	}
+<a class="jxr_linenumber" name="L100" href="#L100">100</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>

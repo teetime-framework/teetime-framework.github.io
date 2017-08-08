@@ -46,12 +46,12 @@
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  			stages.add(stage);
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  		}
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  		<em class="jxr_comment">// visitor termination condition: stop if the stage already runs or has been terminated</em>
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">return</strong> stage.getCurrentState() == StageState.CREATED ? Traverser.VisitorBehavior.CONTINUE : Traverser.VisitorBehavior.STOP;
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">return</strong> stage.getCurrentState() == StageState.CREATED ? Traverser.VisitorBehavior.CONTINUE_BACK_AND_FORTH : Traverser.VisitorBehavior.STOP;
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>  	}
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>  
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  	@Override
 <a class="jxr_linenumber" name="L45" href="#L45">45</a>  	<strong class="jxr_keyword">public</strong> Traverser.VisitorBehavior visit(<strong class="jxr_keyword">final</strong> AbstractPort&lt;?&gt; port) {
-<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		<strong class="jxr_keyword">return</strong> Traverser.VisitorBehavior.CONTINUE;
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		<strong class="jxr_keyword">return</strong> Traverser.VisitorBehavior.CONTINUE_BACK_AND_FORTH;
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  	}
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>  
 <a class="jxr_linenumber" name="L49" href="#L49">49</a>  	@Override
