@@ -26,7 +26,7 @@ under the License.
     <copyright>&#169;2015 - 2017</copyright>
     <item>
       <title>File: 257,
-             Errors: 3949,
+             Errors: 3942,
              Warnings: 0,
              Infos: 0
       </title>
@@ -490,6 +490,20 @@ under the License.
                 </td>
                 <td>
                   4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.PrioritizedTaskPool.java">teetime/framework/scheduling/globaltaskqueue/PrioritizedTaskPool.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                           <tr>
@@ -1894,20 +1908,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.scheduling.globaltaskqueue.TaskQueue.java">teetime/framework/scheduling/globaltaskqueue/TaskQueue.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractPipe.java">teetime/framework/AbstractPipe.java</a>
                 </td>
                 <td>
@@ -2295,7 +2295,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  93
+                  85
                 </td>
               </tr>
                           <tr>
@@ -3359,7 +3359,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  34
+                  33
                 </td>
               </tr>
                           <tr>
