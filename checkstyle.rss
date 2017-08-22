@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015 - 2017</copyright>
     <item>
-      <title>File: 257,
-             Errors: 3942,
+      <title>File: 258,
+             Errors: 3952,
              Warnings: 0,
              Infos: 0
       </title>
@@ -284,6 +284,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.strategy.NonBlockingFiniteRoundRobinStrategy.java">teetime/stage/basic/merger/strategy/NonBlockingFiniteRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.AbstractPort.java">teetime/framework/AbstractPort.java</a>
                 </td>
                 <td>
@@ -364,20 +378,6 @@ under the License.
                 </td>
                 <td>
                   14
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.strategy.SkippingBusyWaitingRoundRobinStrategy.java">teetime/stage/basic/merger/strategy/SkippingBusyWaitingRoundRobinStrategy.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
                 </td>
               </tr>
                           <tr>
@@ -742,6 +742,20 @@ under the License.
                 </td>
                 <td>
                   21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.basic.merger.strategy.BlockingBusyWaitingRoundRobinStrategy.java">teetime/stage/basic/merger/strategy/BlockingBusyWaitingRoundRobinStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
                 </td>
               </tr>
                           <tr>
@@ -2309,7 +2323,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  21
+                  20
                 </td>
               </tr>
                           <tr>
@@ -3247,7 +3261,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  64
+                  61
                 </td>
               </tr>
                           <tr>
@@ -3639,7 +3653,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  7
                 </td>
               </tr>
                       </tbody>
