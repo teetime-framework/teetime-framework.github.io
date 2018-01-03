@@ -26,12 +26,12 @@
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> java.util.List;
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  <strong class="jxr_keyword">import</strong> java.util.Set;
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.framework.InputPort;
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.framework.AbstractStage;
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.framework.AbstractStage;
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.framework.InputPort;
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">interface</strong> <a href="../../../teetime/framework/signal/ISignal.html">ISignal</a> {
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>  	<strong class="jxr_keyword">void</strong> trigger(<a href="../../../teetime/framework/AbstractStage.html">AbstractStage</a> stage) <strong class="jxr_keyword">throws</strong> Exception;
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  	<strong class="jxr_keyword">void</strong> trigger(<a href="../../../teetime/framework/AbstractStage.html">AbstractStage</a> stage);
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  	<em class="jxr_comment">// Only used by the merger so far</em>
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  	<strong class="jxr_keyword">boolean</strong> mayBeTriggered(Set&lt;InputPort&lt;?&gt;&gt; receivedInputPorts, List&lt;InputPort&lt;?&gt;&gt; allInputPorts);
@@ -39,6 +39,6 @@
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  }
 </pre>
 <hr/>
-<div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
+<div id="footer">Copyright &#169; 2015&#x2013;2018. All rights reserved.</div>
 </body>
 </html>

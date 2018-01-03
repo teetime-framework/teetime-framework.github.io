@@ -26,8 +26,8 @@
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> teetime.framework.CompositeStage;
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  <strong class="jxr_keyword">import</strong> teetime.framework.InputPort;
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.OutputPort;
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.CompositeStateLoggable;
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.ActivationStateLogger;
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.ActivationStateLogger;
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">import</strong> teetime.framework.performancelogging.CompositeStateLoggable;
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  <strong class="jxr_keyword">import</strong> teetime.stage.MappingCounter;
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  <strong class="jxr_keyword">import</strong> teetime.stage.taskfarm.ITaskFarmDuplicable;
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  <strong class="jxr_keyword">import</strong> teetime.stage.util.CountingMap;
@@ -47,7 +47,7 @@
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> MappingCounter&lt;String&gt; mapCounter;
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../teetime/stage/string/WordCounter.html">WordCounter</a>() {
-<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		<strong class="jxr_keyword">this</strong>.tokenizer = <strong class="jxr_keyword">new</strong> <a href="../../../teetime/stage/string/Tokenizer.html">Tokenizer</a>(<span class="jxr_string">" "</span>);
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		<strong class="jxr_keyword">this</strong>.tokenizer = <strong class="jxr_keyword">new</strong> <a href="../../../teetime/stage/string/Tokenizer.html">Tokenizer</a>(<span class="jxr_string">"&#92;&#92;s"</span>);
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>  		<strong class="jxr_keyword">final</strong> <a href="../../../teetime/stage/string/ToLowerCase.html">ToLowerCase</a> toLowerCase = <strong class="jxr_keyword">new</strong> <a href="../../../teetime/stage/string/ToLowerCase.html">ToLowerCase</a>();
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  		<strong class="jxr_keyword">this</strong>.mapCounter = <strong class="jxr_keyword">new</strong> MappingCounter&lt;String&gt;();
 <a class="jxr_linenumber" name="L45" href="#L45">45</a>  
@@ -79,6 +79,6 @@
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>  }
 </pre>
 <hr/>
-<div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
+<div id="footer">Copyright &#169; 2015&#x2013;2018. All rights reserved.</div>
 </body>
 </html>

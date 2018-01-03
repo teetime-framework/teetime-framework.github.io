@@ -75,7 +75,7 @@
 <a class="jxr_linenumber" name="L67" href="#L67">67</a>  		Traverser traverser = <strong class="jxr_keyword">new</strong> Traverser(<strong class="jxr_keyword">new</strong> <a href="../../teetime/framework/TraverserTest.html">DoNothingVisitor</a>());
 <a class="jxr_linenumber" name="L68" href="#L68">68</a>  		traverser.traverse(config.init);
 <a class="jxr_linenumber" name="L69" href="#L69">69</a>  
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		assertThat(traverser.getVisitedStages(), is(empty()));
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  		assertThat(traverser.getVisitedStages().size(), is(3 + 2 * 3 + 2));
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>  	}
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>  
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>  	@Test
@@ -136,6 +136,6 @@
 <a class="jxr_linenumber" name="L128" href="#L128">128</a> }
 </pre>
 <hr/>
-<div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
+<div id="footer">Copyright &#169; 2015&#x2013;2018. All rights reserved.</div>
 </body>
 </html>

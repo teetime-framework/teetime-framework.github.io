@@ -27,23 +27,22 @@
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">import</strong> teetime.framework.AbstractProducerStage;
 <a class="jxr_linenumber" name="L21" href="#L21">21</a>  
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">class</strong> <a href="../../teetime/stage/RandomIntegerGenerator.html">RandomIntegerGenerator</a> <strong class="jxr_keyword">extends</strong> AbstractProducerStage&lt;Integer&gt; {
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../teetime/stage/RandomIntegerGenerator.html">RandomIntegerGenerator</a> <strong class="jxr_keyword">extends</strong> AbstractProducerStage&lt;Integer&gt; {
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  
-<a class="jxr_linenumber" name="L24" href="#L24">24</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> i;
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> upperBound;
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Random random = <strong class="jxr_keyword">new</strong> Random();
 <a class="jxr_linenumber" name="L26" href="#L26">26</a>  
-<a class="jxr_linenumber" name="L27" href="#L27">27</a>  	<strong class="jxr_keyword">public</strong> <a href="../../teetime/stage/RandomIntegerGenerator.html">RandomIntegerGenerator</a>(<strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> n) {
-<a class="jxr_linenumber" name="L28" href="#L28">28</a>  		i = n;
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  	<strong class="jxr_keyword">public</strong> <a href="../../teetime/stage/RandomIntegerGenerator.html">RandomIntegerGenerator</a>(<strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> upperBound) {
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  		<strong class="jxr_keyword">this</strong>.upperBound = upperBound;
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  	}
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  	@Override
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  	<strong class="jxr_keyword">protected</strong> <strong class="jxr_keyword">void</strong> execute() {
-<a class="jxr_linenumber" name="L33" href="#L33">33</a>  		<strong class="jxr_keyword">this</strong>.getOutputPort().send(random.nextInt(i));
-<a class="jxr_linenumber" name="L34" href="#L34">34</a>  
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>  	}
-<a class="jxr_linenumber" name="L36" href="#L36">36</a>  }
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  		<strong class="jxr_keyword">this</strong>.getOutputPort().send(random.nextInt(upperBound));
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  	}
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  }
 </pre>
 <hr/>
-<div id="footer">Copyright &#169; 2015&#x2013;2017. All rights reserved.</div>
+<div id="footer">Copyright &#169; 2015&#x2013;2018. All rights reserved.</div>
 </body>
 </html>
