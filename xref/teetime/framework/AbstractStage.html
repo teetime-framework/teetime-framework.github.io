@@ -438,7 +438,7 @@
 <a class="jxr_linenumber" name="L430" href="#L430">430</a> <em class="jxr_javadoccomment">	 *</em>
 <a class="jxr_linenumber" name="L431" href="#L431">431</a> <em class="jxr_javadoccomment">	 * &lt;pre&gt;</em>
 <a class="jxr_linenumber" name="L432" href="#L432">432</a> <em class="jxr_javadoccomment">	 * &amp;#64;Override</em>
-<a class="jxr_linenumber" name="L433" href="#L433">433</a> <em class="jxr_javadoccomment">	 * public void onStarting() {</em>
+<a class="jxr_linenumber" name="L433" href="#L433">433</a> <em class="jxr_javadoccomment">	 * protected void onStarting() {</em>
 <a class="jxr_linenumber" name="L434" href="#L434">434</a> <em class="jxr_javadoccomment">	 * 	super.onStarting();</em>
 <a class="jxr_linenumber" name="L435" href="#L435">435</a> <em class="jxr_javadoccomment">	 * 	// insert your code here</em>
 <a class="jxr_linenumber" name="L436" href="#L436">436</a> <em class="jxr_javadoccomment">	 * }</em>
@@ -448,7 +448,7 @@
 <a class="jxr_linenumber" name="L440" href="#L440">440</a> <em class="jxr_javadoccomment">	 * {@link IllegalArgumentException#IllegalArgumentException(String, Throwable)}.</em>
 <a class="jxr_linenumber" name="L441" href="#L441">441</a> <em class="jxr_javadoccomment">	 * Always pass the original exception to the new unchecked exception to allow easy debugging.</em>
 <a class="jxr_linenumber" name="L442" href="#L442">442</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L443" href="#L443">443</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> onStarting() {
+<a class="jxr_linenumber" name="L443" href="#L443">443</a> 	<strong class="jxr_keyword">protected</strong> <strong class="jxr_keyword">void</strong> onStarting() {
 <a class="jxr_linenumber" name="L444" href="#L444">444</a> 		logger.trace(ON_STATE_CHANGE_MARKER, <span class="jxr_string">"Starting {}"</span>, <strong class="jxr_keyword">this</strong>);
 <a class="jxr_linenumber" name="L445" href="#L445">445</a> 		changeState(StageState.STARTED);
 <a class="jxr_linenumber" name="L446" href="#L446">446</a> 		calledOnStarting = <strong class="jxr_keyword">true</strong>;
@@ -465,7 +465,7 @@
 <a class="jxr_linenumber" name="L457" href="#L457">457</a> <em class="jxr_javadoccomment">	 *</em>
 <a class="jxr_linenumber" name="L458" href="#L458">458</a> <em class="jxr_javadoccomment">	 * &lt;pre&gt;</em>
 <a class="jxr_linenumber" name="L459" href="#L459">459</a> <em class="jxr_javadoccomment">	 * &amp;#64;Override</em>
-<a class="jxr_linenumber" name="L460" href="#L460">460</a> <em class="jxr_javadoccomment">	 * public void onTerminating() {</em>
+<a class="jxr_linenumber" name="L460" href="#L460">460</a> <em class="jxr_javadoccomment">	 * protected void onTerminating() {</em>
 <a class="jxr_linenumber" name="L461" href="#L461">461</a> <em class="jxr_javadoccomment">	 * 	// insert your code here</em>
 <a class="jxr_linenumber" name="L462" href="#L462">462</a> <em class="jxr_javadoccomment">	 * 	super.onTerminating();</em>
 <a class="jxr_linenumber" name="L463" href="#L463">463</a> <em class="jxr_javadoccomment">	 * }</em>
@@ -474,7 +474,7 @@
 <a class="jxr_linenumber" name="L466" href="#L466">466</a> <em class="jxr_javadoccomment">	 * To throw a checked exception, wrap it to an unchecked exception, e.g. to an {@link IllegalArgumentException#IllegalArgumentException(String, Throwable)}.</em>
 <a class="jxr_linenumber" name="L467" href="#L467">467</a> <em class="jxr_javadoccomment">	 * Always pass the original exception to the new unchecked exception to allow easy debugging.</em>
 <a class="jxr_linenumber" name="L468" href="#L468">468</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L469" href="#L469">469</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> onTerminating() {
+<a class="jxr_linenumber" name="L469" href="#L469">469</a> 	<strong class="jxr_keyword">protected</strong> <strong class="jxr_keyword">void</strong> onTerminating() {
 <a class="jxr_linenumber" name="L470" href="#L470">470</a> 		logger.trace(ON_STATE_CHANGE_MARKER, <span class="jxr_string">"Terminating {}"</span>, <strong class="jxr_keyword">this</strong>);
 <a class="jxr_linenumber" name="L471" href="#L471">471</a> 		<strong class="jxr_keyword">if</strong> (newStateRequired(StageActivationState.TERMINATED)) {
 <a class="jxr_linenumber" name="L472" href="#L472">472</a> 			<strong class="jxr_keyword">this</strong>.addState(StageActivationState.TERMINATED, System.nanoTime());
