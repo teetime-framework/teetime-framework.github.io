@@ -66,7 +66,7 @@
 <a class="jxr_linenumber" name="L58" href="#L58">58</a>  	<strong class="jxr_keyword">private</strong> Thread owningThread;
 <a class="jxr_linenumber" name="L59" href="#L59">59</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">boolean</strong> isActive;
 <a class="jxr_linenumber" name="L60" href="#L60">60</a>  	<em class="jxr_javadoccomment">/** the scheduler used for this stage and all of the other stages */</em>
-<a class="jxr_linenumber" name="L61" href="#L61">61</a>  	<strong class="jxr_keyword">private</strong> <a href="../../teetime/framework/TeeTimeService.html">TeeTimeService</a> scheduler;
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>  	<strong class="jxr_keyword">private</strong> <a href="../../teetime/framework/TeeTimeScheduler.html">TeeTimeScheduler</a> scheduler;
 <a class="jxr_linenumber" name="L62" href="#L62">62</a>  
 <a class="jxr_linenumber" name="L63" href="#L63">63</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Map&lt;Class&lt;? <strong class="jxr_keyword">extends</strong> ISignal&gt;, Set&lt;InputPort&lt;?&gt;&gt;&gt; signalMap = <strong class="jxr_keyword">new</strong> HashMap&lt;Class&lt;? <strong class="jxr_keyword">extends</strong> ISignal&gt;, Set&lt;InputPort&lt;?&gt;&gt;&gt;();
 <a class="jxr_linenumber" name="L64" href="#L64">64</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Set&lt;Class&lt;? <strong class="jxr_keyword">extends</strong> ISignal&gt;&gt; triggeredSignalTypes = <strong class="jxr_keyword">new</strong> HashSet&lt;Class&lt;? <strong class="jxr_keyword">extends</strong> ISignal&gt;&gt;();
@@ -157,11 +157,11 @@
 <a class="jxr_linenumber" name="L149" href="#L149">149</a> 	<em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L150" href="#L150">150</a> <em class="jxr_javadoccomment">	 * Required by {@link RuntimeServiceFacade#startWithinNewThread(AbstractStage, AbstractStage)}</em>
 <a class="jxr_linenumber" name="L151" href="#L151">151</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L152" href="#L152">152</a> 	TeeTimeService getScheduler() {
+<a class="jxr_linenumber" name="L152" href="#L152">152</a> 	TeeTimeScheduler getScheduler() {
 <a class="jxr_linenumber" name="L153" href="#L153">153</a> 		<strong class="jxr_keyword">return</strong> scheduler;
 <a class="jxr_linenumber" name="L154" href="#L154">154</a> 	}
 <a class="jxr_linenumber" name="L155" href="#L155">155</a> 
-<a class="jxr_linenumber" name="L156" href="#L156">156</a> 	<strong class="jxr_keyword">void</strong> setScheduler(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/TeeTimeService.html">TeeTimeService</a> scheduler) {
+<a class="jxr_linenumber" name="L156" href="#L156">156</a> 	<strong class="jxr_keyword">void</strong> setScheduler(<strong class="jxr_keyword">final</strong> <a href="../../teetime/framework/TeeTimeScheduler.html">TeeTimeScheduler</a> scheduler) {
 <a class="jxr_linenumber" name="L157" href="#L157">157</a> 		<strong class="jxr_keyword">this</strong>.scheduler = scheduler;
 <a class="jxr_linenumber" name="L158" href="#L158">158</a> 	}
 <a class="jxr_linenumber" name="L159" href="#L159">159</a> 

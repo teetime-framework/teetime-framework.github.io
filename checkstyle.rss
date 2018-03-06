@@ -1194,6 +1194,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TeeTimeScheduler.java">teetime/framework/TeeTimeScheduler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://teetime-framework.github.io/checkstyle.html#teetime.stage.xml.ApplyXSLTToDocumentStage.java">teetime/stage/xml/ApplyXSLTToDocumentStage.java</a>
                 </td>
                 <td>
@@ -3682,20 +3696,6 @@ under the License.
                 </td>
                 <td>
                   30
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://teetime-framework.github.io/checkstyle.html#teetime.framework.TeeTimeService.java">teetime/framework/TeeTimeService.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
                 </td>
               </tr>
                           <tr>

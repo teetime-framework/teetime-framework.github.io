@@ -34,7 +34,7 @@
 <a class="jxr_linenumber" name="L26" href="#L26">26</a>  
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Configuration;
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Execution;
-<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeService;
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeScheduler;
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.scheduling.globaltaskpool.GlobalTaskPoolScheduling;
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CollectorSink;
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  <strong class="jxr_keyword">import</strong> teetime.stage.StreamProducer;
@@ -80,7 +80,7 @@
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>  				.from(<strong class="jxr_keyword">new</strong> StreamProducer&lt;&gt;(inputElements))
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>  				.end(<strong class="jxr_keyword">new</strong> CollectorSink&lt;&gt;(processedElements));
 <a class="jxr_linenumber" name="L74" href="#L74">74</a>  
-<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(numThreads, config, numExecutions);
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(numThreads, config, numExecutions);
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>  		Execution&lt;Configuration&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>  		execution.executeBlocking();
 <a class="jxr_linenumber" name="L78" href="#L78">78</a>  

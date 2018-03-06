@@ -35,7 +35,7 @@
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Configuration;
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Execution;
-<a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeService;
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeScheduler;
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.stage.*;
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../teetime/framework/scheduling/globaltaskpool/PipelineIT.html">PipelineIT</a> {
@@ -84,7 +84,7 @@
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldExecutePipelineCorrectlyThreeElements() {
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>  		String[] inputElements = { <span class="jxr_string">"a"</span>, <span class="jxr_string">"b"</span>, <span class="jxr_string">"c"</span> };
 <a class="jxr_linenumber" name="L78" href="#L78">78</a>  		GlobalTaskPoolConfig&lt;String&gt; config = <strong class="jxr_keyword">new</strong> GlobalTaskPoolConfig&lt;&gt;(inputElements);
-<a class="jxr_linenumber" name="L79" href="#L79">79</a>  		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 1);
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>  		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 1);
 <a class="jxr_linenumber" name="L80" href="#L80">80</a>  		Execution&lt;GlobalTaskPoolConfig&lt;String&gt;&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L81" href="#L81">81</a>  		execution.executeBlocking();
 <a class="jxr_linenumber" name="L82" href="#L82">82</a>  
@@ -98,7 +98,7 @@
 <a class="jxr_linenumber" name="L90" href="#L90">90</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldExecutePipelineCorrectlyThreeElementsWithOneSingleThread() {
 <a class="jxr_linenumber" name="L91" href="#L91">91</a>  		String[] inputElements = { <span class="jxr_string">"a"</span>, <span class="jxr_string">"b"</span>, <span class="jxr_string">"c"</span> };
 <a class="jxr_linenumber" name="L92" href="#L92">92</a>  		GlobalTaskPoolConfig&lt;String&gt; config = <strong class="jxr_keyword">new</strong> GlobalTaskPoolConfig&lt;&gt;(inputElements);
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>  		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(1, config, 1);
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>  		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(1, config, 1);
 <a class="jxr_linenumber" name="L94" href="#L94">94</a>  		Execution&lt;GlobalTaskPoolConfig&lt;String&gt;&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L95" href="#L95">95</a>  		execution.executeBlocking();
 <a class="jxr_linenumber" name="L96" href="#L96">96</a>  
@@ -111,7 +111,7 @@
 <a class="jxr_linenumber" name="L103" href="#L103">103</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldExecutePipelineCorrectlyThreeElementsWith2ExecutionsPerTask() {
 <a class="jxr_linenumber" name="L104" href="#L104">104</a> 		String[] inputElements = { <span class="jxr_string">"a"</span>, <span class="jxr_string">"b"</span>, <span class="jxr_string">"c"</span> };
 <a class="jxr_linenumber" name="L105" href="#L105">105</a> 		GlobalTaskPoolConfig&lt;String&gt; config = <strong class="jxr_keyword">new</strong> GlobalTaskPoolConfig&lt;&gt;(inputElements);
-<a class="jxr_linenumber" name="L106" href="#L106">106</a> 		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 2);
+<a class="jxr_linenumber" name="L106" href="#L106">106</a> 		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 2);
 <a class="jxr_linenumber" name="L107" href="#L107">107</a> 		Execution&lt;GlobalTaskPoolConfig&lt;String&gt;&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L108" href="#L108">108</a> 		execution.executeBlocking();
 <a class="jxr_linenumber" name="L109" href="#L109">109</a> 
@@ -124,7 +124,7 @@
 <a class="jxr_linenumber" name="L116" href="#L116">116</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldExecutePipelineCorrectlyThreeElementsWith3ExecutionsPerTask() {
 <a class="jxr_linenumber" name="L117" href="#L117">117</a> 		String[] inputElements = { <span class="jxr_string">"a"</span>, <span class="jxr_string">"b"</span>, <span class="jxr_string">"c"</span> };
 <a class="jxr_linenumber" name="L118" href="#L118">118</a> 		GlobalTaskPoolConfig&lt;String&gt; config = <strong class="jxr_keyword">new</strong> GlobalTaskPoolConfig&lt;&gt;(inputElements);
-<a class="jxr_linenumber" name="L119" href="#L119">119</a> 		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 3);
+<a class="jxr_linenumber" name="L119" href="#L119">119</a> 		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 3);
 <a class="jxr_linenumber" name="L120" href="#L120">120</a> 		Execution&lt;GlobalTaskPoolConfig&lt;String&gt;&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L121" href="#L121">121</a> 		execution.executeBlocking();
 <a class="jxr_linenumber" name="L122" href="#L122">122</a> 
@@ -138,7 +138,7 @@
 <a class="jxr_linenumber" name="L130" href="#L130">130</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> shouldExecuteReflexivePipeCorrectlyManyElements() {
 <a class="jxr_linenumber" name="L131" href="#L131">131</a> 		<strong class="jxr_keyword">int</strong> numElements = 1_000;
 <a class="jxr_linenumber" name="L132" href="#L132">132</a> 		ManyElementsWithStatelessStageGlobalTaskPoolConfig config = <strong class="jxr_keyword">new</strong> <a href="../../../../teetime/framework/scheduling/globaltaskpool/PipelineIT.html">ManyElementsWithStatelessStageGlobalTaskPoolConfig</a>(numElements);
-<a class="jxr_linenumber" name="L133" href="#L133">133</a> 		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 1);
+<a class="jxr_linenumber" name="L133" href="#L133">133</a> 		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(NUM_THREADS, config, 1);
 <a class="jxr_linenumber" name="L134" href="#L134">134</a> 		Execution&lt;ManyElementsWithStatelessStageGlobalTaskPoolConfig&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L135" href="#L135">135</a> 		execution.executeBlocking();
 <a class="jxr_linenumber" name="L136" href="#L136">136</a> 

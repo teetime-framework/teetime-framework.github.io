@@ -36,7 +36,7 @@
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Configuration;
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  <strong class="jxr_keyword">import</strong> teetime.framework.Execution;
-<a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeService;
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  <strong class="jxr_keyword">import</strong> teetime.framework.TeeTimeScheduler;
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  <strong class="jxr_keyword">import</strong> teetime.stage.CollectorSink;
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  <strong class="jxr_keyword">import</strong> teetime.stage.Counter;
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  <strong class="jxr_keyword">import</strong> teetime.stage.StreamProducer;
@@ -180,7 +180,7 @@
 <a class="jxr_linenumber" name="L172" href="#L172">172</a> 				.to(<strong class="jxr_keyword">new</strong> Counter&lt;&gt;())
 <a class="jxr_linenumber" name="L173" href="#L173">173</a> 				.end(<strong class="jxr_keyword">new</strong> CollectorSink&lt;&gt;(processedElements));
 <a class="jxr_linenumber" name="L174" href="#L174">174</a> 
-<a class="jxr_linenumber" name="L175" href="#L175">175</a> 		TeeTimeService scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(numThreads, config, numExecutions);
+<a class="jxr_linenumber" name="L175" href="#L175">175</a> 		TeeTimeScheduler scheduling = <strong class="jxr_keyword">new</strong> GlobalTaskPoolScheduling(numThreads, config, numExecutions);
 <a class="jxr_linenumber" name="L176" href="#L176">176</a> 		Execution&lt;Configuration&gt; execution = <strong class="jxr_keyword">new</strong> Execution&lt;&gt;(config, <strong class="jxr_keyword">true</strong>, scheduling);
 <a class="jxr_linenumber" name="L177" href="#L177">177</a> 		execution.executeBlocking();
 <a class="jxr_linenumber" name="L178" href="#L178">178</a> 
