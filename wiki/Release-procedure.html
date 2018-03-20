@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>How to terminate a Running P&F Architecture | TeeTime</title>
+		<title> | TeeTime</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -86,7 +86,7 @@
 		</script>
 		</head>
 
-	<body class="page-wiki-how-to-terminate-a-running-pf-architecture project-teetime" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-wiki-release-procedure project-teetime" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -149,11 +149,34 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-<div class="page-header">
- <h1>How to terminate a Running P&amp;F Architecture</h1>
-</div> 
-<p>The P&amp;F configuration usually triggers its termination by itself when all of the data source stages (in short: producers) have finished their work. A producer indicates its end of processing by invoking a particular termination method. See <a href="Producer-Stage">Write you own Producer</a> for more information on that method.</p> 
-<p>Since the associated termination condition is very specific for the actual producer, the corresponding stage developer must explicitly define when the producer should terminate itself. The following termination process is then handled automatically by the framework. If a producer has finished its work, it propagates a termination signal through the whole P&amp;F configuration, just like with the validation and start signal. Upon reception of the termination signal, the particular stage performs its individual termination logic. For example, a stage could close a connection to a remote database. If all of the stages of a thread have executed their termination procedure, the corresponding thread terminates itself. In this way, the scheduler ensures an automatic and graceful termination.</p>
+<ol style="list-style-type: decimal">
+  
+<li>Create a branch named <tt>release</tt>.</li>
+  
+<li>Remove the <tt>-SNAPSHOT</tt> suffix from the version number in the <tt>pom.xml</tt>.</li>
+  
+<li>Write change log file.</li>
+  
+<li>Execute the Jenkins job <a class="externalLink" href="https://build.se.informatik.uni-kiel.de/jenkins/view/TeeTime/job/teetime-release">teetime-release</a> to build and to deploy the site (on github) and the project (on maven central).</li>
+  
+<li>Login on <a class="externalLink" href="https://oss.sonatype.org/#nexus-search;quick~teetime">sonatype</a> to make the new release publicly available.</li>
+  
+<li>Tag the commit and push it.</li>
+  
+<li>Merge the <tt>release</tt> branch into the <tt>master</tt>.</li>
+  
+<li>Delete the <tt>release</tt> branch.</li>
+  
+<li>Create a Github release for <a class="externalLink" href="https://github.com/teetime-framework/teetime">TeeTime</a>.</li>
+  
+<li>Switch to the <tt>master</tt> branch.</li>
+  
+<li>In the <tt>pom.xml</tt>, increment the version number.</li>
+  
+<li>Add the <tt>-SNAPSHOT</tt> suffix to the version number.</li>
+  
+<li>Commit and push the <tt>master</tt> branch.</li>
+</ol>
 			</div>
 		</div>
 	</div>
