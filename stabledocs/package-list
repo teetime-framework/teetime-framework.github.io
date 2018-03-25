@@ -1,7 +1,15 @@
 teetime.framework
+teetime.framework.divideandconquer
 teetime.framework.exceptionHandling
+teetime.framework.performancelogging
+teetime.framework.performancelogging.formatstrategy
 teetime.framework.pipe
+teetime.framework.pipe.strategy
+teetime.framework.scheduling
+teetime.framework.scheduling.globaltaskpool
+teetime.framework.scheduling.pushpullmodel
 teetime.framework.signal
+teetime.framework.termination
 teetime.framework.test
 teetime.framework.validation
 teetime.stage
@@ -13,6 +21,7 @@ teetime.stage.basic.merger
 teetime.stage.basic.merger.dynamic
 teetime.stage.basic.merger.strategy
 teetime.stage.io
+teetime.stage.quicksort
 teetime.stage.string
 teetime.stage.taskfarm
 teetime.stage.taskfarm.adaptation
@@ -26,7 +35,6 @@ teetime.stage.taskfarm.monitoring.extraction
 teetime.stage.util
 teetime.stage.xml
 teetime.util
-teetime.util.framework.concurrent
 teetime.util.framework.concurrent.queue
 teetime.util.framework.concurrent.queue.putstrategy
 teetime.util.framework.concurrent.queue.takestrategy
